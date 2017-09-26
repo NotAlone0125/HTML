@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 脚本</title>
+</head>
+<body>
+
+<!--HTML 脚本
+JavaScript 使 HTML 页面具有更强的动态和交互性。-->
+
+<!--插入一段脚本
+HTML <script> 标签
+<script> 标签用于定义客户端脚本，比如 JavaScript。
+<script> 元素既可包含脚本语句，也可通过 src 属性指向外部脚本文件。
+JavaScript 最常用于图片操作、表单验证以及内容动态更新。-->
+<script>document.write("Hello world!")</script>
+
+<!--使用 <noscript> 标签
+<noscript> 标签提供无法使用脚本时的替代内容，比方在浏览器禁用脚本时，或
+浏览器不支持客户端脚本时。
+<noscript>元素可包含普通 HTML 页面的 body 元素中能够找到的所有元素。
+只有在浏览器不支持脚本或者禁用脚本时，才会显示 <noscript> 元素中的内容：-->
+<noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+
+<!--JavaScript可以直接在HTML输出:-->
+<p>JavaScript 能够直接写入HTML输入流中</p>
+<script>
+    document.write("<h1>这是一个标题</h1>")
+    document.write("<p>这是一个段落</p>")
+</script>
+<p>只能在HTML 输出流中使用<strong>document.write</strong>。如果在文档已
+    加载后使用它（比如函数中），会覆盖整个文档</p>
+
+
+<!--Javascript响应事件-->
+<p id="demo">JavaScript可以触发事件</p>
+<script>
+    function myfunction() {
+        document.getElementById("demo").innerHTML="Hello JavaScript!"
+    }
+</script>
+<button type="button" onclick="myfunction()">点击</button>
+
+
+<!--JavaScript改变样式-->
+<p id="demoTwo">JavaScript 能改变 HTML 元素的样式。</p>
+<script>
+    function secondFunction() {
+        x = document.getElementById("demoTwo")
+        x.style.color="#ff0000"
+    }
+</script>
+<button type="button" onclick="secondFunction()">点击这里</button>
+
+
+</body>
+</html>
