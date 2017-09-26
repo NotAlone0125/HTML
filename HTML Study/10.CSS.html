@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 简介</title>
+
+    <!--使用style标签为body中的标签添加样式，这种在head中声明的方式属于内部样式表-->
+    <style type="text/css">
+        p {color: red}
+        h1 {color: blue}
+    </style>
+
+</head>
+<body>
+
+<h1>这是一个标题</h1>
+<p>这是一个段落</p>
+
+<!--字体大小，颜色，样式-->
+<h1 style="font-family: Verdana">一个标题</h1>
+<p style="font-family: Arial;color: green;font-size: 20px">内联样式的优先级高于内联样式表</p>
+
+<!--样式的内联-->
+<h2 style="background-color: yellow">内联样式的h2</h2>
+
+<!--为链接增加一个样式-->
+<a href="https:www.baidu.com" style="text-decoration: none">没有下划线的链接</a>
+
+
+<!--外部样式表
+当样式需要被应用到很多页面的时候，外部样式表将是理想的选择。使用外部样式表，你就可以通过更改一个文件来改变整个站点的外观。
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>-->
+
+</body>
+</html>
