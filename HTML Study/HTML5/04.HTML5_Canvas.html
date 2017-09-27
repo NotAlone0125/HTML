@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5_Canvas</title>
+</head>
+<body>
+
+<!--HTML5 Canvas
+<canvas> 标签定义图形，比如图表和其他图像，您必须使用脚本来绘制图形
+
+什么是 Canvas?
+HTML5 <canvas> 元素用于图形的绘制，通过脚本 (通常是JavaScript)来完成.
+<canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
+你可以通过多种方法使用Canva绘制路径,盒、圆、字符以及添加图像。-->
+
+
+<!--创建第一个画布
+一个画布在网页中是一个矩形框，通过 <canvas> 元素来绘制.
+注意: 默认情况下 <canvas> 元素没有边框和内容。-->
+<canvas id="canvasOne" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<canvas id="canvasTwo" width="100" height="100"
+        style="background-color: red"></canvas><br>
+
+<!--使用 JavaScript 来绘制图像:
+canvas 元素本身是没有绘图能力的。所有的绘制工作必须在 JavaScript 内部完成：-->
+<canvas id="canvasThree" width="200" height="200"
+        style="border:1px solid #c3c3c3;"></canvas>
+<script>
+    /*找到 <canvas> 元素:*/
+    var c = document.getElementById("canvasThree");
+    /*创建 context 对象：*/
+    var ctx = c.getContext("2d");
+    /*设置属性*/
+    ctx.fillStyle="#FF0000"
+    ctx.fillRect(0,0,100,100)
+</script><br>
+
+
+<!--Canvas 坐标
+canvas 是一个二维网格。
+canvas 的左上角坐标为 (0,0)-->
+
+<!--Canvas - 路径
+在Canvas上画线，我们将使用以下两种方法：
+moveTo(x,y) 定义线条开始坐标
+lineTo(x,y) 定义线条结束坐标-->
+<canvas id="canvasFour" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<script>
+    var c = document.getElementById("canvasFour");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0,0);
+    ctx.lineTo(100,100);
+    ctx.stroke();
+</script>
+
+<!--Canvas绘制圆形:arc(x,y,r,start,stop)-->
+<canvas id="canvasFive" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<script>
+    var c = document.getElementById("canvasFive");
+    var ctx = c.getContext("2d");
+    ctx.beginPath()
+    ctx.arc(50,50,50,0,2*Math.PI)
+    ctx.stroke()
+</script>
+
+<!--Canvas - 文本
+使用 canvas 绘制文本，重要的属性和方法如下：
+font - 定义字体
+fillText(text,x,y) - 在 canvas 上绘制实心的文本
+strokeText(text,x,y) - 在 canvas 上绘制空心的文本-->
+<canvas id="canvasSix" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<script>
+    var c = document.getElementById("canvasSix");
+    var ctx = c.getContext("2d");
+    ctx.font="30px Arial"
+    /*ctx.fillText("Hello!",10,50)*/
+    ctx.strokeText("Hello!",10,50)
+</script><br>
+
+
+<!--Canvas - 渐变
+渐变可以填充在矩形, 圆形, 线条, 文本等等, 各种形状可以自己定义不同的颜色。
+以下有两种不同的方式来设置Canvas渐变：
+createLinearGradient(x,y,x1,y1) - 创建线条渐变
+createRadialGradient(x,y,r,x1,y1,r1) - 创建一个径向/圆渐变
+当我们使用渐变对象，必须使用两种或两种以上的停止颜色。
+addColorStop()方法指定颜色停止，参数使用坐标来描述，可以是0至1.
+使用渐变，设置fillStyle或strokeStyle的值为 渐变，然后绘制形状，如矩形，文本，或一条线。-->
+<canvas id="canvasSenven" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<script>
+    var c = document.getElementById("canvasSenven");
+    var ctx = c.getContext("2d");
+    /*创建渐变*/
+/*    var grd = ctx.createLinearGradient(0,0,80,0);*/
+    var grd = ctx.createRadialGradient(45,45,10,30,30,50)
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+    /*填充渐变*/
+    ctx.fillStyle=grd;
+    ctx.fillRect(10,10,90,90)
+</script>
+
+<!--Canvas - 图像
+把一幅图像放置到画布上, 使用以下方法:
+drawImage(image,x,y)-->
+<canvas id="canvasEight" width="100" height="100"
+        style="border: 1px solid #000000"></canvas>
+<img src="../Images/qiutian.png" id="qiutian">
+<script>
+    var c = document.getElementById("canvasEight");
+    var ctx = c.getContext("2d");
+    var image = document.getElementById("qiutain")
+    ctx.drawImage(image,100,50)
+</script><br>
+
+<a href="http://www.runoob.com/tags/ref-canvas.html" style="font-size: 30px">Canvas 参考手册</a>
+
+
+
+</body>
+</html>
