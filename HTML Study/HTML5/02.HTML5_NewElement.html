@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 新元素</title>
+</head>
+<body>
+
+<!--为了更好地处理今天的互联网应用，HTML5添加了很多新元素及功能，比如: 图形的绘制，
+多媒体内容，更好的页面结构，更好的形式 处理，和几个api拖放元素，定位，包括网页 应用程序缓存，
+存储，网络工作者，等。
+
+浏览器支持：
+<canvas> 标签：IE 9、Firefox、Opera、Chrome 和 Safari 支持。
+<audio> 标签：IE 9+、Firefox、Opera、Chrome 和 Safari 支持 。
+<video> 标签：IE 9+、Firefox、Opera、Chrome 和 Safari 支持 。
+<source> 标签：IE 9+、Firefox、Opera、Chrome 和 Safari 支持 。
+<embed> 标签：所有主流浏览器都支持 。
+<datalist> 标签：IE 10、Firefox、Opera 和 Chrome 支持,Safari 不支持 。
+<keygen> 标签：Firefox、Opera、Chrome 和 Safari 6 支持 。
+<output> 标签Firefox、Opera、Chrome 和 Safari 浏览器都支持 。
+-->
+
+
+
+
+<!--<canvas>定义图形，比如图表和其他图像。该标签基于JavaScript的图像API
+
+标签定义及使用说明：
+<canvas>标签通过脚本来绘制图形，<canvas>标签只是图形容器，必须使用脚本来绘制图形
+
+提示和注释
+注释：<canvas> 元素中的任何文本将会被显示在不支持 <canvas> 的浏览器中。
+提示：如想了解 canvas 对象的所有属性和方法，请参阅HTML 画布参考手册。
+-->
+<a href="http://www.runoob.com/tags/ref-canvas.html">HTML 画布参考手册</a>
+
+<!--通过<canvas>显示一个红色的矩形-->
+<canvas id="myCanvas"></canvas>
+<script type="text/javascript">
+    var canvas=document.getElementById("myCanvas");
+    var ctx=canvas.getContext("2d")
+    ctx.fillStyle='#FF0000';
+    ctx.fillRect(0,0,80,100);
+</script><br>
+
+
+
+
+<!--标签定义及使用说明
+<audio> 标签定义声音，比如音乐或其他音频流。
+目前，<audio> 元素支持的3种文件格式：MP3、Wav、Ogg。
+
+提示和注释
+提示：可以在 <audio> 和 </audio> 之间放置文本内容，这些
+文本信息将会被显示在那些不支持 <audio> 标签的浏览器中。-->
+<audio controls>
+    <!--此处可以放置不同格式的资源文件，浏览器会根据自身兼容格式来选择播放哪种格式-->
+    <source src="../Source/24.mp3">
+    您的浏览器不支持audio元素
+</audio><br>
+<!--<audio>标签支持HTML的全局属性和事件属性-->
+<a href="http://www.runoob.com/tags/ref-standardattributes.html">HTML的全局属性</a><br>
+<a href="http://www.runoob.com/tags/ref-eventattributes.html">HTML的事件属性</a><br>
+<!--<audio>的属性
+autoplay(值为autoplay):如果出现该属性，则音频在就绪后马上播放。
+controls(值为controls):如果出现该属性，则向用户显示音频控件（比如播放/暂停按钮）。
+loop(值为loop):如果出现该属性，则每当音频结束时重新开始播放。
+muted(值为muted):如果出现该属性，则音频输出为静音。
+preload(值为auto,metadata,none):规定当网页加载时，音频是否默认被加载以及如何被加载。
+src(值为URL):规定音频文件的 URL。
+-->
+
+
+
+
+<!--标签定义及使用说明
+<video> 标签定义视频，比如电影片段或其他视频流。
+目前，<video> 元素支持三种视频格式：MP4、WebM、Ogg。
+
+提示和注释
+提示：可以在 <video> 和 </video> 标签之间放置文本内容，这
+样不支持 <video> 元素的浏览器就可以显示出该标签的信息。-->
+<video width="320" height="240" controls>
+    <source src="http://ow7i1tw26.bkt.clouddn.com/demo.mp4" type="video/mp4">
+    您的浏览器不支持 video 标签。
+</video><br>
+<!--<video>的属性
+除了包含<audio>标签的所有属性之外，还有下列标签
+height(值为pixels):设置视频播放器的高度。
+width(值为pixels):设置视频播放器的宽度。-->
+<!--<video>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+<!--标签定义及使用说明
+<source> 标签为媒体元素（比如 <video> 和 <audio>）定义媒体资源。
+<source> 标签允许您规定两个视频/音频文件共浏览器根据它对媒体类型或者编解码器的支持进行选择。-->
+<audio controls>
+    <source src="../Source/24.mp3" type="audio/mp3">
+    您的浏览器不支持audio元素
+</audio><br>
+<!--<source>标签的属性
+media(值media_query）：规定媒体资源的类型，供浏览器决定是否下载。
+src(值URL）：规定媒体文件的 URL。
+type(值MIME_type）：规定媒体资源的 MIME 类型。-->
+<!--<source>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+<!--标签定义及使用说明
+<embed> 标签定义了一个容器，用来嵌入外部应用或者互动程序（插件）。-->
+<embed src="../Source/flash5523.swf"></embed>
+<!--属性
+height(值pixels）：规定嵌入内容的高度。
+src(值URL）：规定被嵌入内容的 URL。
+type(值MIME_type	）：规定嵌入内容的 MIME 类型。注：MIME = Multipurpose Internet Mail Extensions。
+width(值pixels）：规定嵌入内容的宽度。-->
+<!--<embed>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+<!--标签定义及使用说明
+<track> 标签为媒体元素（比如 <audio> and <video>）规定外部文本轨道。
+这个元素用于规定字幕文件或其他包含文本的文件，当媒体播放时，这些文件是可见的。-->
+<!--带有两个字幕轨道的视频-->
+<video width="320" height="240" controls>
+    <source src="forrest_gump.mp4" type="video/mp4">
+    <source src="forrest_gump.ogg" type="video/ogg">
+    <track src="subtitles_en.vtt" kind="subtitles" srclang="en"
+           label="English">
+    <track src="subtitles_no.vtt" kind="subtitles" srclang="no"
+           label="Norwegian">
+</video>
+<!--属性：
+default(值default	）：规定该轨道是默认的。如果用户没有选择任何轨道，则使用默认轨道。
+kind(值captions，chapters，descriptions，metadata，subtitles	）：规定文本轨道的文本类型。
+label(值text	）：规定文本轨道的标签和标题。
+src(值URL）：必需的。规定轨道文件的 URL。
+srclang(值language_code）：规定轨道文本数据的语言。如果 kind 属性值是 "subtitles"，则该属性是必需的。-->
+<!--<track>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+
+
+<!--标签定义及使用说明
+<datalist> 标签规定了 <input> 元素可能的选项列表。
+<datalist> 标签被用来在为 <input> 元素提供"自动完成"的特性。用户能看到一个下拉列表，里边的选项是预先定义好的，将作为用户的输入数据。
+请使用 <input> 元素的 list 属性来绑定 <datalist> 元素。-->
+<form action="https://www.baidu.com" method="get">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Safari"></option>
+    </datalist>
+    <input type="submit">
+</form>
+<!--<datalist>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+
+<!--标签定义及使用说明
+<keygen> 标签规定用于表单的密钥对生成器字段。
+当提交表单时，私钥存储在本地，公钥发送到服务器。-->
+<form action="https://www.baidu.com" method="get">
+    用户名：<input type="text" name="username">
+    加密：<keygen name="security" disabled></keygen>
+    <input type="submit">
+</form>
+<!--属性
+autofocus(值autofocus）：使 <keygen> 字段在页面加载时获得焦点。
+challenge(值challenge）：如果使用，则将 keygen 的值设置为在提交时询问。
+disabled(值disabled）：禁用 <keygen> 元素字段。
+form(值form_id）：定义该 <keygen> 字段所属的一个或多个表单。
+keytype(值rsa，dsa，ec）：定义密钥的安全算法。
+name(值name）：定义 <keygen> 元素的唯一名称。 name 属性用于在提交表单时搜集字段的值。-->
+<!--<keygen>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+
+
+<!--标签定义及使用说明
+<output> 标签作为计算结果输出显示(比如执行脚本的输出)。-->
+<form oninput="x.value =parseInt(c.value)+parseInt(b.value)">0
+    <input type="range" id="a" value="50">100
+    +<input type="number" id="b" value="50">
+    =<output name="x" for="a b"></output>
+</form>
+<!--属性
+for(值element_id	）：描述计算中使用的元素与计算结果之间的关系。
+form(值form_id）：定义输入字段所属的一个或多个表单。
+name(值name）：定义对象的唯一名称（表单提交时使用）。-->
+<!--<output>标签同样支持HTML的全局属性和事件属性-->
+
+
+
+<!--已移除的元素
+以下的 HTML 4.01 元素在HTML5中已经被删除:
+<acronym>
+<applet>
+<basefont>
+<big>
+<center>
+<dir>
+<font>
+<frame>
+<frameset>
+<noframes>
+<strike>
+<tt>-->
+</body>
+</html>
