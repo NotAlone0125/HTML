@@ -17,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="13.HTML5_FormPropety.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML5/13.HTML5_FormPropety.html">
+      <file leaf-file-name="14.HTML5_SemanticElement.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.HTML5_FormElements.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML5/12.HTML5_FormElements.html">
+      <file leaf-file-name="03.HTML5_NewSemanticAndStructure.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML5/03.HTML5_NewSemanticAndStructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="358">
+              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="169" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -96,6 +96,7 @@
         <option value="$PROJECT_DIR$/HTML5/12.FormElements.html" />
         <option value="$PROJECT_DIR$/HTML5/12.HTML5_FormElements.html" />
         <option value="$PROJECT_DIR$/HTML5/13.HTML5_FormPropety.html" />
+        <option value="$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html" />
       </list>
     </option>
   </component>
@@ -106,8 +107,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="y" value="83" />
+    <option name="x" value="226" />
+    <option name="y" value="35" />
     <option name="width" value="1147" />
     <option name="height" value="776" />
   </component>
@@ -276,12 +277,12 @@
       <workItem from="1506310919388" duration="13114000" />
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
-      <workItem from="1506502080728" duration="26032000" />
+      <workItem from="1506502080728" duration="27168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84353000" />
+    <option name="totallyTimeSpent" value="85489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +294,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="83" width="1147" height="776" extended-state="0" />
+    <frame x="226" y="35" width="1147" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19965127" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -332,20 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/12.Table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3507">
-          <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.Element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4.Propety.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -545,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/03.HTML5_NewSemanticAndStructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/01.HTML5_Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -664,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/02.HTML5_NewElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/11.HTML5_InputType.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -692,6 +664,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/14.新语义元素图示.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/02.HTML5_NewElement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/03.HTML5_NewSemanticAndStructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="169" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
