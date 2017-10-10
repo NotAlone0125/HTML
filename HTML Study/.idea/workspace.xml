@@ -17,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="18.HTML5_WebWorkers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="18.HTML5_WebWorkers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/18.HTML5_WebWorkers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="463">
+              <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="18.WebWorker.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="18.WebWorker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/18.WebWorker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="126">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/Opiniton/Cache" />
         <option value="$PROJECT_DIR$/HTML5/17.HTML5_ApplicationCache.html" />
         <option value="$PROJECT_DIR$/JS/17.WebWorker.js" />
-        <option value="$PROJECT_DIR$/JS/18.WebWorker.js" />
         <option value="$PROJECT_DIR$/HTML5/18.HTML5_WebWorkers.html" />
+        <option value="$PROJECT_DIR$/JS/18.WebWorker.js" />
       </list>
     </option>
   </component>
@@ -293,12 +293,12 @@
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
       <workItem from="1506502080728" duration="28029000" />
-      <workItem from="1507528751542" duration="17607000" />
+      <workItem from="1507528751542" duration="17630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103957000" />
+    <option name="totallyTimeSpent" value="103980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,18 +695,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/18.WebWorker.js">
+    <entry file="file://$PROJECT_DIR$/HTML5/18.HTML5_WebWorkers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        <state relative-caret-position="463">
+          <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/18.HTML5_WebWorkers.html">
+    <entry file="file://$PROJECT_DIR$/JS/18.WebWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>

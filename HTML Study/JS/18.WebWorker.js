@@ -5,5 +5,4 @@ function timeCount() {
     postMessage(i);//postMessage() 方法 - 它用于向 HTML 页面传回一段消息。
     setTimeout("timeCount()",500)
 }
-
 timeCount();
