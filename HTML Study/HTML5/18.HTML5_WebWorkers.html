@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Web Workers</title>
+</head>
+<body>
+
+<!--HTML5 Web Workers：web worker 是运行在后台的 JavaScript，不会影响页面的性能。
+
+什么是 Web Worker？
+当在 HTML 页面中执行脚本时，页面的状态是不可响应的，直到脚本已完成。
+web worker 是运行在后台的 JavaScript，独立于其他脚本，不会影响页面的性能。您可以继续
+做任何愿意做的事情：点击、选取内容等等，而此时 web worker 在后台运行。
+
+Internet Explorer 10, Firefox, Chrome, Safari 和 Opera 都支持Web workers.-->
+
+<!--HTML5 Web Workers 实例
+下面的例子创建了一个简单的 web worker，在后台计数：-->
+<p>计数:<output id="result"></output></p>
+<button type="button" onclick="startWorker()">开始工作</button>
+<button type="button" onclick="endWorker()">结束工作</button>
+
+<script>
+    var w;
+
+    function startWorker() {
+        if (typeof (Worker)!="undefined"){//检查是否支持web worker
+            if (typeof (w)=="undefined") {
+                w = new Worker("../JS/18.WebWorker.js");//使用web worker文件创建web worker对象。
+            }
+            w.onmessage = function (event) {//向 web worker 添加一个 "onmessage" 事件监听器：
+                document.getElementById("result").innerHTML = event.data;
+            };
+        }else {
+            document.getElementById("result").innerHTML = "抱歉，你的浏览器不支持 Web Workers...";
+        }
+    }
+
+    function endWorker() {
+        w.terminate();//终止 web worker，并释放浏览器/计算机资源，请使用 terminate() 方法：
+        w = undefined;
+    }
+</script>
+
+<!--Web Workers 和 DOM
+
+由于 web worker 位于外部文件中，它们无法访问下列 JavaScript 对象：window 对象,document 对象
+,parent 对象-->
+
+
+
+
+</body>
+</html>
