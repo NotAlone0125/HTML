@@ -17,14 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="02.CSS_Create Style Sheet.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02.CSS_Create Style Sheet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03.CSS_Backgrounds.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/03.CSS_Backgrounds.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5.Paragraph.html" />
         <option value="$PROJECT_DIR$/5.Heading.html" />
         <option value="$PROJECT_DIR$/6.Paragraph.html" />
         <option value="$PROJECT_DIR$/7.Text Formatting.html" />
@@ -109,6 +118,7 @@
         <option value="$PROJECT_DIR$/CSS/01.CSS_Introduction.html" />
         <option value="$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.css" />
         <option value="$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.html" />
+        <option value="$PROJECT_DIR$/CSS/03.CSS_Backgrounds.html" />
       </list>
     </option>
   </component>
@@ -291,12 +301,12 @@
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
       <workItem from="1506502080728" duration="28029000" />
-      <workItem from="1507528751542" duration="34559000" />
+      <workItem from="1507528751542" duration="36081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120909000" />
+    <option name="totallyTimeSpent" value="122431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,13 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/10.CSS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/565be4cdea107.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -709,11 +712,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/03.CSS_Backgrounds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
