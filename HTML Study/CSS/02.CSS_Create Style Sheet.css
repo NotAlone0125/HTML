@@ -1,0 +1,16 @@
+hr{
+    background-color: red;
+    height: 5px;
+}
+#para{
+    text-align: center;
+    color: orange;
+}
+body{
+    background-color: aqua;
+}
+h3{
+    color: red;
+    text-align: left;
+    font-size: 8pt;
+}
