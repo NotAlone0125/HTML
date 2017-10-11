@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04.CSS_Text.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04.CSS_Text.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/04.CSS_Text.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.CSS_Font.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/05.CSS_Font.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/6.Paragraph.html" />
         <option value="$PROJECT_DIR$/7.Text Formatting.html" />
         <option value="$PROJECT_DIR$/8.Link.html" />
         <option value="$PROJECT_DIR$/9.Header.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.html" />
         <option value="$PROJECT_DIR$/CSS/03.CSS_Backgrounds.html" />
         <option value="$PROJECT_DIR$/CSS/04.CSS_Text.html" />
+        <option value="$PROJECT_DIR$/CSS/05.CSS_Font.html" />
       </list>
     </option>
   </component>
@@ -107,8 +117,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="40" />
+    <option name="x" value="298" />
+    <option name="y" value="29" />
     <option name="width" value="1126" />
     <option name="height" value="781" />
   </component>
@@ -279,12 +289,12 @@
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
       <workItem from="1506502080728" duration="28029000" />
-      <workItem from="1507528751542" duration="41576000" />
+      <workItem from="1507528751542" duration="43528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127926000" />
+    <option name="totallyTimeSpent" value="129878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +306,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="40" width="1126" height="781" extended-state="0" />
+    <frame x="298" y="29" width="1126" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -335,13 +345,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/12.Table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/13.List.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -688,7 +691,7 @@
         <state relative-caret-position="357">
           <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,6 +708,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/05.CSS_Font.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding />
         </state>
       </provider>
