@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 列表样式（ul）</title>
+    <style>
+
+        /*不同的列表项标记*/
+        ul.a{list-style-type: circle;}
+        ul.b{list-style-type: square;}
+        ol.c{list-style-type: upper-roman;}
+        ol.d{list-style-type: lower-alpha;}
+
+        /*作为列表项标记的图像*/
+/*        ul.e{list-style-image: url("../Images/icon.png");}*/
+
+        /*上面的例子在所有浏览器中显示并不相同，IE和Opera显示图像标记比火狐，Chrome和Safari更高一点点。
+        如果你想在所有的浏览器放置同样的形象标志，就应使用浏览器兼容性解决方案，过程如下:*/
+        ul.e{
+            list-style-type: none;/*设置列表样式类型为没有删除列表项标记*/
+            padding: 0px;  margin: 0px;/*设置填充和边距0px（浏览器兼容性）*/
+        }
+        ul.e li{
+            background-image: url("../Images/icon.png");
+            background-repeat: no-repeat;
+            background-position: 0px 5px;/*定位图像位置（左0px和上下5px）*/
+            padding-left: 32px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        /*简写属性*/
+        /*ul{
+            list-style: square url("../Images/icon.png");
+        }*/
+        /*可以按顺序设置如下属性：
+        list-style-type
+        list-style-position
+        list-style-image
+        如果上述值丢失一个，其余仍在指定的顺序，就没关系。*/
+
+
+        /*所有的列表标记类型*/
+        ul.f{list-style-type: circle;}
+        ul.g{list-style-type: disc;}
+        ul.h{list-style-type: armenian;}
+        ul.i{list-style-type: cjk-ideographic;}
+        ul.j{list-style-type: decimal;}
+        ul.k{list-style-type: decimal-leading-zero;}
+        ul.l{list-style-type: georgian;}
+        ul.m{list-style-type: hebrew;}
+        ul.n{list-style-type: hiragana;}
+        ul.o{list-style-type: hiragana-iroha;}
+        ul.p{list-style-type: katakana;}
+        ul.q{list-style-type: katakana-iroha;}
+        ul.r{list-style-type: lower-alpha;}
+        ul.s{list-style-type: lower-greek;}
+        ul.t{list-style-type: lower-latin;}
+        ul.u{list-style-type: lower-roman;}
+        ul.v{list-style-type: upper-alpha;}
+        ul.w{list-style-type: upper-latin;}
+        ul.x{list-style-type: upper-roman;}
+        ul.y{list-style-type: none;}
+        ul.z{list-style-type: inherit;}
+
+
+    </style>
+</head>
+<body>
+
+<!--CSS 列表
+CSS列表属性作用如下：
+设置不同的列表项标记为有序列表
+设置不同的列表项标记为无序列表
+设置列表项标记为图像
+
+在HTML中，有两种类型的列表：
+无序列表 - 列表项标记用特殊图形（如小黑点、小方框等）
+有序列表 - 列表项的标记有数字或字母
+使用CSS，可以列出进一步的样式，并可用图像作列表项标记。
+
+CSS列表属性：
+list-style	简写属性。用于把所有用于列表的属性设置于一个声明中
+list-style-image	将图象设置为列表项标志。
+list-style-position	设置列表中列表项标志的位置。
+list-style-type	设置列表项标志的类型。-->
+
+<p>无序列表</p>
+<ul class="a">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ul>
+<ul class="b">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ul>
+
+<p>有序列表</p>
+<ol class="c">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ol>
+<ol class="d">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ol>
+
+<p>图像标记的列表</p>
+<ul class="e">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ul>
+
+
+<p>所有的列表标记类型</p>
+<ul class="f"><li>Coffee</li></ul>
+<ul class="g"><li>Coffee</li></ul>
+<ul class="h"><li>Coffee</li></ul>
+<ul class="i"><li>Coffee</li></ul>
+<ul class="j"><li>Coffee</li></ul>
+<ul class="k"><li>Coffee</li></ul>
+<ul class="l"><li>Coffee</li></ul>
+<ul class="m"><li>Coffee</li></ul>
+<ul class="n"><li>Coffee</li></ul>
+<ul class="o"><li>Coffee</li></ul>
+<ul class="p"><li>Coffee</li></ul>
+<ul class="q"><li>Coffee</li></ul>
+<ul class="r"><li>Coffee</li></ul>
+<ul class="s"><li>Coffee</li></ul>
+<ul class="t"><li>Coffee</li></ul>
+<ul class="u"><li>Coffee</li></ul>
+<ul class="v"><li>Coffee</li></ul>
+<ul class="w"><li>Coffee</li></ul>
+<ul class="x"><li>Coffee</li></ul>
+<ul class="y"><li>Coffee</li></ul>
+<ul class="z"><li>Coffee</li></ul>
+
+
+
+</body>
+</html>
