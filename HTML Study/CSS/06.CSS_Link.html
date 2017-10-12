@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 链接</title>
+
+    <style>
+        a:link{color: #000000;}/* 未访问链接*/
+        a:visited{color: #00FF00;}/* 已访问链接 */
+        a:hover{color: #FF00FF;}/* 鼠标移动到链接上 */
+        a:active{color: #0000FF;}/* 鼠标点击时 */
+
+        /*常见的链接样式：文本修饰
+        text-decoration 属性主要用于删除链接中的下划线：*/
+        a:link{text-decoration: none;}
+        a:visited{text-decoration: none;}
+        a:hover{text-decoration: underline;}
+        a:active{text-decoration: underline;}
+
+        /*背景颜色:背景颜色属性指定链接背景色：*/
+        a:link{background-color: #FFD700;}
+        a:visited{background-color: #d0e4fe;}
+        a:hover{background-color: #00FF00;}
+        a:active{background-color: aqua;}
+
+
+        /*实例*/
+        a.one:link{color: #0000ff;}
+        a.one:visited{color: #ff0000;}
+        a.one:hover{color: #00FF00;}
+
+        a.two:link{color: #0000ff;}
+        a.two:visited{color: #ff0000;}
+        a.two:hover{font-size: 30px;}
+
+        a.three:link{color: #0000ff;}
+        a.three:visited{color: #ff0000;}
+        a.three:hover{background-color: #00FF00;}
+
+        a.four:link{color: #0000ff;}
+        a.four:visited{color: #ff0000;}
+        a.four:hover{font-family: bold;}
+
+        a.five:link{color: #0000ff;text-decoration: none;}
+        a.five:visited{color: #ff0000;text-decoration: none;}
+        a.five:hover{text-decoration: underline;}
+
+
+        /* 创建链接框*/
+        a.field:link,a.field:visited{
+            display: block;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #98bf21;
+            width: 120px;
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
+        }
+
+        a.field:hover,a.field:active{
+            background-color: #7A991A;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+<!--CSS 链接：不同的链接可以有不同的样式。
+
+链接的样式，可以用任何CSS属性（如颜色，字体，背景等）。
+特别的链接，可以有不同的样式，这取决于他们是什么状态。
+这四个链接状态是：
+a:link - 正常，未访问过的链接
+a:visited - 用户已访问过的链接
+a:hover - 当用户鼠标放在链接上时
+a:active - 链接被点击的那一刻-->
+
+<p><b><a href="https://www.baidu.com" target="_blank">百度</a></b></p>
+<p><b>注意：</b> a:hover 必须在 a:link 和 a:visited 之后，需要严格按顺序才能看到效果。</p>
+<p><b>注意：</b> a:active 必须在 a:hover 之后。</p>
+
+
+
+
+<!--实例-->
+<p><b><a class="one" href="https://www.baidu.com" target="_blank">这个链接改变颜色</a></b></p>
+<p><b><a class="two" href="https://www.baidu.com" target="_blank">这个链接改变字体大小</a></b></p>
+<p><b><a class="three" href="https://www.baidu.com" target="_blank">这个链接改变背景颜色</a></b></p>
+<p><b><a class="four" href="https://www.baidu.com" target="_blank">这个链接改变字体类型</a></b></p>
+<p><b><a class="five" href="https://www.baidu.com" target="_blank">这个链接改变文字修饰</a></b></p>
+
+
+<a class="field" href="https://www.baidu.com" target="_blank">这是一个链接框</a>
+
+
+</body>
+</html>
