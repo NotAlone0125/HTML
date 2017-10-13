@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 尺寸</title>
+
+    <style>
+        /*设置元素的高度*/
+        img.normal{
+            height: 200px;
+        }
+        img.big{
+            height: 300px;
+        }
+        p.ex{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        /*百分百设置高度*/
+        img.normal{
+            height: 100%;
+        }
+        img.big{
+            height: auto;
+        }
+
+        /*像素值来设置元素的宽度*/
+        img.normal{
+            height: 20em;
+        }
+        img.big{
+            height: 30em;
+        }
+
+        /*设置元素的最大高度*/
+        p.ex{
+            max-height: 200px;
+        }
+
+        /*使用百分比设置元素最大宽度*/
+        p.ex{
+            max-width: 20%;
+        }
+
+        /*设置元素的最低高度*/
+        p.ex{
+            min-height: 300px;
+        }
+
+        /*设置元素的最小宽度*/
+        p.ex{
+            min-width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS 尺寸 (Dimension) 属性允许你控制元素的高度和宽度。同样，它允许你增加行间距。
+
+所有CSS 尺寸 (Dimension)属性：
+height	设置元素的高度。
+line-height	设置行高。
+max-height	设置元素的最大高度。
+max-width	设置元素的最大宽度。
+min-height	设置元素的最小高度。
+min-width	设置元素的最小宽度。
+width	设置元素的宽度。-->
+
+<!--设置元素的高度和宽度-->
+<img src="09.CSS_BoxModel.png" class="normal" width="300">
+<img src="11.CSS_Outline.png" class="big" width="400">
+<p class="ex">宽和高为100px的段落。宽和高为100px的段落。宽和高为100px的段落。
+    宽和高为100px的段落。宽和高为100px的段落。宽和高为100px的段落。
+    宽和高为100px的段落。最大高度为300px,最大宽度为20%,最小高度为200px</p>
+<hr>
+
+
+
+</body>
+</html>
