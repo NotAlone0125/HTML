@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 填充</title>
+
+    <style>
+
+        p{
+            background-color: yellow;
+        }
+
+        /*单侧设置内边距*/
+        p.a{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        /*简写属性*/
+        p.a{
+            padding: 20px 20px 20px 20px;
+            /*上，右，下，左*/
+        }
+        p.a{
+            padding: 5px 10px 15px;
+            /*上，左右，下*/
+        }
+        p.a{
+            padding: 5px 10px;
+            /*上下，左右*/
+        }
+        p.a{
+            padding: 10px;
+            /*上下左右*/
+        }
+
+    </style>
+</head>
+<body>
+
+<!--Padding（填充）
+当元素的 Padding（填充）（内边距）被清除时，所"释放"的区域将会受到元素背景颜色的填充。
+单独使用填充属性可以改变上下左右的填充。缩写填充属性也可以使用，一旦改变一切都改变。
+
+属性：
+padding	使用缩写属性设置在一个声明中的所有填充属性
+padding-bottom	设置元素的底部填充
+padding-left	设置元素的左部填充
+padding-right	设置元素的右部填充
+padding-top	设置元素的顶部填充-->
+
+<table border="1" style="border-collapse: collapse;text-align: center;width: 100%">
+    <caption style="font-weight: 900;text-align: center">Padding可能的值</caption>
+    <tr>
+        <th>值</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <td>length</td>
+        <td>定义一个固定的填充（使用像素，pt，em等）</td>
+    </tr>
+    <tr>
+        <td>%</td>
+        <td>定义一个使用百分比的边距</td>
+    </tr>
+</table>
+<hr>
+
+
+<!--填充- 单边内边距属性-->
+<p>为指定内边距的段落</p>
+<p class="a">指定了内边距的段落</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

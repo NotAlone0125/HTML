@@ -38,11 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.CSS_Marign.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.CSS_Marign.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/12.CSS_Marign.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="534">
+              <caret line="97" column="4" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="97" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.CSS_Padding.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/13.CSS_Padding.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/13.List.html" />
         <option value="$PROJECT_DIR$/14.Block.html" />
         <option value="$PROJECT_DIR$/15.Layout.html" />
         <option value="$PROJECT_DIR$/16.Form.html" />
@@ -121,6 +133,7 @@
         <option value="$PROJECT_DIR$/CSS/10.CSS_Border.html" />
         <option value="$PROJECT_DIR$/CSS/11.CSS_Outline.html" />
         <option value="$PROJECT_DIR$/CSS/12.CSS_Marign.html" />
+        <option value="$PROJECT_DIR$/CSS/13.CSS_Padding.html" />
       </list>
     </option>
   </component>
@@ -131,10 +144,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="y" value="23" />
-    <option name="width" value="1126" />
-    <option name="height" value="828" />
+    <option name="x" value="250" />
+    <option name="y" value="67" />
+    <option name="width" value="1150" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -303,12 +316,12 @@
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
       <workItem from="1506502080728" duration="28029000" />
-      <workItem from="1507528751542" duration="64452000" />
+      <workItem from="1507528751542" duration="66029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150802000" />
+    <option name="totallyTimeSpent" value="152379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,10 +333,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="23" width="1126" height="828" extended-state="0" />
+    <frame x="250" y="67" width="1150" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23029229" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.503861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -359,14 +372,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/14.新语义元素图示.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -747,8 +752,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/12.CSS_Marign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="534">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="97" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/13.CSS_Padding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
