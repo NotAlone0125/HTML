@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 外边距</title>
+
+    <style>
+
+        p{
+            background-color: yellow;
+        }
+        /*单边外边距属性*/
+        p.a{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        /*简写属性*/
+        p.a{
+            margin:25px 50px 75px 100px;
+            /*上边距为25px
+              右边距为50px
+              下边距为75px
+              左边距为100px*/
+        }
+        p.a{
+            margin:25px 50px 75px;
+            /*上边距为25px
+              左右边距为50px
+              下边距为75px*/
+        }
+        p.a{
+            margin:25px 50px;
+            /*上下边距为25px
+              左右边距为50px*/
+        }
+        p.a{
+            margin:25px;
+            /*所有的4个边距都是25px*/
+        }
+
+        /*设置一个使用厘米值的文本的顶部margin*/
+        p.ex2{
+            background-color: #00FF00;
+        }
+        p.ex1{
+            margin-top: 2cm;
+        }
+
+        /*设置使用百分比值的下边距，相对于包含的元素的宽度。*/
+        p.ex4{
+            background-color: red;
+        }
+        p.ex3{
+            margin-bottom: 25%;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS Margin(外边距)属性定义元素周围的空间。
+
+margin清除周围的元素（外边框）的区域。margin没有背景颜色，是完全透明的
+margin可以单独改变元素的上，下，左，右边距。也可以一次改变所有的属性。
+
+所有的CSS边距属性:
+margin	简写属性。在一个声明中设置所有外边距属性。
+margin-bottom	设置元素的下外边距。
+margin-left	设置元素的左外边距。
+margin-right	设置元素的右外边距。
+margin-top	设置元素的上外边距。-->
+<table border="1" style="border-collapse: collapse;text-align: center;width: 100%">
+    <caption style="font-weight: 900;text-align: center">Magrin可能的值</caption>
+    <tr>
+        <th>值</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <td>auto</td>
+        <td>
+            设置浏览器边距。<br>
+            这样做的结果会依赖于浏览器
+        </td>
+    </tr>
+    <tr>
+        <td>length</td>
+        <td>定义一个固定的margin（使用像素，pt，em等）</td>
+    </tr>
+    <tr>
+        <td>%</td>
+        <td>定义一个使用百分比的边距</td>
+    </tr>
+</table>
+<p>Margin可以使用负值，重叠的内容。</p>
+<hr>
+
+<!--Margin - 单边外边距属性-->
+<p>这是一个没有指定外边距的段落</p>
+<p class="a">这是一个没有指定外边距的段落</p>
+<hr>
+
+<!--设置一个使用厘米值的文本的顶部margin-->
+<p class="ex2">一个没有指定边距大小的段落。</p>
+<p class="ex1">一个2厘米上边距的段落。</p>
+<p class="ex2">一个没有指定边距大小的段落。</p>
+<hr>
+
+<!--设置使用百分比值的下边距，相对于包含的元素的宽度。-->
+<p class="ex4">一个没有指定边距大小的段落。</p>
+<p class="ex3">一个%25下边距的段落。</p>
+<p class="ex4">一个没有指定边距大小的段落。</p>
+
+</body>
+</html>

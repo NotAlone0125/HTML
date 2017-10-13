@@ -17,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11.CSS_Outline.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="11.CSS_Outline.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/11.CSS_Outline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="-472">
               <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#figcaption#0;n#figure#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,27 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.Table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/12.Table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.CSS_Outline.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/11.CSS_Outline.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="09.CSS_BoxModel.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/09.CSS_BoxModel.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.CSS_Marign.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/12.CSS_Marign.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -74,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/12.Table.html" />
         <option value="$PROJECT_DIR$/13.List.html" />
         <option value="$PROJECT_DIR$/14.Block.html" />
         <option value="$PROJECT_DIR$/15.Layout.html" />
@@ -125,6 +120,7 @@
         <option value="$PROJECT_DIR$/CSS/09.CSS_BoxModel.html" />
         <option value="$PROJECT_DIR$/CSS/10.CSS_Border.html" />
         <option value="$PROJECT_DIR$/CSS/11.CSS_Outline.html" />
+        <option value="$PROJECT_DIR$/CSS/12.CSS_Marign.html" />
       </list>
     </option>
   </component>
@@ -166,11 +162,6 @@
               <item name="HTML Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML Study" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML Study" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +303,12 @@
       <workItem from="1506332107045" duration="5816000" />
       <workItem from="1506392517122" duration="32450000" />
       <workItem from="1506502080728" duration="28029000" />
-      <workItem from="1507528751542" duration="61596000" />
+      <workItem from="1507528751542" duration="64452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147946000" />
+    <option name="totallyTimeSpent" value="150802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,14 +359,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/13.HTML5_FormPropety.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -732,11 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/09.CSS_BoxModel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/12.Table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -750,12 +728,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/09.CSS_BoxModel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/11.CSS_Outline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="-472">
           <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#figcaption#0;n#figure#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/12.CSS_Marign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#caption#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
