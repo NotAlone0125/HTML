@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float(浮动)</title>
+
+    <style>
+
+        /*图像右浮动*/
+        img.float_right{
+            float: right;
+        }
+
+        /*彼此相邻的浮动元素*/
+        img.thumbnail{
+            float: left;
+            width: 100px;
+            height: 90px;
+            margin: 5px;
+        }
+        .text_line{
+            clear: both;
+        }
+
+        /*为图像添加边框和边距并浮动到段落的右侧*/
+        .a{
+            float: right;
+            border: 1px dotted black;
+            margin: 0px 0px 15px 20px;
+        }
+
+        /*标题和图片向右侧浮动*/
+        div{
+            float: right;
+            width: 120px;
+            margin: 0;
+            padding: 15px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        /*段落第一个字向左浮动*/
+        span{
+            float: left;
+            width: 1.3em;
+            font-size: 400%;
+            font-family: algerian,courier;
+            line-height: 80%;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS 的 Float（浮动），会使元素向左或向右移动，其周围的元素也会重新排列。
+Float（浮动），往往是用于图像，但它在布局时一样非常有用。
+
+CSS 中所有的浮动属性:
+clear:指定不允许元素周围有浮动元素(left,right,both,none,inherit)
+float:指定一个盒子（元素）是否可以浮动(left,right,none,inherit-->
+
+
+<!--元素怎样浮动
+元素的水平方向浮动，意味着元素只能左右移动而不能上下移动。
+一个浮动元素会尽量向左或向右移动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。
+浮动元素之后的元素将围绕它。
+浮动元素之前的元素将不会受到影响。-->
+
+<!--如果图像是右浮动，下面的文本流将环绕在它左边：-->
+<p>在下面的段落中，我们添加了一个 float:right 的图片。导致图片将会浮动在段落的右边。</p>
+<p><img class="float_right" src="09.CSS_BoxModel.png" width="100" height="80">
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。</p>
+<hr>
+
+<!--彼此相邻的浮动元素
+如果你把几个浮动的元素放到一起，如果有空间的话，它们将彼此相邻。
+在这里，我们对图片廊使用 float 属性-->
+<h3>图片库</h3>
+<p>试着调整窗口,看看当图片没有足够的空间会发生什么。</p>
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="80">
+<img class="thumbnail" src="../Images/qiutian.png" width="116" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="120" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="80">
+<img class="thumbnail" src="../Images/qiutian.png" width="116" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="120" height="90">
+
+
+
+<!--清除浮动 - 使用 clear
+元素浮动之后，周围的元素会重新排列，为了避免这种情况，使用 clear 属性。
+clear 属性指定元素两侧不能出现浮动元素。
+使用 clear 属性往文本中添加图片廊：-->
+<h3 class="text_line">第二行</h3>
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="107" height="80">
+<img class="thumbnail" src="../Images/qiutian.png" width="116" height="90">
+<img class="thumbnail" src="../Images/qiutian.png" width="120" height="90">
+<hr class="text_line"><!--对分割线也做了清除浮动的操作-->
+
+
+<!--为图像添加边框和边距并浮动到段落的右侧-->
+<p>
+    在下面的段落中,图像将向右浮动。黑色虚线边界添加到图像。
+    我们还添加了边缘的0 px的顶部和右侧 margin,15 px底部margin,和20 px左侧的margin的图像。
+    使得文本远离图片:</p>
+<p>
+    <img class="a" src="../Images/qiutian.png" width="95" height="84" />
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+</p>
+<hr>
+
+
+<!--标题和图片向右侧浮动-->
+<div>
+    <img src="../Images/qiutian.png" width="95" height="84" /><br>
+    CSS is fun!
+</div>
+<p>
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+</p>
+<hr>
+
+
+<!--段落的第一个字向左浮动-->
+<p>
+    <span>这</span>是一些文本。
+    这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。
+</p>
+
+
+<a href="18.CSS_FloatTable.html">使用 float 创建一个网页页眉、页脚、左边的内容和主要内容。</a>
+
+
+</body>
+</html>
