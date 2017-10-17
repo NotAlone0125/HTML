@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 布局 - 水平 & 垂直对齐</title>
+
+    <style>
+        /*元素居中对齐*/
+        .center{
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            border: 2px solid green;
+        }
+
+        /*文本居中对齐*/
+        .text_center{
+            text-align: center;
+            border: 2px solid green;
+        }
+
+        /*图片居中对齐*/
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+
+        /*定位实现左右对齐*/
+        .right{
+            position: absolute;
+            border: 2px solid green;
+            width: 300px;
+            right: 0px;
+            padding: 10px;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*左右对齐 - 使用 float 方式*/
+        .float_right{
+            float: right;
+            width: 300px;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+
+        /*Padding垂直居中对齐*/
+        .padding_center{
+            border: 2px solid green;
+            padding: 70px 0;
+
+            /*水平和垂直都居中*/
+            text-align: center;
+        }
+
+        /*line-height实现垂直居中对齐*/
+        .line-height{
+            line-height: 200px;
+            height: 200px;
+            border: 3px solid green;
+            text-align: center;
+        }
+        /*如果有多行，添加下面代码*/
+        .line-height p{
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+
+        /*垂直居中 - 使用 position 和 transform*/
+        .transform{
+            height: 200px;
+            position: relative;
+            border: 2px solid green;
+        }
+        .transform p{
+/*            margin: 0;*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+    </style>
+</head>
+<body>
+
+<!--元素居中对齐
+要水平居中对齐一个元素(如 <div>), 可以使用 margin: auto;。
+设置到元素的宽度将防止它溢出到容器的边缘。
+元素通过指定宽度，并将两边的空外边距平均分配：-->
+<h2>元素居中对齐</h2>
+<p>水平居中块级元素 (如 div), 可以使用 margin: auto;</p>
+<div class="center">
+    <p><b>注意: </b>使用 margin:auto 无法兼容 IE8, 除非 !DOCTYPE 已经声明。</p>
+</div>
+
+
+<!--文本居中对齐
+如果仅仅是为了文本在元素内居中对齐，可以使用 text-align: center;-->
+<h2>文本居中对齐</h2>
+
+<div class="text_center">
+    <p>文本居中对齐。</p>
+</div>
+
+
+
+<!--图片居中对齐-->
+<h2>图片居中对齐</h2>
+<p>要让图片居中对齐, 可以使用 margin: auto; 并将它放到块元素中：</p>
+<img src="09.CSS_BoxModel.png ">
+
+
+<!--使用定位实现左右对齐-->
+<h2>使用定位实现左右对齐</h2>
+<div class="right">
+    <p>绝对定位对齐</p>
+</div>
+<br><br><br><br>
+<div class="container">
+    <div class="right">
+        <p><b>注意: </b>当使用浮动属性对齐,总是包括 !DOCTYPE 声明!如果丢失,它将会在 IE 浏览器产生奇怪的结果。</p>
+    </div>
+</div>
+<br><br><br><br>
+<!--注释：绝对定位元素会被从正常流中删除，并且能够交叠元素。
+提示: 当使用 position 来对齐元素时, 通常 <body> 元素会设置 margin 和 padding 。 这样可以避免
+在不同的浏览器中出现可见的差异。
+
+当使用 position 属性时，IE8 以及更早的版本存在一个问题。如果容器元素（在我们的案例中是 <div class="
+container">）设置了指定的宽度，并且省略了 !DOCTYPE 声明，那么 IE8 以及更早的版本会在右侧增加 17px 的外边距。
+这似乎是为滚动条预留的空间。当使用 position 属性时，请始终设置 !DOCTYPE 声明：-->
+
+
+
+<!--左右对齐 - 使用 float 方式-->
+<h2>左右对齐 - 使用 float 方式</h2>
+<div class="float_right">
+    <p>使用 float 属性来实现右对齐:</p>
+</div>
+<!--当像这样对齐元素时，对 <body> 元素的外边距和内边距进行预定义是一个好主意。这样可以避免在不同的浏览器中出现可见
+的差异。当使用 float 属性时，IE8 以及更早的版本存在一个问题。如果省略 !DOCTYPE 声明，那么 IE8 以及更早的版本会在
+右侧增加 17px 的外边距。这似乎是为滚动条预留的空间。当使用 float 属性时，请始终设置 !DOCTYPE 声明：-->
+
+
+
+
+<!--垂直居中对齐 - 使用 padding-->
+<h2 style="clear: both">使用Padding实现垂直居中对齐</h2>
+<div class="padding_center">
+    <p>我是垂直居中。</p>
+</div>
+
+
+
+<!--垂直居中 - 使用 line-height-->
+<h2 style="clear: both">使用line-height实现垂直居中对齐</h2>
+<div class="line-height">
+    <p>我是垂直居中。<br>
+        我是垂直居中。</p>
+</div>
+
+
+
+<!--垂直居中 - 使用 position 和 transform-->
+<h2 style="clear: both">使用 position 和 transform实现垂直居中对齐</h2>
+<div class="transform">
+    <p>我是垂直居中。<br>
+        我是垂直居中。</p>
+</div>
+
+
+
+</body>
+</html>
