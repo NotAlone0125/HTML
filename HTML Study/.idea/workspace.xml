@@ -24,44 +24,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17.CSS_Positioning.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/17.CSS_Positioning.html">
+      <file leaf-file-name="20.CSS_CombinatorialSelector.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/20.CSS_CombinatorialSelector.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="107" column="32" lean-forward="true" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#12;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#13;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#14;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#15;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#16;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19.CSS_Aligning.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/19.CSS_Aligning.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#h2#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="586">
+              <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/21.URL.html" />
         <option value="$PROJECT_DIR$/22.Summarize.html" />
         <option value="$PROJECT_DIR$/HTML5/01.HTML5_Introduction.html" />
         <option value="$PROJECT_DIR$/HTML5/HTML5_NewElement.html" />
@@ -136,6 +103,7 @@
         <option value="$PROJECT_DIR$/CSS/18.CSS_Float.html" />
         <option value="$PROJECT_DIR$/CSS/18.CSS_FloatTable.html" />
         <option value="$PROJECT_DIR$/CSS/19.CSS_Aligning.html" />
+        <option value="$PROJECT_DIR$/CSS/20.CSS_CombinatorialSelector.html" />
       </list>
     </option>
   </component>
@@ -320,12 +288,12 @@
       <workItem from="1506502080728" duration="28029000" />
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
-      <workItem from="1508117002571" duration="24233000" />
+      <workItem from="1508117002571" duration="25224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184053000" />
+    <option name="totallyTimeSpent" value="185044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,13 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/08.HTML5_Geolocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Opiniton/demo_sse.php" />
     <entry file="file://$PROJECT_DIR$/HTML5/18.HTML5_WebWorkers.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,6 +711,14 @@
             <element signature="n#style#0;n#h2#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/20.CSS_CombinatorialSelector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
