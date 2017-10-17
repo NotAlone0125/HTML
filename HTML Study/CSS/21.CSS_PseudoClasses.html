@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 伪类(Pseudo-classes)</title>
+
+    <style>
+
+        a:link {color:#000000;}      /* 未访问链接*/
+        a:visited {color:#00FF00;}  /* 已访问链接 */
+        a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+        a:active {color:#0000FF;}  /* 鼠标点击时 */
+
+
+        /*irst-child 伪类来选择元素的第一个子元素*/
+        p.a:first-child{
+            background-color: #2196F3;
+        }
+
+        /*匹配所有<p> 元素中的第一个 <i> 元素*/
+        p.b>i:first-child{
+            background-color: #FFD700;
+        }
+
+        /*匹配所有作为第一个子元素的 <p> 元素中的所有 <i> 元素*/
+        p.c:first-child i{
+            background-color: black;
+        }
+
+        /*lang 伪类*/
+        q:lang(no){
+            quotes: "+""=";
+        }
+
+        /*：focus伪类*/
+        input:focus{
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--CSS伪类是用来添加一些选择器的特殊效果。-->
+<!--伪类的语法：
+selector:pseudo-class {property:value;}
+CSS类也可以使用伪类：
+selector.class:pseudo-class {property:value;}-->
+
+
+
+<!--anchor伪类
+在支持 CSS 的浏览器中，链接的不同状态都可以以不同的方式显示-->
+<p><b><a href="/css/" target="_blank">这是一个链接</a></b></p>
+<p><b>注意：</b> a:hover 必须在 a:link 和 a:visited 之后，需要严格按顺序才能看到效果。</p>
+<p><b>注意：</b> a:active 必须在 a:hover 之后。</p><hr>
+<!--注意： 在CSS定义中，a:hover 必须被置于 a:link 和 a:visited 之后，才是有效的。
+注意： 在 CSS 定义中，a:active 必须被置于 a:hover 之后，才是有效的。
+注意：伪类的名称不区分大小写。-->
+<!--伪类和CSS类
+伪类可以与 CSS 类配合使用：
+a.red:visited {color:#FF0000;}
+<a class="red" href="css-syntax.html">CSS 语法</a>
+如果在上面的例子的链接已被访问，它会显示为红色。-->
+
+
+
+<!--CSS - :first - child伪类
+您可以使用 :first-child 伪类来选择元素的第一个子元素
+注意：在IE8的之前版本必须声明<!DOCTYPE> ，这样 :first-child 才能生效。
+匹配第一个 <p> 元素
+在下面的例子中，选择器匹配作为任何元素的第一个子元素的 <p> 元素：-->
+<div>
+    <p class="a">This is some text.</p>
+    <p class="a">This is some text.</p>
+</div><hr>
+
+
+
+<!--匹配所有<p> 元素中的第一个 <i> 元素
+在下面的例子中，选择相匹配的所有<p>元素的第一个 <i> 元素：-->
+<p class="b">I am a <i>strong</i> man. I am a <i>strong</i> man.</p>
+<p class="b">I am a <i>strong</i> man. I am a <i>strong</i> man.</p>
+<hr>
+
+
+<!--匹配所有作为第一个子元素的 <p> 元素中的所有 <i> 元素-->
+<div>
+    <p class="c">I am a <i>strong</i> man. I am a <i>strong</i> man.</p>
+    <p class="c">I am a <i>strong</i> man. I am a <i>strong</i> man.</p>
+</div><hr>
+
+
+<!--CSS - :lang 伪类
+:lang 伪类使你有能力为不同的语言定义特殊的规则
+注意：IE8必须声明<!DOCTYPE>才能支持;lang伪类。
+在下面的例子中，:lang 类为属性值为 no 的q元素定义引号的类型：-->
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>在这个例子中,:lang定义了q元素的值为lang =“no”</p>
+<p><b>注意:</b> 仅当 !DOCTYPE 已经声明时 IE8 支持 :lang.</p><hr>
+
+
+
+<!-- :focus伪类-->
+<form action="20.CSS_CombinatorialSelector.html">
+    FirstName:<input type="text" name="Fname"><br>
+    LastName:<input type="text" name="Lname"><br>
+    <input type="submit" value="提交">
+</form><hr>
+
+
+<h2><a href="http://www.runoob.com/css/css-pseudo-classes.html">所有CSS伪类/元素</a></h2>
+
+
+
+
+</body>
+</html>
