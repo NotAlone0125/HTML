@@ -27,12 +27,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="25.CSS_HintToolDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="25.CSS_HintToolDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="26.CSS_PhotoGallery.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5/12.FormElements.html" />
         <option value="$PROJECT_DIR$/HTML5/12.HTML5_FormElements.html" />
         <option value="$PROJECT_DIR$/HTML5/13.HTML5_FormPropety.html" />
         <option value="$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html" />
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintTool.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html" />
+        <option value="$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html" />
       </list>
     </option>
   </component>
@@ -137,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="35" />
+    <option name="x" value="340" />
+    <option name="y" value="29" />
     <option name="width" value="1099" />
     <option name="height" value="763" />
   </component>
@@ -317,12 +329,12 @@
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
-      <workItem from="1508298157749" duration="13921000" />
+      <workItem from="1508298157749" duration="15901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206793000" />
+    <option name="totallyTimeSpent" value="208773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +346,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="35" width="1099" height="763" extended-state="0" />
+    <frame x="340" y="29" width="1099" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304268" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -373,11 +385,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Images/IMG166.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -751,8 +758,18 @@
     <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
