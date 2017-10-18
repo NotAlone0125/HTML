@@ -17,18 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="09.CSS_BoxModel.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/09.CSS_BoxModel.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="24.CSS_DropMenu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="17.CSS_Positioning.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/17.CSS_Positioning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2109">
-              <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+            <state relative-caret-position="475">
+              <caret line="121" column="19" lean-forward="false" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,40 +58,8 @@
       <file leaf-file-name="23.CSS_Navgation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/23.CSS_Navgation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23.CSS_NavgationDemo_01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23.CSS_NavgationDemo_02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23.CSS_NavgationDemo_03.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="210">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -97,8 +68,8 @@
       <file leaf-file-name="16.CSS_DisplayAndVisibility.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+            <state relative-caret-position="632">
+              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -123,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5/09.HTML5_Video.html" />
         <option value="$PROJECT_DIR$/HTML5/10.HTML5_Audio.html" />
         <option value="$PROJECT_DIR$/HTML5/11.HTML5_InputType.html" />
         <option value="$PROJECT_DIR$/HTML5/12.FormElements.html" />
@@ -174,6 +144,7 @@
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_02.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html" />
+        <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
       </list>
     </option>
   </component>
@@ -364,12 +335,12 @@
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
-      <workItem from="1508298157749" duration="7431000" />
+      <workItem from="1508298157749" duration="10532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200303000" />
+    <option name="totallyTimeSpent" value="203404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,13 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/05.CSS_Font.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/AppIcon.png" />
     <entry file="file://$PROJECT_DIR$/Images/qiutian.png">
       <provider selected="true" editor-type-id="images">
@@ -723,10 +687,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/17.CSS_Positioning.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        <state relative-caret-position="475">
+          <caret line="121" column="19" lean-forward="false" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -749,44 +747,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/23.CSS_Navgation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html">
+    <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="353">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
       </provider>
