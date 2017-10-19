@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 边框</title>
+
+    <style>
+
+        div.radius{
+            border: 3px solid green;
+            border-radius: 10px;
+        }
+
+        div.shadow{
+            background-color: yellow;
+            box-shadow: 5px 10px 5px #888888;
+            /*h-shadow	必需的。水平阴影的位置。允许负值
+            v-shadow	必需的。垂直阴影的位置。允许负值
+            blur	    可选。模糊距离*/
+        }
+
+        div.image{
+            border: 20px solid transparent;
+
+            /*拉伸*/
+            /*border-image: url(http://www.runoob.com/images/border.png) 20 20 stretch;
+            -webkit-border-image:url(http://www.runoob.com/images/border.png) 20 20 stretch; !* Safari 5 and older *!
+            -o-border-image:url(http://www.runoob.com/images/border.png) 20 20 stretch; !* Opera *!*/
+
+            /*环绕*/
+            border-image: url(http://www.runoob.com/images/border.png) 20 20 stretch;
+            -webkit-border-image:url(http://www.runoob.com/images/border.png) 20 20 stretch; /* Safari 5 and older */
+            -o-border-image:url(http://www.runoob.com/images/border.png) 20 20 stretch; /* Opera */
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<!--CSS3 边框
+用 CSS3，你可以创建圆角边框，添加阴影框，并作为边界的形象而不使用设计程序，如 Photoshop。
+您将了解以下的边框属性：border-radius，box-shadow，border-image-->
+
+
+<!--CSS3 圆角
+在 CSS2 中添加圆角棘手。我们不得不在每个角落使用不同的图像。
+在 CSS3 中，很容易创建圆角。
+在 CSS3 中 border-radius 属性被用于创建圆角：
+这是圆角边框！-->
+<div class="radius">
+    <p>圆角的段落</p>
+</div><hr>
+
+
+
+<!--CSS3 盒阴影
+CSS3 中的 box-shadow 属性被用来添加阴影:-->
+<div class="shadow">
+    <p>盒阴影的段落</p>
+</div>
+
+
+
+
+<!--CSS3 边界图片
+有了 CSS3 的 border-image 属性，你可以使用图像创建一个边框：
+border-image 属性允许你指定一个图片作为边框！ 用于创建上文边框的原始图像：
+在 div 中使用图片创建边框:-->
+<div class="image">
+    <p>盒边界图片的段落</p>
+</div>
+
+
+</body>
+</html>
