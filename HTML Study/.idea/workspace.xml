@@ -37,13 +37,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="26.CSS_PhotoGallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="26.CSS_PhotoGallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+            <state relative-caret-position="33">
+              <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27.CSS_ImageAlpha.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/27.CSS_ImageAlpha.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="e#1333#1337#0" expanded="true" />
+                <element signature="e#1345#1349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5/12.HTML5_FormElements.html" />
         <option value="$PROJECT_DIR$/HTML5/13.HTML5_FormPropety.html" />
         <option value="$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html" />
         <option value="$PROJECT_DIR$/HTML5/15.HTML5_WebStorage.html" />
@@ -139,6 +151,7 @@
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintTool.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html" />
         <option value="$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html" />
+        <option value="$PROJECT_DIR$/CSS/27.CSS_ImageAlpha.html" />
       </list>
     </option>
   </component>
@@ -149,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="29" />
+    <option name="x" value="341" />
+    <option name="y" value="53" />
     <option name="width" value="1099" />
     <option name="height" value="763" />
   </component>
@@ -329,12 +342,12 @@
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
-      <workItem from="1508298157749" duration="15901000" />
+      <workItem from="1508298157749" duration="19189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208773000" />
+    <option name="totallyTimeSpent" value="212061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="340" y="29" width="1099" height="763" extended-state="0" />
+    <frame x="341" y="53" width="1099" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304268" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -385,11 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/565be4cdea107.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -765,10 +773,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        <state relative-caret-position="33">
+          <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/27.CSS_ImageAlpha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#1333#1337#0" expanded="true" />
+            <element signature="e#1345#1349#0" expanded="true" />
           </folding>
         </state>
       </provider>
