@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 媒体类型</title>
+    <style>
+
+        /*在下面的例子告诉我们浏览器屏幕上显示一个14像素的Verdana字体样式。但是如果页面打印，将是10个
+        像素的Comic Sans MS字体。请注意，font-weight在屏幕上和纸上设置为粗体*/
+        @media screen {
+            p.test{
+                font-family: Verdana,sans-serif;
+                font-size: 14px;
+            }
+        }
+        @media print
+        {
+            p.test {font-family:"Comic Sans MS", cursive, sans-serif;font-size:20px;}
+        }
+        @media screen,print
+        {
+            p.test {font-weight:bold;}
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS 媒体类型
+媒体类型允许你指定文件将如何在不同媒体呈现。该文件可以以不同的方式显示在屏幕上，在纸张上，或听觉浏览器等等。
+
+媒体类型：一些CSS属性只设计了某些媒体。例如"voice-family"属性是专为听觉用户代理。其他一些属性可用于不同
+的媒体类型。例如，"font-size"属性可用于屏幕和印刷媒体，但有不同的值。屏幕和纸上的文件不同，通常需要一个
+更大的字体，sans - serif字体比较适合在屏幕上阅读，而serif字体更容易在纸上阅读。-->
+
+
+<!--@media 规则
+@media 规则允许在相同样式表为不同媒体设置不同的样式。-->
+
+<p class="test">在下面的例子告诉我们浏览器屏幕上显示一个14像素的Verdana字体样式。但是如果页面打印，
+    将是10个像素的Times字体。请注意，font-weight在屏幕上和纸上设置为粗体：</p>
+
+
+
+
+
+
+</body>
+</html>
