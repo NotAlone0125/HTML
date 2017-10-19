@@ -27,11 +27,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="30.CSS_PropetySelector.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="30.CSS_PropetySelector.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/30.CSS_PropetySelector.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
               <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="24.CSS_DropMenu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="25.CSS_HintTool.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintTool.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="25.CSS_HintToolDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,7 +128,6 @@
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_02.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html" />
-        <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintTool.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html" />
         <option value="$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html" />
@@ -107,6 +136,7 @@
         <option value="$PROJECT_DIR$/CSS/29.MediaType.html" />
         <option value="$PROJECT_DIR$/CSS/29.CSS_MediaType.html" />
         <option value="$PROJECT_DIR$/CSS/30.CSS_PropetySelector.html" />
+        <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
       </list>
     </option>
   </component>
@@ -117,8 +147,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="323" />
-    <option name="y" value="68" />
+    <option name="x" value="295" />
+    <option name="y" value="87" />
     <option name="width" value="1099" />
     <option name="height" value="763" />
   </component>
@@ -297,12 +327,12 @@
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
-      <workItem from="1508298157749" duration="24830000" />
+      <workItem from="1508298157749" duration="27192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217702000" />
+    <option name="totallyTimeSpent" value="220064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +344,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="323" y="68" width="1099" height="763" extended-state="0" />
+    <frame x="295" y="87" width="1099" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304268" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -676,30 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintTool.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -749,6 +755,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintTool.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
           <folding />
         </state>
       </provider>
