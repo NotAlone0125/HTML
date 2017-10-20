@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04.CSS3_Background.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04.CSS3_Background.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.CSS3_Gradients.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="155" column="29" lean-forward="false" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS/18.WebWorker.js" />
         <option value="$PROJECT_DIR$/Opiniton/demo_sse.php" />
         <option value="$PROJECT_DIR$/HTML5/19.HTML5_Server-Sent Events.html" />
         <option value="$PROJECT_DIR$/HTML5/17.HTML5_ApplicationCache.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/CSS3/02.CSS3_Border.html" />
         <option value="$PROJECT_DIR$/CSS3/03.CSS3_Radius.html" />
         <option value="$PROJECT_DIR$/CSS3/04.CSS3_Background.html" />
+        <option value="$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html" />
       </list>
     </option>
   </component>
@@ -107,8 +117,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="248" />
-    <option name="y" value="23" />
+    <option name="x" value="346" />
+    <option name="y" value="52" />
     <option name="width" value="1081" />
     <option name="height" value="734" />
   </component>
@@ -282,12 +292,12 @@
       <workItem from="1507528751542" duration="73445000" />
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
-      <workItem from="1508298157749" duration="33898000" />
+      <workItem from="1508298157749" duration="38120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226770000" />
+    <option name="totallyTimeSpent" value="230992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,9 +309,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="23" width="1081" height="734" extended-state="0" />
+    <frame x="346" y="52" width="1081" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24716981" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24716981" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.503861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -355,13 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/14.Block.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/15.Layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-973">
@@ -751,8 +755,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="155" column="29" lean-forward="false" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
           <folding />
         </state>
       </provider>
