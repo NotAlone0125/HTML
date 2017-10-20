@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 2D转换</title>
+
+    <style>
+
+
+        .a{
+            background-color: red;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+        .translate{
+
+            /*translate*/
+            /*transform: translate(50px,100px);*/
+
+            /*rotate*/
+            /*transform: rotate(30deg);*/
+
+            /*scale*/
+            transform: scale(2,1);
+
+            /*skew*/
+            transform: skew(20deg,30deg);
+
+            /*matrix
+            利用matrix()方法旋转div元素30°*/
+            transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS3 转换
+CSS3转换，我们可以移动，比例化，反过来，旋转，和拉伸元素。
+translate()
+rotate()
+scale()
+skew()
+matrix()-->
+
+
+<!--translate() 方法
+translate()方法，根据左(X轴)和顶部(Y轴)位置给定的参数，从当前元素位置移动。-->
+<div class="a">default</div>
+<div class="a translate">
+    translate
+</div>
+
+<!--rotate() 方法
+rotate()方法，在一个给定度数顺时针旋转的元素。负值是允许的，这样是元素逆时针旋转。-->
+
+<!--scale() 方法
+scale()方法，该元素增加或减少的大小，取决于宽度（X轴）和高度（Y轴）的参数：-->
+
+<!--skew() 方法
+transform:skew(<angle> [,<angle>]);
+包含两个参数值，分别表示X轴和Y轴倾斜的角度，如果第二个参数为空，则默认为0，参数为负表示向相反方向倾斜。
+skewX(<angle>);表示只在X轴(水平方向)倾斜。
+skewY(<angle>);表示只在Y轴(垂直方向)倾斜。-->
+
+<!--matrix() 方法
+matrix()方法和2D变换方法合并成一个。
+matrix 方法有六个参数，包含旋转，缩放，移动（平移）和倾斜功能。-->
+
+<!--这就是矩阵的运算了，简化为公式：
+x’=ax+cy+e
+y’=bx+dy+f
+
+所以给定一个matrix矩阵，通过上面的公式变换就可以得到不同的效果，这关系到计算机图形学（省略1w+字..）
+
+css3的transform属性很好用，其实可以变换为matrix矩阵工作，只需要给abcdef附上相应的值就可以了。
+比如translate(tx,ty)可以由matrix(1,0,0,1,tx,ty)转换而来，计算方法见公式
+scale(sx,sy)可以由matrix(sx,0,0,sy,0,0)转变
+rotate(θ)可以有matrix(cosθ,sinθ,-sinθ,cosθ,0,0)转变而来
+skew(θx，θy)可以由matrix(1,tan(θy),tan(θx),1,0,0)转变过来-->
+
+
+</body>
+</html>
