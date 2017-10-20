@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 背景</title>
+
+    <style>
+
+        /*background-image*/
+        /*#example1{
+            padding: 15px;
+            background-image: url("../Images/qiutian.png"),url("../CSS/11.CSS_Outline.png");
+            background-position: right bottom,left top;
+            background-repeat: no-repeat,repeat;
+        }*/
+        /*或者*/
+        #example1{
+            background: url("../Images/qiutian.png") no-repeat right bottom,
+            url("../CSS/11.CSS_Outline.png") repeat left top;
+        }
+
+        /*CSS3 background-size*/
+        /*#example2{
+            background-image: url("../Images/qiutian.png");
+            background-size: 100px 80px;
+            background-repeat: no-repeat;
+            padding-top: 40px;
+        }*/
+        /*伸展背景图像完全填充内容区域：*/
+        #example2{
+            background-image: url("../Images/icon.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+
+        /*CSS3的background-Origin属性*/
+        #example3{
+            border: 1px solid black;
+            padding: 40px;
+            background-image: url("../Images/icon.png");
+            background-repeat: no-repeat;
+            background-position: left;
+
+            background-origin: border-box;
+            /*background-origin: content-box;
+            background-origin: padding-box;*/
+        }
+
+
+
+        /*CSS3 background-clip属性*/
+        #example4{
+            border: 10px solid green;
+            padding: 35px;
+            background-color: yellow;
+            background-clip: content-box;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS3中包含几个新的背景属性，提供更大背景元素控制。
+
+background-image
+background-size
+background-origin
+background-clip-->
+
+
+<!--CSS3 background-image属性
+CSS3中可以通过background-image属性添加背景图片。
+不同的背景图像和图像用逗号隔开，所有的图片中显示在最顶端的为第一张。-->
+<div id="example1">
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div><hr>
+
+
+
+<!--CSS3 background-size 属性
+background-size指定背景图像的大小。CSS3以前，背景图像大小由图像的实际大小决定。
+CSS3中可以指定背景图片，让我们重新在不同的环境中指定背景图片的大小。您可以指定像素或百分比大小。
+你指定的大小是相对于父元素的宽度和高度的百分比的大小。-->
+<div id="example2">
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div><hr>
+
+
+
+
+<!--CSS3的background-Origin属性
+background-Origin属性指定了背景图像的位置区域。
+content-box, padding-box,和 border-box区域内可以放置背景图像。-->
+<div id="example3">
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div><hr>
+
+
+<!--CSS3 多个背景图像
+CSS3 允许你在元素-->
+
+
+
+<!--CSS3 background-clip属性
+CSS3中background-clip背景剪裁属性是从指定位置开始绘制。-->
+<div id="example4">
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div><hr>
+
+
+
+
+
+
+
+</body>
+</html>
