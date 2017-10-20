@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 文本效果</title>
+
+    <style>
+
+        /*文本阴影*/
+        .shadow{
+            text-shadow: 5px 5px 5px green;/*水平阴影，垂直阴影，模糊的距离，以及阴影的颜色：*/
+        }
+
+        /*Box-shadow*/
+        .box-Shadow{
+            width: 200px;
+            height: 100px;
+            background: yellow;
+            box-shadow: 5px 5px 5px red;/*水平阴影，垂直阴影，模糊的距离，以及阴影的颜色：*/
+        }
+
+        /*你也可以在 ::before 和 ::after 两个伪元素中添加阴影效果*/
+        #boxshadow{
+            position: relative;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+            padding: 10px;
+            background: white;
+        }
+        #boxshadow img{
+            width: 100%;
+            border: 1px solid #8a4419;
+            border-style: inset;
+        }
+        #boxshadow::after{
+            content: "";
+            position: absolute;
+            z-index: -1;/* hide shadow behind image */
+            box-shadow:  0 15px 20px rgba(0, 0, 0, 0.3) ;
+            width: 70%;
+            left: 15%;/* one half of the remaining 30% */
+            height: 100px;
+            bottom: 0;
+        }
+
+
+
+        /*阴影用于卡片效果*/
+        div.card{
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+            0 6px 20px rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+        div.header{
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 40px;
+        }
+        div.container {
+            padding: 10px;
+        }
+
+        /*Textflow*/
+        div.test{
+            white-space: nowrap;
+            width: 12em;
+            overflow: hidden;
+            border: 1px solid black;
+        }
+
+        /*换行*/
+        p.testp{
+            width: 11em;
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+
+        /*单词拆分换行*/
+        p.test1{
+            width: 9em;
+            border: 1px solid black;
+            word-break: keep-all;
+        }
+        p.test2{
+            width: 9em;
+            border: 1px solid black;
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--CSS3 文本效果
+CSS3中包含几个新的文本特征。
+在本章中您将了解以下文本属性：
+text-shadow
+box-shadow
+text-overflow
+word-wrap
+word-break-->
+
+
+
+<!--CSS3 的文本阴影
+CSS3 中，text-shadow属性适用于文本阴影-->
+<div class="shadow">Text shadow effect</div><hr>
+
+
+
+<!--CSS3 box-shadow属性
+CSS3 中 CSS3 box-shadow 属性适用于盒子阴影-->
+<div class="box-Shadow">Box shadow effect</div><hr>
+
+<!--你也可以在 ::before 和 ::after 两个伪元素中添加阴影效果-->
+<div id="boxshadow">
+    <img src="../CSS/09.CSS_BoxModel.png" alt="Norway" width="600" height="400">
+</div><hr>
+
+
+
+<!--阴影的一个使用特例是卡片效果-->
+<div class="card">
+    <div class="header">
+        <h1>1</h1>
+    </div>
+
+    <div class="container">
+        <p>January 1, 2016</p>
+    </div>
+</div><hr>
+
+
+
+<!--CSS3 Text Overflow属性
+CSS3文本溢出属性指定应向用户如何显示溢出内容-->
+<p>以下 div 容器内的文本无法完全显示，可以看到它被裁剪了。</p>
+<p>div 使用 &quot;text-overflow:ellipsis&quot;:</p>
+
+<div class="test" style="text-overflow:ellipsis;">This is some long text that will not fit in the box</div>
+<p>div 使用 &quot;text-overflow:clip&quot;:</p>
+<div class="test" style="text-overflow:clip;">This is some long text that will not fit in the box</div>
+<p>div 使用自定义字符串 &quot;text-overflow: &gt;&gt;&quot;(只在 Firefox 浏览器下有效):</p>
+<div class="test" style="text-overflow:'>>';">This is some long text that will not fit in the box</div>
+
+
+
+
+<!--CSS3的换行
+如果某个单词太长，不适合在一个区域内，它扩展到外面：
+CSS3中，自动换行属性允许您强制文本换行 - 即使这意味着分裂它中间的一个字：
+CSS代码如下：-->
+<p class="testp"> This paragraph contains a very long word:
+    thisisaveryveryveryveryveryverylongword. The long word
+    will break and wrap to the next line.</p>
+
+
+
+<!--CSS3 单词拆分换行
+CSS3 单词拆分换行属性指定换行规则：
+CSS代码如下：-->
+<p class="test1"> This paragraph contains some text. This line will-break-at-hyphenates.</p>
+<p class="test2"> This paragraph contains some text: The lines will break at any character.</p>
+
+
+
+<a href="http://www.runoob.com/css3/css3-text-effects.html">
+    <h2>新的文本属性</h2>
+</a>
+</body>
+</html>
