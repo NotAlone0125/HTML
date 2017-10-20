@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 圆角</title>
+
+    <style>
+
+        .rcorners1{
+            border-radius: 25px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners2{
+            border-radius: 25px;
+            border: 2px solid #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners3{
+            border-radius: 25px;
+            background: url("../Images/qiutian.png");
+            background-position: right top;
+            background-repeat: repeat;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+
+        .rcorners4{
+            border-radius: 5px 10px 15px 20px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners5{
+            border-radius: 5px 10px 15px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners6{
+            border-radius: 5px 15px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+
+
+        .rcorners7{
+            border-radius: 15px/50px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners8{
+            border-radius: 50px/15px;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        .rcorners9{
+            border-radius: 50%;
+            background-color: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+
+<a href="http://www.runoob.com/css-radius">CSS圆角制作器</a>
+
+
+<!--CSS3 border-radius 属性-->
+<div class="rcorners1">圆角！</div><br>
+<div class="rcorners2">圆角！</div><br>
+<div class="rcorners3">圆角！</div><br><hr>
+
+
+<!--CSS3 border-radius - 指定每个圆角
+
+四个值: 第一个值为左上角，第二个值为右上角，第三个值为右下角，第四个值为左下角。
+三个值: 第一个值为左上角, 第二个值为右上角和左下角，第三个值为右下角
+两个值: 第一个值为左上角与右下角，第二个值为右上角与左下角
+一个值： 四个圆角值相同-->
+<div class="rcorners4">圆角！四个值</div><br>
+<div class="rcorners5">圆角！三个值</div><br>
+<div class="rcorners6">圆角！两个值</div><br><hr>
+
+
+
+<!--椭圆边框-->
+<div class="rcorners7">椭圆边框</div><br>
+<div class="rcorners8">椭圆边框</div><br>
+<div class="rcorners9">椭圆边框</div><br><hr>
+
+
+<!--CSS3 圆角属性
+
+border-radius	所有四个边角 border-*-*-radius 属性的缩写
+border-top-left-radius	定义了左上角的弧度
+border-top-right-radius	定义了右上角的弧度
+border-bottom-right-radius	定义了右下角的弧度
+border-bottom-left-radius	定义了左下角的弧度-->
+
+</body>
+</html>
