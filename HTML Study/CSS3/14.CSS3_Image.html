@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 图片</title>
+
+    <style>
+
+        /*圆角图片*/
+        #a{
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        /*椭圆图片*/
+        #b{
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        /*缩略图*/
+        #c{
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 5px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        #c:hover{
+            box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+            /*box-shadow:
+            h-shadow 必需的。水平阴影的位置。允许负值
+            v-shadow 必需的。垂直阴影的位置。允许负值
+            blur     可选。模糊距离
+            spread   可选。阴影的大小
+            color    可选。阴影的颜色。
+            inset    可选。从外层的阴影（开始时）改变阴影内侧阴影
+            */
+        }
+
+        /*响应式图片*/
+        #d{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container{
+            position: relative;
+        }
+        .topleft{
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .container img{
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+
+
+        /*卡片式图片*/
+        body{
+            margin: 25px;
+        }
+        div.polaroid{
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+        }
+        div.container{
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        /*图片滤镜*/
+        img.filter{
+            width: 33%;
+            height: auto;
+            float: left;
+            max-width: 235px;
+            border: 1px solid black;
+        }
+        img.blur{filter: blur(4px);}/*给图像设置高斯模糊。*/
+        img.brightness{filter: brightness(250%);}/*给图片应用一种线性乘法，使其看起来更亮或更暗。*/
+        img.contrast{filter: contrast(180%);}/*调整图像的对比度。*/
+        img.grayscale{filter: grayscale(100%);}/*将图像转换为灰度图像。*/
+        img.huerotate{filter: hue-rotate(180deg);}/*给图像应用色相旋转。*/
+        img.invert{filter: invert(100%);}/*反转输入图像*/
+        img.opacity{filter: opacity(50%);}/*转化图像的透明程度*/
+        img.saturate{filter: saturate(7);}/*转换图像饱和度。*/
+        img.sepia{filter: sepia(100%);}/*将图像转换为深褐色*/
+        img.shadow{filter: drop-shadow(8px 8px 10px green);}
+        /*给图像设置一个阴影效果
+        drop-shadow(h-shadow v-shadow blur spread color)*/
+
+
+        /*响应式图片相册*/
+        div.responsive .img{
+            border: 1px solid #ccc;
+        }
+        div.responsive .img:hover{
+            border: 1px solid #777777;
+        }
+        div.responsive .img img{
+            width: 100%;
+            height: auto;
+        }
+        div.responsive desc{
+            padding: 15px;
+            text-align: center;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .responsive{
+            padding: 0 6px;
+            float: left;
+            width: 24.999999%;
+        }
+        @media only screen and (max-width: 700px){
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px){
+            .responsive {
+                width: 100%;
+            }
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<!--圆角图片-->
+<h2>圆角图片</h2>
+<img id="a" src="04.CSS3_BackgroundArea.png" alt="Paris" width="200" height="150">
+<hr>
+
+<h2>椭圆图片</h2>
+<img id="b" src="04.CSS3_BackgroundArea.png" alt="Paris" width="200" height="150">
+<hr>
+
+
+
+<!--缩略图
+我们使用 border 属性来创建缩略图。-->
+<h2>缩略图</h2>
+<p>我们使用 border 属性来创建缩略图。在图片外层添加一个链接。</p>
+<a target="_blank" href="http://www.runoob.com/try/demo_source/paris.jpg">
+    <img id="c" src="http://www.runoob.com/try/demo_source/paris.jpg"
+         alt="Paris" width="200" height="150">
+</a><hr>
+
+
+
+<!--响应式图片
+响应式图片会自动适配各种尺寸的屏幕。
+实例中，你可以通过重置浏览器大小查看效果:-->
+<h2>响应式图片</h2>
+<a href="http://www.runoob.com/css/css-rwd-intro.html"> CSS 响应式设计教程。</a>
+<p>响应式图片会自动适配各种尺寸的屏幕。</p>
+<p>通过重置浏览器大小查看效果:</p>
+
+<img id="d" src="http://www.runoob.com/wp-content/uploads/2016/04/trolltunga.jpg"
+     alt="Norway" width="1000" height="300"><hr>
+
+
+
+<!--图片文本
+如何定位图片文本:-->
+<h2>图片文本</h2>
+<p>在图片左上角添加文本信息:</p>
+
+<div class="container">
+    <img src="http://www.runoob.com/wp-content/uploads/2016/04/trolltunga.jpg"
+         alt="Norway" width="1000" height="300">
+    <div class="topleft">左上角</div>
+</div><hr>
+
+
+
+
+
+<!--卡片式图片-->
+<div class="polaroid">
+    <img src="http://www.runoob.com/wp-content/uploads/2016/04/trolltunga.jpg" alt="Norway" style="width:100%">
+    <div class="container">
+        <p>The Troll's tongue in Hardanger, Norway</p>
+    </div>
+</div><hr>
+
+
+
+
+
+<!--图片滤镜
+CSS filter 属性用为元素添加可视效果 (例如：模糊与饱和度) 。-->
+<img class="filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="blur filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="brightness filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="contrast filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="grayscale filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="huerotate filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="invert filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="opacity filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="saturate filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="sepia filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<img class="shadow filter" src="05.CSS3_GradientsAngle.png" alt="Pineapple" width="300" height="300">
+<hr><br>
+
+
+
+
+<!--响应式图片相册-->
+<h2 style="text-align:center">响应式图片相册</h2>
+<a href="http://www.runoob.com/cssref/css3-pr-filter.html">CSS 滤镜参考手册</a>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="http://www.runoob.com/wp-content/uploads/2016/04/img_forest.jpg">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="http://www.runoob.com/wp-content/uploads/2016/04/img_lights.jpg">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="img">
+        <a target="_blank" href="http://www.runoob.com/wp-content/uploads/2016/04/img_mountains.jpg">
+            <img src="http://www.runoob.com/wp-content/uploads/2016/04/img_mountains.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+<hr>
+
+
+
+
+
+
+
+</body>
+</html>
