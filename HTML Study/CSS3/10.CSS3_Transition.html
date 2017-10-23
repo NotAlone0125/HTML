@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 过渡</title>
+
+    <style>
+
+        div.width{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+
+            /*transition: width 2s;*/
+            /*多个更改用逗号分隔*/
+            transition: width 2s,height 2s,transform 2s;
+
+        }
+        div.width:hover{
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+        }
+
+        /*所有过渡属性*/
+        div.all{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 2s;
+
+            /*简写*/
+            /*transition: width 1s linear 2s;*/
+        }
+        div.all:hover{
+            width: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--CSS3 过渡
+CSS3中，我们为了添加某种效果可以从一种样式转变到另一个的时候，无需使用Flash动画或JavaScript。-->
+
+<!--它是如何工作？
+CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。
+要实现这一点，必须规定两项内容：
+指定要添加效果的CSS属性
+指定效果的持续时间。-->
+
+<!--应用于宽度属性的过渡效果，时长为 2 秒：
+注意： 如果未指定的期限，transition将没有任何效果，因为默认值是0。
+指定的CSS属性的值更改时效果会发生变化。一个典型CSS属性的变化是用户鼠标放在一个元素上时：-->
+<div class="width"></div><hr>
+
+
+
+<!--过渡属性:
+transition	简写属性，用于在一个属性中设置四个过渡属性。
+transition-property	规定应用过渡的 CSS 属性的名称。
+transition-duration	定义过渡效果花费的时间。默认是 0。
+transition-timing-function	规定过渡效果的时间曲线。默认是 "ease"。
+transition-delay	规定过渡效果何时开始。默认是 0。	-->
+
+
+<!--在一个例子中使用所有过渡属性：-->
+<div class="all"></div><hr>
+
+</body>
+</html>
