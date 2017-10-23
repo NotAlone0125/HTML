@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11.CSS3_keyframe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="11.CSS3_keyframe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3/11.CSS3_keyframe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+            <state relative-caret-position="152">
+              <caret line="68" column="55" lean-forward="true" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.CSS3_Multiseriate.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/12.CSS3_Multiseriate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/02.CSS_Create Style Sheet.html" />
         <option value="$PROJECT_DIR$/CSS/03.CSS_Backgrounds.html" />
         <option value="$PROJECT_DIR$/CSS/04.CSS_Text.html" />
         <option value="$PROJECT_DIR$/CSS/05.CSS_Font.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/CSS3/09.CSS3_3DTransform.html" />
         <option value="$PROJECT_DIR$/CSS3/10.CSS3_Transition.html" />
         <option value="$PROJECT_DIR$/CSS3/11.CSS3_keyframe.html" />
+        <option value="$PROJECT_DIR$/CSS3/12.CSS3_Multiseriate.html" />
       </list>
     </option>
   </component>
@@ -283,12 +293,12 @@
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
-      <workItem from="1508720879085" duration="3934000" />
+      <workItem from="1508720879085" duration="5049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248350000" />
+    <option name="totallyTimeSpent" value="249465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,13 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/13.CSS_Padding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/08.CSS_Table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-819">
@@ -710,8 +713,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/11.CSS3_keyframe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        <state relative-caret-position="152">
+          <caret line="68" column="55" lean-forward="true" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/12.CSS3_Multiseriate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
           <folding />
         </state>
       </provider>
