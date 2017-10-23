@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 按钮</title>
+
+    <style>
+
+        .button{
+            border: none;
+            background-color: green;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /*按钮颜色*/
+        .button2 {background-color: #008CBA;} /* Blue */
+        .button3 {background-color: #f44336;} /* Red */
+        .button4 {background-color: #e7e7e7; color: black;} /* Gray */
+        .button5 {background-color: #555555;} /* Black */
+
+        /*按钮大小*/
+        .button2 {font-size: 12px;}
+        .button3 {font-size: 16px;}
+        .button4 {font-size: 20px;}
+        .button5 {font-size: 24px;}
+
+        /*圆角按钮*/
+        .button2 {border-radius: 4px;}
+        .button3 {border-radius: 8px;}
+        .button4 {border-radius: 12px;}
+        .button5 {border-radius: 50%;}
+
+        /*按钮边框颜色*/
+        .button{
+            border: 2px solid yellow;
+        }
+
+        /*鼠标悬停按钮*/
+        .button{
+            transition-duration: 0.4s;
+        }
+        .button:hover{
+            background-color: yellow;
+            color: white;
+        }
+
+        /*按钮阴影*/
+        .button{
+            box-shadow: 0 8px 16px 0px indianred;
+        }
+
+        /*禁用按钮*/
+        .button5{
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /*按钮宽度*/
+        .button2 {width: 250px;}
+        .button3 {width: 50%;}
+        .button4 {width: 100%;}
+
+        /*按钮组：移除外边距并添加 float:left 来设置按钮组:*/
+        .button{
+            float: left;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<!--按钮颜色-->
+<button class="button">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+
+
+</body>
+</html>
