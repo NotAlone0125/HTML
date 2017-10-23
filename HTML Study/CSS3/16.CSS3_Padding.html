@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 分页</title>
+
+    <style>
+
+        /*简单分页*/
+        ul.a{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        ul.a li{display: inline;}
+        ul.a li a{
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /*点击及鼠标悬停分页样式*/
+        ul.a li a.active{
+            background-color: #4CAF50;
+            color: white;
+        }
+        ul.a li a:hover:not(.active) {background-color: #ddd;}
+
+        /*圆角样式*/
+        ul.a li a {
+            border-radius: 5px;
+        }
+
+        ul.a li a.active {
+            border-radius: 5px;
+        }
+
+        /*鼠标悬停过渡效果*/
+        ul.a li a{
+            transition: background-color 0.3s;
+        }
+
+        /*带边框分页*/
+        ul.a li a{
+            border: 1px solid #bbbbbb;
+        }
+
+        /*分页间隔*/
+        ul.a li a{
+            margin: 0 4px;
+        }
+
+        /*分页字体大小*/
+        ul.a li a{
+            font-size: 30px;
+        }
+
+        /*居中分页*/
+        div.center{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<!--简单分页
+如果你的网站有很多个页面，你就需要使用分页来为每个页面做导航。
+以下实例演示了如何使用 HTML 和 CSS 来创建分页：-->
+<h2 >简单的分页</h2>
+<div class="center">
+    <ul class="a">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a class="active" href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+</div>
+<hr>
+
+<a href="http://www.runoob.com/try/try.php?filename=trycss_ex_pagination_nav">
+    <h3>更多分页导航样式 1</h3></a><br>
+<a href="http://www.runoob.com/try/try.php?filename=trycss_breadcrumbs">
+    <h3>更多分页导航样式 2</h3></a>
+
+</body>
+</html>
