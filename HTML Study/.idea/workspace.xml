@@ -17,50 +17,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="18.CSS3_FlexBox.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBox.html">
+      <file leaf-file-name="01.CSS-RD_Viewport.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18.CSS3_FlexBoxDemo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19.CSS3_MediaSelect.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19.CSS3_MediaSelectDemo.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04.CSS3_BackgroundArea.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -83,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/15.CSS_Dimension.html" />
         <option value="$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html" />
         <option value="$PROJECT_DIR$/CSS/17.CSS_Positioning.html" />
         <option value="$PROJECT_DIR$/CSS/19.CSS_FloatTable.html" />
@@ -134,6 +96,7 @@
         <option value="$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html" />
         <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html" />
+        <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html" />
       </list>
     </option>
   </component>
@@ -144,10 +107,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="336" />
-    <option name="y" value="23" />
-    <option name="width" value="1068" />
-    <option name="height" value="812" />
+    <option name="x" value="369" />
+    <option name="y" value="25" />
+    <option name="width" value="1052" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -176,7 +139,7 @@
             <path>
               <item name="HTML Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML Study" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS_ResponsiveDesign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,12 +283,12 @@
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
-      <workItem from="1508720879085" duration="30966000" />
+      <workItem from="1508720879085" duration="32485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275382000" />
+    <option name="totallyTimeSpent" value="276901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,10 +300,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="336" y="23" width="1068" height="812" extended-state="0" />
+    <frame x="369" y="25" width="1052" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25023878" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22696412" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.503861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -394,13 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/3.Element.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
@@ -524,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/29.CSS_MediaType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -754,11 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
@@ -769,8 +713,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/29.CSS_MediaType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
