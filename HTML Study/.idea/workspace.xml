@@ -17,12 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01.CSS-RD_Viewport.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01.CSS-RD_Viewport.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="294">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.CSS-RD_GridView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/02.CSS-RD_GridView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html" />
         <option value="$PROJECT_DIR$/CSS/17.CSS_Positioning.html" />
         <option value="$PROJECT_DIR$/CSS/19.CSS_FloatTable.html" />
         <option value="$PROJECT_DIR$/CSS/18.CSS_Float.html" />
@@ -97,6 +108,7 @@
         <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html" />
         <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html" />
+        <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/02.CSS-RD_GridView.html" />
       </list>
     </option>
   </component>
@@ -283,12 +295,12 @@
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
-      <workItem from="1508720879085" duration="32485000" />
+      <workItem from="1508720879085" duration="35282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276901000" />
+    <option name="totallyTimeSpent" value="279698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,13 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/3.Element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/2.BaseLabel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -734,9 +739,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/02.CSS-RD_GridView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
