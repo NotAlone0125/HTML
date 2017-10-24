@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03.CSS-RD_MediaSelect.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03.CSS-RD_MediaSelect.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/03.CSS-RD_MediaSelect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="519">
+              <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.CSS-RD_Image.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/04.CSS-RD_Image.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/19.CSS_FloatTable.html" />
         <option value="$PROJECT_DIR$/CSS/18.CSS_Float.html" />
         <option value="$PROJECT_DIR$/CSS/18.CSS_FloatTable.html" />
         <option value="$PROJECT_DIR$/CSS/19.CSS_Aligning.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/02.CSS-RD_GridView.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/03.CSS-RD_MediaSelect.html" />
+        <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/04.CSS-RD_Image.html" />
       </list>
     </option>
   </component>
@@ -283,12 +293,12 @@
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
-      <workItem from="1508720879085" duration="37938000" />
+      <workItem from="1508720879085" duration="40348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282354000" />
+    <option name="totallyTimeSpent" value="284764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,7 +318,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.503861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19965127" sideWeight="0.5056818" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496139" order="3" side_tool="false" content_ui="tabs" />
@@ -357,13 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/10.CSS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/18.CSS_FloatTable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -739,8 +742,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/03.CSS-RD_MediaSelect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="519">
+          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/04.CSS-RD_Image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding />
         </state>
       </provider>
