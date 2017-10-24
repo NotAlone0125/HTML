@@ -27,13 +27,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="18.CSS3_FlexBoxDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="18.CSS3_FlexBoxDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="369">
               <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19.CSS3_MediaSelect.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19.CSS3_MediaSelectDemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.CSS3_BackgroundArea.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -56,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/13.CSS_Padding.html" />
-        <option value="$PROJECT_DIR$/CSS/14.CSS_Grouping Selectors.html" />
         <option value="$PROJECT_DIR$/CSS/15.CSS_Dimension.html" />
         <option value="$PROJECT_DIR$/CSS/16.CSS_DisplayAndVisibility.html" />
         <option value="$PROJECT_DIR$/CSS/17.CSS_Positioning.html" />
@@ -107,6 +132,8 @@
         <option value="$PROJECT_DIR$/CSS3/17.CSS3_Boxsizing.html" />
         <option value="$PROJECT_DIR$/CSS3/18.CSS3_FlexBox.html" />
         <option value="$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html" />
+        <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html" />
+        <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html" />
       </list>
     </option>
   </component>
@@ -293,12 +320,12 @@
       <workItem from="1508032282325" duration="25000" />
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
-      <workItem from="1508720879085" duration="25725000" />
+      <workItem from="1508720879085" duration="30966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270141000" />
+    <option name="totallyTimeSpent" value="275382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,20 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/02.HTML5_NewElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4125">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/03.HTML5_NewSemanticAndStructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="169" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/14.HTML5_SemanticElement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
@@ -563,18 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -649,8 +650,8 @@
         <state relative-caret-position="326">
           <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,7 +693,7 @@
         <state relative-caret-position="225">
           <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,8 +740,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="369">
           <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_BackgroundArea.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>

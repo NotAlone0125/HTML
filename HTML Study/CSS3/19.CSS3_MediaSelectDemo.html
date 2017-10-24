@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 多媒体查询实例</title>
+
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        ul li a{
+            color: green;
+            text-decoration: none;
+            padding: 3px;
+            display: block;
+        }
+
+        /*520 到 699px 宽度 - 添加邮箱图标*/
+        @media screen and (max-width: 699px) and (min-width: 520px){
+            ul li a{
+                padding-left: 30px;
+                background: url("../Images/icon.png") left center no-repeat;
+            }
+        }
+
+        /*700 到 1000px - 添加文本前缀信息*/
+        @media screen and (min-width: 700px) and (max-width: 1000px){
+            ul li a:before{
+                content: "Email:";
+                font-style: italic;
+                color: #666666;
+            }
+        }
+
+        /*大于 1001px 宽度 - 添加邮件地址*/
+        @media screen and (min-width: 1001px){
+            ul li a:after{
+                content: "（" attr(data-email) ")";
+                font-size: 12px;
+                font-style: italic;
+                color: #666666;
+            }
+        }
+
+        /*大于 1151px 宽度 - 添加图标:当浏览器的宽度大于 1001px 时，会在人名前添加图标。*/
+        @media screen and (max-width: 699px) and (min-width: 520px), (min-width: 1151px){
+            ul li a{
+                padding-left: 30px;
+                background: url("../Images/icon.png") left center no-repeat;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+<ul>
+    <!--注意 data-email 属性。在 HTML 中我们可以使用带 data- 前缀的属性来存储信息。-->
+    <li><a data-email="johndoe@example.com"
+           href="mailto:johndoe@example.com">John Doe</a></li>
+    <li><a data-email="marymoe@example.com"
+           href="mailto:marymoe@example.com">Mary Moe</a></li>
+    <li><a data-email="amandapanda@example.com"
+           href="mailto:amandapanda@example.com">Amanda Panda</a></li>
+</ul>
+
+</body>
+</html>
