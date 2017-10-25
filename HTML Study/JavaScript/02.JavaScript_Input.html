@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 输出</title>
+</head>
+<body>
+
+<!--JavaScript 没有任何打印或者输出的函数。
+JavaScript 显示数据
+JavaScript 可以通过不同的方式来输出数据：
+使用 window.alert() 弹出警告框。
+使用 document.write() 方法将内容写到 HTML 文档中。
+使用 innerHTML 写入到 HTML 元素。
+使用 console.log() 写入到浏览器的控制台。-->
+
+
+<!--使用 window.alert()
+你可以弹出警告框来显示数据：-->
+<p>弹出警告框显示数据</p>
+<script>
+    window.alert(5+6);
+</script><hr>
+
+<!--操作 HTML 元素
+如需从 JavaScript 访问某个 HTML 元素，您可以使用 document.getElementById(id) 方法。
+请使用 "id" 属性来标识 HTML 元素，并 innerHTML 来获取或插入元素内容：-->
+<p id="a">操作HTML元素</p>
+<button onclick="playHTML()">点击</button>
+<script>
+    function playHTML() {
+        document.getElementById("a").innerHTML="元素已经改变";
+    }
+</script><hr>
+
+<!--写到 HTML 文档
+出于测试目的，您可以将JavaScript直接写在HTML 文档中：-->
+<p>写入HTML文档</p>
+<script>
+    document.write(Date());
+</script><hr>
+
+<!--写到控制台
+如果您的浏览器支持调试，你可以使用 console.log() 方法在浏览器中显示 JavaScript 值。
+浏览器中使用 F12 来启用调试模式， 在调试窗口中点击 "Console" 菜单。-->
+<p>
+    写到控制台:浏览器中(Chrome, IE, Firefox) 使用 F12 来启用调试模式， 在调试窗口中点击 "Console"
+    菜单。
+</p>
+<script>
+    a = 5;
+    b = 6;
+    c = a + b;
+    console.log(c);
+</script>
+
+
+
+
+
+
+</body>
+</html>
