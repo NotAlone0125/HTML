@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 简介</title>
+</head>
+<body>
+
+
+
+
+<!--第一个实例-->
+<h1>第一个JavaScript实例</h1>
+<p id="a">这是一个段落</p>
+<button type="button" onclick="displayDate()">显示日期</button>
+<script>
+    function displayDate() {
+        document.getElementById("a").innerHTML=Date();
+    }
+</script><hr>
+
+<a href="http://www.runoob.com/js/js-tutorial.html">
+    JavaScript 实例,JavaScript 参考手册,HTML/CSS/JS 在线工具
+</a><hr>
+
+
+
+
+<!--JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记
+本电脑、平板电脑和智能手机等设备。
+
+JavaScript 是脚本语言
+JavaScript 是一种轻量级的编程语言。
+JavaScript 是可插入 HTML 页面的编程代码。
+JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
+JavaScript 很容易学习。-->
+
+<!--JavaScript：直接写入 HTML 输出流-->
+<script>
+    document.write("<h1>这是一个标题</h1>");
+    document.write("<p>这是一个段落。</p>");
+</script><hr>
+
+<!--JavaScript：对事件的反应-->
+<button type="button" onclick="alert('欢迎！')">点我</button><hr>
+
+<!--JavaScript：改变 HTML 内容-->
+<p id="b">点击按钮改变内容</p>
+<button type="button" onclick="changeB()">点击按钮</button>
+<script>
+    function changeB() {
+        var x = document.getElementById("b");
+        x.innerHTML="Hello JavaScript";
+    }
+</script><hr>
+
+<!--JavaScript：改变 HTML 图像:
+JavaScript 能够改变任意 HTML 元素的大多数属性，而不仅仅是图片。-->
+点击图片改变
+<img id="c" src="http://www.runoob.com/images/pic_bulboff.gif"
+     onclick="changeImage()" width="100" height="180">
+<script>
+    function changeImage() {
+        var element = document.getElementById("c");
+        if (element.src.match("bulboff")){
+            element.src="http://www.runoob.com/images/pic_bulbon.gif";
+        }else {
+            element.src="http://www.runoob.com/images/pic_bulboff.gif";
+        }
+    }
+</script><hr>
+
+<!--JavaScript：改变 HTML 样式
+改变 HTML 元素的样式，属于改变 HTML 属性的变种。-->
+<p id="d">JavaScript 能改变 HTML 元素的样式。</p>
+<button onclick="changeStyle()">改变样式</button>
+<script>
+    function changeStyle() {
+        var x = document.getElementById("d");
+        x.style.color = "#ff0000";
+    }
+</script>
+
+<!--JavaScript：验证输入
+JavaScript 常用于验证用户的输入-->
+<p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>
+<input id="e" type="text">
+<button onclick="check()">验证</button>
+<script>
+    function check() {
+        var e = document.getElementById("e").value;
+        if (e==""||isNaN(e)){
+            alert("不是数字");
+        }
+    }
+</script>
+
+
+
+
+
+<!--JavaScript 用法
+HTML 中的脚本必须位于 <script> 与 </script> 标签之间。
+脚本可被放置在 HTML 页面的 <body> 和 <head> 部分中。
+
+JavaScript 函数和事件
+上面例子中的 JavaScript 语句，会在页面加载时执行。
+通常，我们需要在某个事件发生时执行代码，比如当用户点击按钮时。
+如果我们把 JavaScript 代码放入函数中，就可以在事件发生时调用该函数。
+您将在稍后的章节学到更多有关 JavaScript 函数和事件的知识。
+
+在 <head> 或者 <body> 的JavaScript
+您可以在 HTML 文档中放入不限数量的脚本。
+脚本可位于 HTML 的 <body> 或 <head> 部分中，或者同时存在于两个部分中。
+通常的做法是把函数放入 <head> 部分中，或者放在页面底部。这样就可以把它们安置到同一处位置，不会干扰页面
+的内容。
+
+外部的 JavaScript
+也可以把脚本保存到外部文件中。外部文件通常包含被多个网页使用的代码。
+外部 JavaScript 文件的文件扩展名是 .js。
+如需使用外部文件，请在 <script> 标签的 "src" 属性中设置该 .js 文件：-->
+
+
+
+
+
+
+</body>
+</html>
