@@ -57,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.JavaScript_Variable.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05.JavaScript_Variable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/05.JavaScript_Variable.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06.JavaScript_DataType.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/06.JavaScript_DataType.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/23.CSS_Navgation.html" />
         <option value="$PROJECT_DIR$/CSS/24.CSS_NavgationDemo.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo.html" />
         <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_01.html" />
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/JavaScript/04.JavaScript_Statement.html" />
         <option value="$PROJECT_DIR$/JavaScript/05.JavaScript_Annotation.html" />
         <option value="$PROJECT_DIR$/JavaScript/05.JavaScript_Variable.html" />
+        <option value="$PROJECT_DIR$/JavaScript/06.JavaScript_DataType.html" />
       </list>
     </option>
   </component>
@@ -324,12 +334,12 @@
       <workItem from="1508117002571" duration="33052000" />
       <workItem from="1508298157749" duration="51544000" />
       <workItem from="1508720879085" duration="40778000" />
-      <workItem from="1508895991161" duration="15050000" />
+      <workItem from="1508895991161" duration="16127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300244000" />
+    <option name="totallyTimeSpent" value="301321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,13 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/23.CSS_Navgation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/10.CSS_Border.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
@@ -759,6 +762,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/06.JavaScript_DataType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
