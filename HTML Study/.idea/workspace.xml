@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12.JavaScript_Operator.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.JavaScript_Operator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.JavaScript_LogicOperator.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html" />
         <option value="$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html" />
         <option value="$PROJECT_DIR$/CSS/27.CSS_ImageAlpha.html" />
         <option value="$PROJECT_DIR$/CSS/28.CSS_ImagePiece.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/JavaScript/10.JavaScript_Event.html" />
         <option value="$PROJECT_DIR$/JavaScript/11.JavaScript_String.html" />
         <option value="$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html" />
+        <option value="$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html" />
       </list>
     </option>
   </component>
@@ -285,12 +295,12 @@
       <workItem from="1508298157749" duration="51544000" />
       <workItem from="1508720879085" duration="40778000" />
       <workItem from="1508895991161" duration="16680000" />
-      <workItem from="1508984279855" duration="8256000" />
+      <workItem from="1508984279855" duration="8699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310130000" />
+    <option name="totallyTimeSpent" value="310573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,13 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/24.CSS_DropMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintTool.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -714,8 +717,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
