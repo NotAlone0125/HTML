@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10.JavaScript_Event.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.JavaScript_Event.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/10.JavaScript_Event.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
               <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.JavaScript_String.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/11.JavaScript_String.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/23.CSS_NavgationDemo_03.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintTool.html" />
         <option value="$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html" />
         <option value="$PROJECT_DIR$/CSS/26.CSS_PhotoGallery.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/JavaScript/08.JavaScript_Function.html" />
         <option value="$PROJECT_DIR$/JavaScript/09.JavaScript_ActionScope.html" />
         <option value="$PROJECT_DIR$/JavaScript/10.JavaScript_Event.html" />
+        <option value="$PROJECT_DIR$/JavaScript/11.JavaScript_String.html" />
       </list>
     </option>
   </component>
@@ -285,12 +295,12 @@
       <workItem from="1508298157749" duration="51544000" />
       <workItem from="1508720879085" duration="40778000" />
       <workItem from="1508895991161" duration="16680000" />
-      <workItem from="1508984279855" duration="6717000" />
+      <workItem from="1508984279855" duration="7643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308591000" />
+    <option name="totallyTimeSpent" value="309517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,13 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/28.CSS_ImagePiece.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/30.CSS_PropetySelector.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -714,6 +717,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/11.JavaScript_String.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding />
         </state>
       </provider>
