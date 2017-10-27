@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14.JavaScript_ConditionalStatement.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html">
+      <file leaf-file-name="15.JavaScript_Typeof.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="259" column="40" lean-forward="true" selection-start-line="259" selection-start-column="40" selection-end-line="259" selection-end-column="40" />
+            <state relative-caret-position="425">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/27.CSS_ImageAlpha.html" />
         <option value="$PROJECT_DIR$/CSS/28.CSS_ImagePiece.html" />
         <option value="$PROJECT_DIR$/CSS/29.MediaType.html" />
         <option value="$PROJECT_DIR$/CSS/29.CSS_MediaType.html" />
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html" />
         <option value="$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html" />
         <option value="$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html" />
+        <option value="$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1508895991161" duration="16680000" />
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
-      <workItem from="1509070996260" duration="2709000" />
+      <workItem from="1509070996260" duration="3706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315973000" />
+    <option name="totallyTimeSpent" value="316970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,13 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/25.CSS_HintToolDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/01.CSS3_Intruduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -705,8 +698,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="259" column="40" lean-forward="true" selection-start-line="259" selection-start-column="40" selection-end-line="259" selection-end-column="40" />
+        <state relative-caret-position="398">
+          <caret line="263" column="30" lean-forward="true" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>

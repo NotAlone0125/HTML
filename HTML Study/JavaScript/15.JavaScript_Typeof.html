@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript typeof, null, 和 undefined</title>
+</head>
+<body>
+
+
+<!--typeof 操作符
+你可以使用 typeof 操作符来检测变量的数据类型。-->
+<p> typeof 操作符返回变量或表达式的类型。</p>
+<p id="a"></p>
+<script>
+    document.getElementById('a').innerHTML =
+        typeof "john" + "<br>" +
+        typeof 3.14 + "<br>" +
+        typeof false + "<br>" +
+        typeof [1,2,3,4] + "<br>" +
+        typeof {name:'john', age:34};
+</script><hr>
+<!--在JavaScript中，数组是一种特殊的对象类型。 因此 typeof [1,2,3,4] 返回 object。 -->
+
+
+<!--null
+在 JavaScript 中 null 表示 "什么都没有"。
+null是一个只有一个值的特殊类型。表示一个空对象引用。
+
+undefined
+在 JavaScript 中, undefined 是一个没有设置值的变量。-->
+<script>
+    /*用 typeof 检测 null 返回是object*/
+    var x = typeof null;
+    document.write("typeof 检测 null 为" + x + "<br><br>");
+
+    /*设置为 null 来清空对象:*/
+    var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+    var person = null;
+
+    /*设置为 undefined 来清空对象*/
+    var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+    var person = undefined;
+
+    /*undefined 和 null 的区别*/
+    document.write("undefined 和 null 的区别:" + "<br>");
+    document.write(
+        typeof undefined + "<br>" +
+        typeof null + "<br>" +
+        (null === undefined) + "<br>" +
+        (null == undefined))
+</script><hr>
+
+
+
+
+</body>
+</html>
