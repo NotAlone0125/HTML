@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 类型转换</title>
+</head>
+<body>
+
+<!--JavaScript 数据类型
+在 JavaScript 中有 5 种不同的数据类型：string，number，boolean，object，function
+3 种对象类型：Object，Date，Array
+2 个不包含任何值的数据类型：null，undefined-->
+<!--你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。-->
+<script>
+    document.write(
+        typeof "John" + "<br>" +/*String*/
+        typeof 3.14 + "<br>" +/*number*/
+        typeof NaN + "<br>" +/*number*/
+        typeof false + "<br>" +/*boolean*/
+        typeof [1,2,3] + "<br>" +/*object*/
+        typeof {name:"John"} + "<br>" +/*object*/
+        typeof new Date() + "<br>" +/*object*/
+        typeof function () {} + "<br>" +/*function*/
+        typeof mycar + "<br>" +/*undefined*/
+        typeof null + "<br>"/*object*/
+    );
+</script><hr>
+
+
+<!--constructor 属性
+constructor 属性返回所有 JavaScript 变量的构造函数。-->
+<script>
+    document.write(
+        "John".constructor + '<br>' +/*String()*/
+        (3.14).constructor + '<br>' +/*Number()*/
+        false.constructor + '<br>' +/*Boolean()*/
+        [1,2,3].constructor + '<br>' +/*Array()*/
+        {name:"John"}.constructor + '<br>' +/*Object()*/
+        new Date().constructor + '<br>' +/*Date()*/
+        function () {}.constructor + '<br>'/*function()*/
+    );
+</script><hr>
+<!--使用constructor 属性判断是否为数组-->
+<script>
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.write(isArray(fruits));
+    function isArray(array) {
+        return array.constructor.toString().indexOf("Array") > -1;/*9*/
+    }
+
+    /*你可以使用 constructor 属性来查看对象是否为日期 (包含字符串 "Date")*/
+
+    function isDate(myDate) {
+        return myDate.constructor.toString().indexOf("Date") > -1;
+    }
+</script><hr>
+
+
+<!--JavaScript 类型转换
+JavaScript 变量可以转换为新变量或其他数据类型：
+1、通过使用 JavaScript 函数
+2、通过 JavaScript 自身自动转换-->
+
+
+<!--将数字转换为字符串-->
+<script>
+    /*全局方法 String() 可以将数字转换为字符串。
+    该方法可用于任何类型的数字，字母，变量，表达式*/
+    document.write(String(123));
+    document.write("<br>");
+    document.write(String(100 + 23));
+    document.write("<br>");
+
+    /*Number 方法 toString() 也是有同样的效果*/
+    document.write((123).toString());
+    document.write("<br>");
+    document.write((100 + 23).toString());
+    document.write("<br>");
+    /*更多数字转换为字符串的方法：
+    toExponential()	把对象的值转换为指数计数法。
+    toFixed()	    把数字转换为字符串，结果的小数点后有指定位数的数字。
+    toPrecision()	把数字格式化为指定的长度。*/
+</script><hr>
+
+
+<!--将布尔值转换为字符串-->
+<script>
+    /*全局方法 String() 可以将布尔值转换为字符串。*/
+    String(false);
+    String(true);
+
+    /*Boolean 方法 toString() 也有相同的效果*/
+    false.toString();
+    true.toString();
+</script>
+
+
+<!--将日期转换为字符串-->
+<script>
+    /*Date() 返回字符串。*/
+    Date();
+
+    /*全局方法 String() 可以将日期对象转换为字符串。*/
+    String(new Date());
+
+    /*Date 方法 toString() 也有相同的效果*/
+    var obj=new Date();
+    obj.toString();
+    /*更多关于日期转换为字符串的函数：
+    getDate()	从 Date 对象返回一个月中的某一天 (1 ~ 31)。
+    getDay()	从 Date 对象返回一周中的某一天 (0 ~ 6)。
+    getFullYear()	从 Date 对象以四位数字返回年份。
+    getHours()	返回 Date 对象的小时 (0 ~ 23)。
+    getMilliseconds()	返回 Date 对象的毫秒(0 ~ 999)。
+    getMinutes()	返回 Date 对象的分钟 (0 ~ 59)。
+    getMonth()	从 Date 对象返回月份 (0 ~ 11)。
+    getSeconds()	返回 Date 对象的秒数 (0 ~ 59)。
+    getTime()	返回 1970 年 1 月 1 日至今的毫秒数。*/
+</script>
+
+
+<!--将字符串转换为数字-->
+<script>
+    /*全局方法 Number() 可以将字符串转换为数字。*/
+    Number("3.14");/*返回3.14*/
+    Number(" ");/*返回0*/
+    Number("");/*返回0*/
+
+    /*其他的字符串会转换为 NaN (不是个数字)。*/
+    Number("99 88");/*返回NaN*/
+    /*更多关于字符串转为数字的方法：
+    parseFloat()	解析一个字符串，并返回一个浮点数。
+    parseInt()	解析一个字符串，并返回一个整数。*/
+</script>
+
+
+<!--一元运算符 +-->
+<script>
+    /*Operator + 可用于将变量转换为数字*/
+    var y = "5";/*y为字符串*/
+    var x = + y;/*x为数字*/
+    document.write(typeof x + " " + x);/**/
+
+    document.write("<br><br>");
+    /*如果变量不能转换，它仍然会是一个数字，但值为 NaN (不是一个数字):*/
+    var m = "John";/*m为字符串*/
+    var n = + m;/*n为NaN*/
+    document.write(typeof n + " " + n);
+</script><hr>
+
+
+<!--将布尔值转换为数字-->
+<script>
+    /*全局方法 Number() 可将布尔值转换为数字*/
+    Number(false);/*返回0*/
+    Number(true);/*返回1*/
+</script>
+
+
+<!--将日期转换为数字-->
+<script>
+    /*全局方法 Number() 可将日期转换为数字*/
+    var d = new Date();
+    Number(d);
+
+    /*日期方法 getTime() 也有相同的效果*/
+    d.getTime();
+</script>
+
+
+<!--自动转换类型
+当 JavaScript 尝试操作一个 "错误" 的数据类型时，会自动转换为 "正确" 的数据类型。-->
+<script>
+    /*以下输出结果不是你所期望的：*/
+    document.write(5 + null);/*5,null转换为0*/
+    document.write("<br>");
+    document.write("5" + null);/*"5null",null转换为"null"*/
+    document.write("<br>");
+    document.write("5" + 1);/*返回"51",1转换为"1"*/
+    document.write("<br>");
+    document.write("5" - 1);/*返回4,"5"转换为5*/
+    document.write("<br>");
+</script><hr>
+
+
+<!--自动转换为字符串
+当你尝试输出一个对象或一个变量时 JavaScript 会自动调用变量的 toString() 方法-->
+<script>
+    var x = {name:"John"};
+    document.write(x + "<br>");/*"[object Object]"*/
+    var y = [1,2,3,4];
+    document.write(y + "<br>");/*"1,2,3,4"*/
+    var z = new Date();
+    document.write(z + "<br>");/*Fri Oct 27 2017 16:21:45 GMT+0800 (CST)*/
+
+    /*数字和布尔值也经常相互转换：*/
+    var n = 123;
+    document.write(n + "<br>");
+    var m = false;
+    document.write(m + "<br>");
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
