@@ -17,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="15.JavaScript_Typeof.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html">
+      <file leaf-file-name="17.JavaScript_RegularExpression.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16.JavaScript_TypeTransform.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+            <state relative-caret-position="256">
+              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/29.MediaType.html" />
         <option value="$PROJECT_DIR$/CSS/29.CSS_MediaType.html" />
         <option value="$PROJECT_DIR$/CSS/30.CSS_PropetySelector.html" />
         <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
@@ -107,6 +96,7 @@
         <option value="$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html" />
         <option value="$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html" />
         <option value="$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html" />
+        <option value="$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html" />
       </list>
     </option>
   </component>
@@ -297,12 +287,12 @@
       <workItem from="1508895991161" duration="16680000" />
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
-      <workItem from="1509070996260" duration="9126000" />
+      <workItem from="1509070996260" duration="10941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322390000" />
+    <option name="totallyTimeSpent" value="324205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,13 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/03.CSS3_Radius.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -717,8 +700,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+        <state relative-caret-position="412">
+          <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding />
         </state>
       </provider>
