@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 条件语句</title>
+</head>
+<body>
+
+<!--条件语句用于基于不同的条件来执行不同的动作。-->
+
+
+<!--If 语句
+只有当指定条件为 true 时，该语句才会执行代码。-->
+<p>如果时间早于 20:00，会获得问候 "Good day"。</p>
+<button onclick="firstfunction()">点击</button>
+<p id="a"></p><hr>
+<script>
+    function firstfunction() {
+        var x = "";
+        var time = new Date().getHours();
+        if (time<20){
+            x = "Good Day!";
+        }
+        document.getElementById("a").innerHTML = x;
+    }
+</script>
+
+
+<!--If...else 语句
+请使用 if....else 语句在条件为 true 时执行代码，在条件为 false 时执行其他代码。-->
+<p>如果时间早于 20:00，会获得问候 "Good Day"。否则获得"Good Evening"</p>
+<button onclick="secondfunction()">点击</button>
+<p id="b"></p><hr>
+<script>
+    function secondfunction() {
+        var x = "";
+        var time = new Date().getHours();
+        if (time<20){
+            x = "Good Day!";
+        }else {
+            x = "Good Evening!";
+        }
+        document.getElementById("b").innerHTML = x;
+    }
+</script>
+
+
+<!--If...else if...else 语句
+使用 if....else if...else 语句来选择多个代码块之一来执行。-->
+<p>如果时间小于 10:00，则生成问候 "Good morning"，
+    如果时间大于 10:00 小于 20:00，则生成问候 "Good day"，
+    否则生成问候 "Good evening"：</p>
+<button onclick="thirdfunction()">点击</button>
+<p id="c"></p><hr>
+<script>
+    function thirdfunction() {
+        var x = "";
+        var time = new Date().getHours();
+        if (time<10){
+            x = "Good Morning!";
+        }else if (time >= 10 && time < 20) {
+            x = "Good Day!";
+        }else {
+            x = "Good Evening!";
+        }
+        document.getElementById("c").innerHTML = x;
+    }
+</script>
+
+
+
+
+<!--switch 语句用于基于不同的条件来执行不同的动作。-->
+<!--JavaScript switch 语句
+工作原理：首先设置表达式 n（通常是一个变量）。随后表达式的值会与结构中的每个 case 的值做比较。如果存在
+匹配，则与该 case 关联的代码块会被执行。请使用 break 来阻止代码自动地向下一个 case 运行。-->
+<p>获得今天是星期几</p>
+<button onclick="fourfunction()">点击</button>
+<p id="d"></p><hr>
+<script>
+    function fourfunction() {
+        var x = "";
+        var d = new Date().getDay();
+        switch (d){
+            case 0:x="今天是星期日";
+                break;
+            case 1:x="今天是星期一";
+                break;
+            case 2:x="今天是星期二";
+                break;
+            case 3:x="今天是星期三";
+                break;
+            case 4:x="今天是星期四";
+                break;
+            case 5:x="今天是星期五";
+                break;
+            case 6:x="今天是星期六";
+                break;
+        }
+        document.getElementById("d").innerHTML = x;
+    }
+</script>
+
+
+<!--default 关键词
+请使用 default 关键词来规定匹配不存在时做的事情：-->
+<p>如果今天不是星期六或星期日，则会输出默认的消息</p>
+<button onclick="fifthfunction()">点击</button>
+<p id="e"></p><hr>
+<script>
+    function fifthfunction() {
+        var x = "";
+        var d = new Date().getDay();
+        switch (d){
+            case 6:x="今天是星期六";
+                break;
+            case 7:x="今天是星期日";
+                break;
+            default:
+                x="期待周末";
+        }
+        document.getElementById("e").innerHTML = x;
+    }
+</script>
+
+
+
+
+<!--JavaScript for 循环
+循环可以将代码块执行指定的次数。-->
+<script>
+    cars=["BMW","Volvo","Saab","Ford"];
+    for (var i=0;i<cars.length;i++){
+        document.write(cars[i] + "<br>");
+    }
+    document.write("<br>");
+    /*或者*/
+    var i=2,len=cars.length;
+    for (; i<len; i++)
+    {
+        document.write(cars[i] + "<br>");
+    }
+    document.write("<br>");
+    /*或者*/
+    var i=0,len=cars.length;
+    for (; i<len; )
+    {
+        document.write(cars[i] + "<br>");
+        i++;
+    }
+</script><hr>
+
+
+
+
+<!--For/In 循环
+JavaScript for/in 语句循环遍历对象的属性：-->
+<script>
+    var person = {fname:"John",lname:"Doe",age:25};
+    var txt ="";
+    for (x in person)
+    {
+        txt = txt + person[x];
+    }
+    document.write(txt);
+</script><hr>
+
+
+
+
+<!--JavaScript while 循环
+只要指定条件为 true，循环就可以一直执行代码块。-->
+<script>
+    var i = 0;
+    var x = "";
+    while (i < 5){
+        x = x + "The number is " + i + "<br>";
+        i++;
+    }
+    document.write(x);
+</script><hr>
+<!--如果忘记增加条件中所用变量的值，该循环永远不会结束。这可能导致浏览器崩溃。-->
+
+
+
+
+<!--do/while 循环
+do/while 循环是 while 循环的变体。该循环会在检查条件是否为真之前执行一次代码块，然后如果条件为真的话
+，就会重复这个循环。-->
+<script>
+    var i = 0;
+    var x = "";
+    do {
+        x = x + "The number is " + i + "<br>";
+        i++;
+    }
+    while (i < 5)
+    document.write(x);
+</script><hr>
+
+
+
+
+<!--比较 for 和 while-->
+<script>
+    var cars = ["BMW","Volvo","Saab","Ford"];
+    /*for*/
+    var i = 0;
+    for (;cars[i];)
+    {
+        document.write(cars[i] + "<br>");
+        i++;
+    }
+    document.write("<br>");
+    /*while*/
+    var i = 0;
+    while (cars[i]){
+        document.write(cars[i] + "<br>");
+        i++;
+    }
+</script><hr>
+
+
+
+
+<!--JavaScript Break 和 Continue 语句
+break 语句用于跳出循环。
+continue 用于跳过循环中的一个迭代。-->
+
+<!--Break 语句
+break 语句可用于跳出循环。
+continue 语句跳出循环后，会继续执行该循环之后的代码（如果有的话）-->
+<script>
+    var x = "";
+    for (i=0;i<10;i++){
+        if (i==3){
+            break;/*花括号可省略*/
+        }
+        x=x + "The number is " + i + "<br>";
+    }
+    document.write(x);
+</script><hr>
+
+<!--Continue 语句
+continue 语句中断循环中的迭代，如果出现了指定的条件，然后继续循环中的下一个迭代。-->
+<script>
+    var x = "";
+    for (i=0;i<10;i++){
+        if (i==3){
+            continue;
+        }
+        x=x + "The number is " + i + "<br>";
+    }
+    document.write(x);
+</script><hr>
+
+
+
+
+<!--JavaScript 标签:正如您在 switch 语句那一章中看到的，可以对 JavaScript 语句进行标记。
+如需标记 JavaScript 语句，请在语句之前加上冒号：
+break 和 continue 语句仅仅是能够跳出代码块的语句。
+
+continue 语句（带有或不带标签引用）只能用在循环中。
+break 语句（不带标签引用），只能用在循环或 switch 中。
+通过标签引用，break 语句可用于跳出任何 JavaScript 代码块：-->
+<script>
+    var cars = ["BMW","Volvo","Saab","Ford"];
+    list:{
+        document.write(cars[0] + "<br>");
+        document.write(cars[1] + "<br>");
+        document.write(cars[2] + "<br>");
+        break list;
+        document.write(cars[3] + "<br>");
+        document.write(cars[4] + "<br>");
+        document.write(cars[5] + "<br>");
+    }
+</script>
+
+
+</body>
+</html>
