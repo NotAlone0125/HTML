@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 表单</title>
+</head>
+<body>
+
+
+<!--JavaScript 表单验证
+HTML 表单验证可以通过 JavaScript 来完成。-->
+<form name="firstForm" action="http://www.runoob.com/try/demo_form.php"
+onsubmit="return firstFunction()" method="post">
+    名字：<input type="text" name="fname">
+    <input value="提交" type="submit">
+</form>
+<script>
+    function firstFunction() {
+        var x = document.forms["firstForm"]["fname"].value;
+        if (x == null || x == ""){
+            alert("请输入名字。")
+            return false;
+        }
+    }
+</script><hr>
+
+
+<!--JavaScript 验证输入的数字
+JavaScript 常用于对输入数字的验证：-->
+<form name="secondForm" onclick="secondFunction()">
+    请输入 1 到 10 之间的数字：<br>
+    <input type="text" name="number" id="ia">
+    <input type="button" value="验证">
+</form>
+<p id="a"></p>
+<script>
+    function secondFunction() {
+        var x ,text;
+        x = document.getElementById("ia").value;
+
+        if (isNaN(x) || x < 1 || x > 10){
+            text = "输入错误";
+        }else {
+            text = "输入正确";
+        }
+        document.getElementById("a").innerHTML = text;
+    }
+</script><hr>
+
+
+<!--HTML 表单自动验证
+HTML 表单验证也可以通过浏览器来自动完成。
+如果表单字段 (fname) 的值为空, required 属性会阻止表单提交：-->
+<form action="http://www.runoob.com/try/demo_form.php" method="post">
+    <input type="text" name="fname" required="required">
+    <input type="submit" value="提交">
+</form>
+<p>点击提交按钮，如果输入框是空的，浏览器会提示错误信息。</p><hr>
+
+
+
+<!--数据验证用于确保用户输入的数据是有效的。
+典型的数据验证有：
+1、必需字段是否有输入?
+2、用户是否输入了合法的数据?
+3、在数字字段是否输入了文本?
+大多数情况下，数据验证用于确保用户正确输入数据。
+数据验证可以使用不同方法来定义，并通过多种方式来调用。
+服务端数据验证是在数据提交到服务器上后再验证。
+客户端数据验证 side validation是在数据发送到服务器前，在浏览器上完成验证。
+
+HTML5 新增了 HTML 表单的验证方式：约束验证（constraint validation）。
+约束验证是表单被提交时浏览器用来实现验证的一种算法。
+HTML 约束验证基于：
+1、HTML 输入属性
+2、CSS 伪类选择器
+3、DOM 属性和方法
+
+约束验证 HTML 输入属性：
+disabled	规定输入的元素不可用
+max	规定输入元素的最大值
+min	规定输入元素的最小值
+pattern	规定输入元素值的模式
+required	规定输入元素字段是必需的
+type 	规则输入元素的类型
+完整列表，请查看 HTML 输入属性。
+
+约束验证 CSS 伪类选择器：
+:disabled	选取属性为 "disabled" 属性的 input 元素
+:invalid	选取无效的 input 元素
+:optional	选择没有"required"属性的 input 元素
+:required	选择有"required"属性的 input 元素
+:valid	选取有效值的 input 元素
+完整列表，请查看 CSS 伪类。-->
+
+</body>
+</html>

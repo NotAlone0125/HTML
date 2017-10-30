@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22.JavaScript_UseError.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="22.JavaScript_UseError.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="156" column="24" lean-forward="true" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
+            <state relative-caret-position="369">
+              <caret line="150" column="32" lean-forward="true" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="23.JavaScript_Form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -76,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/03.CSS3_Radius.html" />
         <option value="$PROJECT_DIR$/CSS3/04.CSS3_Background.html" />
         <option value="$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html" />
         <option value="$PROJECT_DIR$/CSS3/06.CSS3_TextEffect.html" />
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/JavaScript/20.JavaScript_Hoisting.html" />
         <option value="$PROJECT_DIR$/JavaScript/21.JavaScript_UseStrict.html" />
         <option value="$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html" />
+        <option value="$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html" />
       </list>
     </option>
   </component>
@@ -319,12 +329,12 @@
       <workItem from="1508895991161" duration="16680000" />
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
-      <workItem from="1509070996260" duration="19543000" />
+      <workItem from="1509070996260" duration="21010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332807000" />
+    <option name="totallyTimeSpent" value="334274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,13 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/11.CSS3_keyframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="68" column="55" lean-forward="true" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/12.CSS3_Multiseriate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -745,8 +748,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="156" column="24" lean-forward="true" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
+        <state relative-caret-position="369">
+          <caret line="150" column="32" lean-forward="true" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
           <folding />
         </state>
       </provider>
