@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 调试</title>
+</head>
+<body>
+
+<!--console.log() 方法
+如果浏览器支持调试，你可以使用 console.log() 方法在调试窗口上打印 JavaScript 值-->
+<script>
+    a = 5;
+    b = 6;
+    console.log(a + b);
+</script>
+
+
+
+<!--debugger 关键字
+debugger 关键字用于停止执行 JavaScript，并调用调试函数。
+这个关键字与在调试工具中设置断点的效果是一样的。
+如果没有调试可用，debugger 语句将无法工作。-->
+<p id="a"></p>
+<p>开启调试工具，在代码执行到第三行前会停止执行。</p>
+<script>
+    var x = 15 * 5;
+    debugger;
+    document.getElementById("a").innerHTML = x;
+</script>
+
+<a href="http://www.runoob.com/js/js-debugging.html">主要浏览器的调试工具</a>
+
+
+</body>
+</html>
