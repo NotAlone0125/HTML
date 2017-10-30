@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19.JavaScript_Debug.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="19.JavaScript_Debug.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20.JavaScript_Hoisting.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/20.JavaScript_Hoisting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/24.CSS_DropMenu.html" />
         <option value="$PROJECT_DIR$/CSS3/01.CSS3_Intruduction.html" />
         <option value="$PROJECT_DIR$/CSS3/02.CSS3_Border.html" />
         <option value="$PROJECT_DIR$/CSS3/03.CSS3_Radius.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html" />
         <option value="$PROJECT_DIR$/JavaScript/18.JavaScript_Error.html" />
         <option value="$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html" />
+        <option value="$PROJECT_DIR$/JavaScript/20.JavaScript_Hoisting.html" />
       </list>
     </option>
   </component>
@@ -289,12 +299,12 @@
       <workItem from="1508895991161" duration="16680000" />
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
-      <workItem from="1509070996260" duration="13326000" />
+      <workItem from="1509070996260" duration="13833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326590000" />
+    <option name="totallyTimeSpent" value="327097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,13 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/07.CSS3_Font.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/08.CSS3_2DTransform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1701">
@@ -712,8 +715,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/20.JavaScript_Hoisting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 变量提升</title>
+</head>
+<body>
+
+<!--变量提升：函数声明和变量声明总是会被解释器悄悄地被"提升"到方法体的最顶部。-->
+
+
+<!--JavaScript 中，函数及变量的声明都将被提升到函数的最顶部。
+JavaScript 中，变量可以在使用后声明，也就是变量可以先使用再声明。-->
+<script>
+    /*先使用*/
+    x = 5;
+    document.write(x + "<br>");
+    var x;
+
+    /*先声明*/
+    var y;
+    y = 6;
+    document.write(y);
+</script><hr>
+
+
+<!--JavaScript 初始化不会提升
+JavaScript 只有声明的变量会提升，初始化的不会。-->
+<script>
+    /*下面两个结果不同*/
+    var x = 5,y=7;
+    document.write(x + y + "<br>");
+
+    /* n 在此处的值 undefined，这是因为变量声明提升了，但是初始化(n = 7) 并不会提升，
+    所以 n 变量是一个未定义的变量。*/
+    var m = 5;
+    document.write(m + n);
+    var n = 7;
+</script>
+
+
+<!--在头部声明你的变量
+对于大多数程序员来说并不知道 JavaScript 变量提升。
+如果程序员不能很好的理解变量提升，他们写的程序就容易出现一些问题。
+为了避免这些问题，通常我们在每个作用域开始前声明这些变量，这也是正常的 JavaScript 解析步骤，易于我们理解。-->
+
+</body>
+</html>
