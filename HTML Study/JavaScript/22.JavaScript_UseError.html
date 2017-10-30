@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 使用误区</title>
+</head>
+<body>
+
+
+<!--赋值运算符应用错误
+在 JavaScript 程序中如果你在 if 条件语句中使用赋值运算符的等号 (=) 将会产生一个错误结果, 正确的方法是
+使用比较运算符的两个等号 (==)。-->
+<script>
+    var x = 0;
+    if (x == 10){
+        /*if 条件语句返回 false (是我们预期的)因为 x 不等于 10:*/
+    }
+    if (x = 10){
+        /*if 条件语句返回 true (不是我们预期的)因为条件语句执行为 x 赋值 10，10 为 true:*/
+    }
+    if (x = 0){
+        /*if 条件语句返回 false (不是我们预期的)因为条件语句执行为 x 赋值 0，0 为 false:*/
+    }
+    /*赋值语句返回变量的值。*/
+</script>
+
+
+<!--比较运算符常见错误
+在常规的比较中，数据类型是被忽略的-->
+<script>
+    var x = 10;
+    var y = "10";
+    document.write(Boolean(x == y) + "<br>");
+    document.write(Boolean(x === y) + "<br>");
+
+    /*这种错误经常会在 switch 语句中出现，switch 语句会使用恒等计算符(===)进行比较:*/
+    var x = 10;
+    switch(x) {
+        case 10: alert("Hello");/*执行alert*/
+        case "10": alert("Hello");/*类型不一致，不执行alert*/
+    }
+</script>
+
+
+<!--加法与连接注意事项
+加法是两个数字相加。
+连接是两个字符串连接。
+JavaScript 的加法和连接都使用 + 运算符。-->
+<script>
+    var a = 10 + 5;/*15*/
+    var b = 10 + "5";/*105*/
+</script>
+
+
+<!--浮点型数据使用注意事项
+JavaScript 中的所有数据都是以 64 位浮点型数据(float) 来存储。
+所有的编程语言，包括 JavaScript，对浮点型数据的精确度都很难确定：-->
+<script>
+    var a = 0.1;
+    var b = 0.2;
+    var c = a + b;
+    if (c == 0.3){
+        /*返回false,因为存在小数点后位数不相同的问题*/
+    }
+
+    /*为解决以上问题，可以用整数的乘除法来解决*/
+    var c = (x * 10 + y * 10) / 10;
+</script>
+
+
+<!--JavaScript 字符串分行
+JavaScript 允许我们在字符串中使用断行语句-->
+<script>
+    var x =
+        "Hello World!";
+    /*但是，在字符串中直接使用回车换行是会报错的：*/
+    /*var x = "Hello
+        World!";*/
+    /*字符串断行需要使用反斜杠(\)*/
+    var x = "Hello \
+    World";
+</script>
+
+
+<!--错误的使用分号
+以下实例中，if 语句失去方法体，原 if 语句的方法体作为独立的代码块被执行，导致错误的输出结果。
+由于分号使用错误，if 语句中的代码块就一定会执行：-->
+<script>
+    var m = 19;
+    if (m == 18);{
+        alert("一定执行");
+    }
+</script>
+
+
+<!--Return 语句使用注意事项
+JavaScript 默认是在代码的最后一行自动结束。-->
+<script>
+    function firstFunction(number) {
+        /*分号是可选的*/
+
+        var power = 10
+        return number * power
+        /*或者*/
+        var power = 10;
+        return number * power;
+        /*或者*/
+        var
+        power = 10;
+        return number * power;
+
+        /*但是下面这种会返回Undefined*/
+        var
+        power = 10;
+        return/*由于 return 是一个完整的语句，所以 JavaScript 将关闭 return 语句。*/
+        number * power;
+    }
+</script>
+
+
+<!--数组中使用名字来索引
+许多程序语言都允许使用名字来作为数组的索引。
+使用名字来作为索引的数组称为关联数组(或哈希)。
+JavaScript 不支持使用名字来索引数组，只允许使用数字索引。-->
+
+
+
+<!--定义数组元素，最后不能添加逗号
+错误的定义方式：
+points = [40, 100, 1, 5, 25, 10,];
+正确的定义方式：
+points = [40, 100, 1, 5, 25, 10];-->
+
+
+
+<!--定义对象，最后不能添加逗号
+错误的定义方式：
+websites = {site:"菜鸟教程", url:"www.runoob.com", like:460,}
+正确的定义方式：
+websites = {site:"菜鸟教程", url:"www.runoob.com", like:460}-->
+
+
+
+<!--Undefined 不是 Null
+在 JavaScript 中, null 用于对象, undefined 用于变量，属性和方法。
+对象只有被定义才有可能为 null，否则为 undefined。
+如果我们想测试对象是否存在，在对象还没定义时将会抛出一个错误。
+
+错误的使用方式：
+if (myObj !== null && typeof myObj !== "undefined")
+正确的方式是我们需要先使用 typeof 来检测对象是否已定义：
+if (typeof myObj !== "undefined" && myObj !== null) -->
+
+
+
+<!--程序块作用域
+在每个代码块中 JavaScript 不会创建一个新的作用域，一般各个代码块的作用域都是全局的。
+以下代码的的变量 i 返回 10，而不是 undefined：-->
+<script>
+    for (var i = 0; i < 10; i++) {
+        // some code
+    }
+    document.write(i);
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
