@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 保留关键字、JSON、Void、代码规范</title>
+</head>
+<body>
+
+<!--JavaScript 保留关键字
+在 JavaScript 中，一些标识符是保留关键字，不能用作变量名或函数名。
+
+JavaScript 标准
+所有的现代浏览器完全支持 ECMAScript 3（ES3，JavaScript 的第三版，从 1999 年开始）。
+ECMAScript 4（ES4）未通过。
+ECMAScript 5（ES5，2009 年发布），是 JavaScript 最新的官方版本。
+随着时间的推移，我们开始看到，所有的现代浏览器已经完全支持 ES5。-->
+<a href="http://www.runoob.com/js/js-reserved.html">
+    <h4>JavaScript 保留关键字</h4>
+</a><hr>
+
+
+
+
+<!----------------------------------------------------------------------------->
+<!--JavaScript JSON
+JSON 是用于存储和传输数据的格式。
+JSON 通常用于服务端向网页传递数据 。-->
+
+<!--什么是 JSON?
+JSON 英文全称 JavaScript Object Notation
+JSON 是一种轻量级的数据交换格式。
+JSON是独立的语言 *
+JSON 易于理解。-->
+<a href="http://www.runoob.com/js/js-json.html">
+    <h4>JavaScript JSON</h4></a>
+<!--JSON 字符串转换为 JavaScript 对象
+通常我们从服务器中读取 JSON 数据，并在网页中显示数据。-->
+<script>
+    var text = '{ "sites" : [' +
+        '{ "name":"Runoob" , "url":"www.runoob.com" },' +
+        '{ "name":"Google" , "url":"www.google.com" },' +
+        '{ "name":"Taobao" , "url":"www.taobao.com" } ]}';
+
+    var obj = JSON.parse(text);
+    document.write(obj.sites[1].name + " " + obj.sites[1].url);
+</script>
+<!--相关函数
+JSON.parse()	用于将一个 JSON 字符串转换为 JavaScript 对象。
+JSON.stringify()	用于将 JavaScript 值转换为 JSON 字符串。-->
+<a href="http://www.runoob.com/json/json-tutorial.html">
+    <h4>JSON 教程</h4></a><hr>
+
+
+
+
+<!----------------------------------------------------------------------------->
+<!--javascript:void(0) 含义
+我们经常会使用到 javascript:void(0) 这样的代码，那么在 JavaScript 中 javascript:void(0) 代表的是
+什么意思呢？
+javascript:void(0) 中最关键的是 void 关键字， void 是 JavaScript 中非常重要的关键字，该操作符指定
+要计算一个表达式但是不返回值。-->
+<!--语法：
+<script type="text/javascript">
+<!--
+void func()
+javascript:void func()
+或者
+void(func())
+javascript:void(func())
+</script>
+-->
+
+
+<!--下面的代码创建了一个超级链接，当用户点击以后不会发生任何事。-->
+<a href="javascript:void(0)">单击此处什么也不会发生</a><br>
+
+<!--以下实例中，在用户点击链接后显示警告信息：-->
+<a href="javascript:void (alert('Warning!!!'))">点我！</a><br>
+
+<!--以下实例中参数 a 将返回 undefined :-->
+<button type="button" onclick="getValue()">点我</button>
+<script>
+    function getValue() {
+        var a,b,c;
+        a = void(b = 5,c = 7);
+        alert('a = ' + a + ' b = ' + b +' c = ' + c);
+    }
+</script><hr>
+
+
+<!--href="#"与href="javascript:void(0)"的区别
+# 包含了一个位置信息，默认的锚是#top 也就是网页的上端。
+而javascript:void(0), 仅仅表示一个死链接。
+在页面很长的时候会使用 # 来定位页面的具体位置，格式为：# + id。
+如果你要定义一个死链接请使用 javascript:void(0) 。-->
+
+
+
+
+<!----------------------------------------------------------------------------->
+<!--JavaScript 代码规范
+所有的 JavaScript 项目适用同一种规范。-->
+<a href="http://www.runoob.com/js/js-conventions.html">
+    <h4>JavaScript 代码规范</h4>
+</a>
+<!--
+变量名:变量名推荐使用驼峰法来命名(camelCase)
+
+空格与运算符:通常运算符 ( = + - * / ) 前后需要添加空格
+
+代码缩进:通常使用 4 个空格符号来缩进代码块
+
+语句规则:一条语句通常以分号作为结束符;
+-->
+
+</body>
+</html>
