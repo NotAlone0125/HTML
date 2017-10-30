@@ -17,61 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19.JavaScript_Debug.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html">
+      <file leaf-file-name="25.JavaScript_VerifyAPI.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/25.JavaScript_VerifyAPI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20.JavaScript_Hoisting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/20.JavaScript_Hoisting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="21.JavaScript_UseStrict.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/21.JavaScript_UseStrict.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="22.JavaScript_UseError.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="150" column="32" lean-forward="true" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23.JavaScript_Form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="82" column="15" lean-forward="true" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="24.JavaScript_FormVerify.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/24.JavaScript_FormVerify.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="351">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/05.CSS3_Gradients.html" />
-        <option value="$PROJECT_DIR$/CSS3/06.CSS3_TextEffect.html" />
         <option value="$PROJECT_DIR$/CSS3/07.CSS3_Font.html" />
         <option value="$PROJECT_DIR$/CSS3/08.CSS3_2DTransform.html" />
         <option value="$PROJECT_DIR$/CSS3/09.CSS3_3DTransform.html" />
@@ -147,6 +95,8 @@
         <option value="$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html" />
         <option value="$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html" />
         <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_FormVerify.html" />
+        <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_VerifyAPI.html" />
+        <option value="$PROJECT_DIR$/JavaScript/25.JavaScript_VerifyAPI.html" />
       </list>
     </option>
   </component>
@@ -339,12 +289,12 @@
       <workItem from="1508895991161" duration="16680000" />
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
-      <workItem from="1509070996260" duration="22104000" />
+      <workItem from="1509070996260" duration="25538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335368000" />
+    <option name="totallyTimeSpent" value="338802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,13 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/13.CSS3_UserInterface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/02.CSS3_Border.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -767,8 +710,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/24.JavaScript_FormVerify.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="313">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/25.JavaScript_VerifyAPI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
         </state>
       </provider>
