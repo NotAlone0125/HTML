@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="06.JSAdvance_StringObject.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="06.JSAdvance_StringObject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/06.JSAdvance_StringObject.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
               <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07.JSAdvance_DateObject.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/07.JSAdvance_DateObject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/13.CSS3_UserInterface.html" />
         <option value="$PROJECT_DIR$/CSS3/14.CSS3_Image.html" />
         <option value="$PROJECT_DIR$/CSS3/14.CSS3_ImageDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_Button.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/JavaScriptAdvance/04.JSAdvance_Object.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/05.JSAdvance_NumberObject.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/06.JSAdvance_StringObject.html" />
+        <option value="$PROJECT_DIR$/JavaScriptAdvance/07.JSAdvance_DateObject.html" />
       </list>
     </option>
   </component>
@@ -290,12 +300,12 @@
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
       <workItem from="1509070996260" duration="30594000" />
-      <workItem from="1509411143300" duration="22133000" />
+      <workItem from="1509411143300" duration="25522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365991000" />
+    <option name="totallyTimeSpent" value="369380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,20 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/18.CSS3_FlexBoxDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -605,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,6 +723,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="288" column="42" lean-forward="false" selection-start-line="288" selection-start-column="38" selection-end-line="288" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/07.JSAdvance_DateObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding />
         </state>
       </provider>

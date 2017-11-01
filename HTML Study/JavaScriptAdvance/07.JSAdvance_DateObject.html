@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Date（日期） 对象</title>
+</head>
+<body onload="startTime()">
+
+<a href="http://www.runoob.com/jsref/jsref-obj-date.html">
+    <h4>JavaScript Date 对象参考手册</h4></a><hr>
+
+<script>
+    /*使用 Date() 方法获得当日的日期*/
+    document.write("当前时间：" + Date() + "<br>");
+
+    /*使用 getFullYear() 获取年份*/
+    document.write("当前年份：" + Date().getFullYear() + "<br>");
+
+    /*getTime() 返回从 1970 年 1 月 1 日至今的毫秒数*/
+    document.write("1970 年 1 月 1 日至今的毫秒数：" + Date().getTime() + "<br>");
+
+    /*使用 setFullYear() 设置具体的日期*/
+    document.write("当前时间：" + new Date().setFullYear(2020,10,3) + "<br>");
+
+    /*使用 toUTCString() 将当日的日期（根据 UTC）转换为字符串*/
+    document.write("当前日期的字符串：" + Date().toUTCString() + "<br>");
+
+    /*使用 getDay() 来显示星期*/
+    document.write("当前星期几：" + Date().getDay() + "<br>");
+
+    /*如何在网页上显示一个钟表*/
+    function startTime() {
+        var date = new Date();
+        var hour = date.getHours();
+        var mintues = date.getMinutes();
+        var seconds = date.getSeconds();
+        mintues = checkTime(mintues);
+        seconds = checkTime(seconds);
+
+        document.getElementById('txt').innerHTML= hour + ":" + mintues + ":" + seconds;
+        /*设置时间间隔，500ms*/
+        t=setTimeout(function(){startTime()},500);
+    }
+    function checkTime(i) {
+        if (i<10){
+            i = "0" + i;
+        }
+        return i;
+    }
+</script>
+<div id="txt"></div><hr>
+
+
+<!--创建日期
+Date 对象用于处理日期和时间。
+可以通过 new 关键词来定义 Date 对象。-->
+<script>
+    /*有四种方式初始化日期*/
+    var date = new Date();/*当前日期和时间*/
+    var date = new Date(1000);/*从 1970 年 1 月 1 日至今的毫秒数*/
+    var date = new Date("October 13, 1975 11:13:00");/*DateString*/
+
+    var date = new Date(79,5,24);
+    /*new Date(year, month, day, hours, minutes, seconds, milliseconds)*/
+</script>
+
+
+<!--设置日期
+通过使用针对日期对象的方法，我们可以很容易地对日期进行操作-->
+<script>
+    var mydate = new Date();
+    mydate.setFullYear(2010,0,14);/*参数：年，月，日*/
+    mydate.setDate(mydate.getDate() + 5)/*将日期对象设置为 5 天后的日期*/
+    document.write(mydate);
+</script><hr>
+
+
+<!--两个日期比较
+日期对象也可用于比较两个日期。-->
+<script>
+    var oldDate = new Date();
+    oldDate.setFullYear(2010,0,14);
+
+    var today = new Date();
+    if (oldDate > today){
+        alert("今天是2010年1月14日之前");
+    }else {
+        alert("今天是2010年1月14日之后");
+    }
+</script>
+
+
+
+</body>
+</html>
