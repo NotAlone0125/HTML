@@ -27,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09.JSAdvance_BooleanObject.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="09.JSAdvance_BooleanObject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.JSAdvance_MathObject.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/10.JSAdvance_MathObject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -56,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/15.CSS3_Button.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_ButtomDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_ButtonDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/16.CSS3_Padding.html" />
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/JavaScriptAdvance/07.JSAdvance_DateObject.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/08.JSAdvance_ArrayObject.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html" />
+        <option value="$PROJECT_DIR$/JavaScriptAdvance/10.JSAdvance_MathObject.html" />
       </list>
     </option>
   </component>
@@ -300,12 +310,12 @@
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
       <workItem from="1509070996260" duration="30594000" />
-      <workItem from="1509411143300" duration="28616000" />
+      <workItem from="1509411143300" duration="29046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372474000" />
+    <option name="totallyTimeSpent" value="372904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,13 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/29.CSS_MediaType.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -739,8 +742,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="447">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/10.JSAdvance_MathObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding />
         </state>
       </provider>
