@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04.JSAdvance_Object.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04.JSAdvance_Object.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/04.JSAdvance_Object.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="474">
               <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.JSAdvance_NumberObject.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/05.JSAdvance_NumberObject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -83,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/11.CSS3_keyframe.html" />
         <option value="$PROJECT_DIR$/CSS3/12.CSS3_Multiseriate.html" />
         <option value="$PROJECT_DIR$/CSS3/13.CSS3_UserInterface.html" />
         <option value="$PROJECT_DIR$/CSS3/14.CSS3_Image.html" />
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/JavaScriptAdvance/01.JSAdvance_Function.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/02.JSAdvance_HTMLDOM.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/04.JSAdvance_Object.html" />
+        <option value="$PROJECT_DIR$/JavaScriptAdvance/05.JSAdvance_NumberObject.html" />
       </list>
     </option>
   </component>
@@ -327,12 +337,12 @@
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
       <workItem from="1509070996260" duration="30594000" />
-      <workItem from="1509411143300" duration="18115000" />
+      <workItem from="1509411143300" duration="19118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361973000" />
+    <option name="totallyTimeSpent" value="362976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,13 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/16.CSS3_Padding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/17.CSS3_Boxsizing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -761,6 +764,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/05.JSAdvance_NumberObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
           <folding />
         </state>
       </provider>
