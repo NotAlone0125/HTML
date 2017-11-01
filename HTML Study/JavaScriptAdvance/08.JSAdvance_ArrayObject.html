@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Array（数组） 对象</title>
+</head>
+<body>
+
+<!--数组对象的作用是：使用单独的变量名来存储一系列的值。-->
+
+
+<!--创建数组，为其赋值-->
+<script>
+    var cars = new Array();
+    cars[0] = 'Saab';
+    cars[1] = 'Volvo';
+
+    var cars = new Array('Saab','Volvo');
+
+    var cars = ['Saab','Volvo'];
+</script>
+
+
+<!--访问数组
+通过指定数组名以及索引号码，你可以访问某个特定的元素-->
+
+
+<!--在一个数组中你可以有不同的对象
+所有的JavaScript变量都是对象。数组元素是对象。函数是对象。
+因此，你可以在数组中有不同的变量类型。
+你可以在一个数组中包含对象元素、函数、数组：-->
+
+
+<!--数组方法和属性-->
+<script>
+    var cars = ['Saab','Volvo'];
+    var x = cars.length;
+    var y = cars.indexOf('Volvo');
+</script>
+<a href="http://www.runoob.com/jsref/jsref-obj-array.html">
+    <h4>完整数组对象参考手册</h4></a><hr>
+
+
+<!--创建新方法
+原型是JavaScript全局构造函数。它可以构建新Javascript对象的属性和方法。-->
+<script>
+    /*通创建了实例的对象不同，这个相当于对此类对象增加了属性*/
+    Array.prototype.myUcase = function () {
+        for (i = 0;i<this.length;i++){
+            this[i] = this[i].toUpperCase();
+        }
+    }
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.myUcase();
+    document.write(fruits);
+</script><hr>
+
+
+<!--实例-->
+<script>
+    /*合并数组*/
+    var a = ['1','2','3'];
+    var b = ['4','5','6'];
+    var c = ['7','8','9'];
+    var abc = a.concat(b,c);
+    document.write(abc + "<br><br>");
+
+    /*将数组作为字符串输出*/
+    var d = ["Banana", "Orange", "Apple", "Mango"];
+    document.write(d.join() + "<br><br>");
+
+    /*删除数组的最后一个元素*/
+    var e = ["Banana", "Orange", "Apple", "Mango"];
+    e.pop();
+    document.write(e + "<br><br>");
+
+    /*给数组添加新元素*/
+    e.push('Kiwi');
+    document.write(e + "<br><br>");
+
+    /*数组反转排序*/
+    e.reverse();
+    document.write(e + "<br><br>");
+
+    /*删除数组的第一个元素*/
+    e.shift();
+    document.write(e + "<br><br>");
+
+    /*截取数组下标 0 到 1 的元素*/
+    var slice = e.slice(0,2);/*前开后闭*/
+    document.write(slice + "<br><br>");
+
+    /*升序排列数组*/
+    var f = ["Banana", "Orange", "Apple", "Mango"];
+    f.sort();
+    document.write(f + "<br><br>");
+
+    var points = [40,100,1,5,25,10];
+    /*当数字是按字母顺序排列时"40"将排在"5"前面。
+    使用数字排序，你必须通过一个函数作为参数来调用。
+    函数指定数字是按照升序还是降序排列。*/
+    points.sort(function (a,b) {
+        return a-b;/*b-a为数字降序*/
+    });
+    document.write(points + "<br><br>");
+
+    /*向数组添加元素*/
+    var g = ["Banana", "Orange", "Apple", "Mango"];
+    g.splice(2,0,"Lemon","Kiwi")/*从索引为2的位置开始，删除0个元素*/
+    document.write(g + "<br><br>");
+
+    /*数组转换为字符串toString()*/
+
+    /*数组开头插入新元素*/
+    var h = ["Banana", "Orange", "Apple", "Mango"];
+    h.unshift("Lemon","Pineapple");
+    document.write(h + "<br><br>");
+</script>
+
+</body>
+</html>
