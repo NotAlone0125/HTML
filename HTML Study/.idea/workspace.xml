@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08.JSAdvance_ArrayObject.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08.JSAdvance_ArrayObject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/08.JSAdvance_ArrayObject.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
               <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09.JSAdvance_BooleanObject.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/14.CSS3_ImageDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_Button.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_ButtomDemo.html" />
         <option value="$PROJECT_DIR$/CSS3/15.CSS3_ButtonDemo.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/JavaScriptAdvance/06.JSAdvance_StringObject.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/07.JSAdvance_DateObject.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/08.JSAdvance_ArrayObject.html" />
+        <option value="$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html" />
       </list>
     </option>
   </component>
@@ -290,12 +300,12 @@
       <workItem from="1508984279855" duration="9794000" />
       <workItem from="1509068816976" duration="1596000" />
       <workItem from="1509070996260" duration="30594000" />
-      <workItem from="1509411143300" duration="28069000" />
+      <workItem from="1509411143300" duration="28616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371927000" />
+    <option name="totallyTimeSpent" value="372474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS3/04.CSS3_Background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -730,6 +733,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/09.JSAdvance_BooleanObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
