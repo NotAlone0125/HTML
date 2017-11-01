@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JSAdvance 对象</title>
+</head>
+<body>
+
+
+<!--JavaScript 对象
+JavaScript 中的所有事物都是对象：字符串、数值、数组、函数...。此外，JavaScript 允许自定义对象。
+
+所有事物都是对象
+JavaScript 提供多个内建对象，比如 String、Date、Array 等等。 对象只是带有属性和方法的特殊数据类型。-->
+
+
+<!--访问对象的属性
+属性是与对象相关的值。
+访问对象属性的语法是：
+objectName.propertyName-->
+
+
+<!--访问对象的方法
+方法是能够在对象上执行的动作。
+您可以通过以下语法来调用方法：
+objectName.methodName()-->
+
+
+<!--创建 JavaScript 对象
+通过 JavaScript，您能够定义并创建自己的对象。
+创建新对象有两种不同的方法：
+1、定义并创建对象的实例
+2、使用函数来定义对象，然后创建新的对象实例-->
+<script>
+    /*定义并创建对象的实例,并添加属性*/
+    var person = new Object();
+    person.name = "John";
+    person.sex = "male";
+    /*或者*/
+    /*person = {name:"John",sex:"male"};*/
+    document.write(person.name + " " + person.sex + "<br>");
+
+    /*使用对象构造器*/
+    function people(aName,aSex) {
+        this.aName = aName;
+        this.aSex = aSex;
+    }
+    var people = new people("Mike","male");
+    document.write(people.aName + " " + people.aSex)
+
+    /*可以通过为对象赋值，向已有对象添加新属性*/
+    people.country = "China";
+    document.write(" " + people.country + "<br>");
+
+    /*把方法添加到 JavaScript 对象*/
+    function car(carName,carCountry) {
+        this.carName = carName;
+        this.carCountry = carCountry;
+
+        this.changeName = changeName;
+        function changeName(name) {
+            this.carName = name;
+        }
+    }
+    var onecar = new car('长城','中国');
+    onecar.changeName('吉利');
+    document.write(onecar.carName + ' ' + onecar.carCountry);
+</script><hr>
+
+
+<!--JavaScript 类
+JavaScript 是面向对象的语言，但 JavaScript 不使用类。
+在 JavaScript 中，不会创建类，也不会通过类来创建对象（就像在其他面向对象的语言中那样）。
+JavaScript 基于 prototype，而不是基于类的。-->
+
+
+<!--JavaScript for...in 循环
+JavaScript for...in 语句循环遍历对象的属性。-->
+<p id="p1"></p>
+<script>
+    var men = {fname:"John",lname:"Doe",age:25};
+    for (x in men){
+        document.getElementById('p1').innerHTML += men[x];
+    }
+</script><hr>
+
+</body>
+</html>
