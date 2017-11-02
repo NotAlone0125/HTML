@@ -20,18 +20,40 @@
       <file leaf-file-name="01.Bootstrap_Introduction.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/01.Bootstrap_Introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="109" column="64" lean-forward="true" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+            <state relative-caret-position="473">
+              <caret line="111" column="6" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01.Bootstrap_IntroductionDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01.Bootstrap_IntroductionDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/01.Bootstrap_IntroductionDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="481">
+              <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.Bootstrap_CSS_OverView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/02.Bootstrap_CSS_OverView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="69" column="64" lean-forward="false" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="301" column="1" lean-forward="true" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -56,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelect.html" />
-        <option value="$PROJECT_DIR$/CSS3/19.CSS3_MediaSelectDemo.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/01.CSS-RD_Viewport.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/02.CSS-RD_GridView.html" />
         <option value="$PROJECT_DIR$/CSS_ResponsiveDesign/03.CSS-RD_MediaSelect.html" />
@@ -107,6 +127,8 @@
         <option value="$PROJECT_DIR$/JavaScriptAdvance/13.JSAdvance_Cookie.html" />
         <option value="$PROJECT_DIR$/Bootstrap/01.Bootstrap_Introduction.html" />
         <option value="$PROJECT_DIR$/Bootstrap/01.Bootstrap_IntroductionDemo.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/02.Bootstrap_OverView.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/02.Bootstrap_CSS_OverView.html" />
       </list>
     </option>
   </component>
@@ -149,6 +171,12 @@
               <item name="HTML Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML Study" type="462c0819:PsiDirectoryNode" />
               <item name="Bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML Study" type="462c0819:PsiDirectoryNode" />
+              <item name="Bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,12 +330,12 @@
       <workItem from="1509068816976" duration="1596000" />
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
-      <workItem from="1509585318790" duration="8412000" />
+      <workItem from="1509585318790" duration="11293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389019000" />
+    <option name="totallyTimeSpent" value="391900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,20 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/20.CSS_CombinatorialSelector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/03.CSS-RD_MediaSelect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="96" column="6" lean-forward="false" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS_ResponsiveDesign/04.CSS-RD_Image.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -720,17 +734,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/01.Bootstrap_Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="109" column="64" lean-forward="true" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+        <state relative-caret-position="473">
+          <caret line="111" column="6" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/01.Bootstrap_IntroductionDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="481">
+          <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="301" column="1" lean-forward="true" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/02.Bootstrap_CSS_OverView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="69" column="64" lean-forward="false" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
