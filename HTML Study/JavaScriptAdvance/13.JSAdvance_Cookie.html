@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Cookie</title>
+</head>
+<body onload="checkCookie()">
+
+<!--Cookie 是一些数据, 存储于你电脑上的文本文件中。
+当 web 服务器向浏览器发送 web 页面时，在连接关闭后，服务端不会记录用户的信息。
+Cookie 的作用就是用于解决 "如何记录客户端的用户信息":
+当用户访问 web 页面时，他的名字可以记录在 cookie 中。
+在用户下一次访问该页面时，可以在 cookie 中读取用户访问记录。
+Cookie 以名/值对形式存储，如下所示:
+username=John Doe
+当浏览器从服务器上请求 web 页面时， 属于该页面的 cookie 会被添加到该请求中。服务端通过这种方式来获取用
+户的信息。-->
+
+
+<!--使用 JavaScript 创建Cookie
+JavaScript 可以使用 document.cookie 属性来创建 、读取、及删除 cookie。-->
+<script>
+    /*创建*/
+    /*document.cookie = "username = John Doe";*/
+
+    /*可以添加过期时间*/
+    /*document.cookie = "username = John Doe;expires=Thu, 20 Dec 2017 12:00:00 GMT";*/
+
+    /*可以使用 path 参数告诉浏览器 cookie 的路径。默认情况下，cookie 属于当前页面。*/
+    document.cookie =
+        "username = John Doe; expires=Thu, 20 Dec 2017 12:00:00 GMT; path=/";
+</script>
+
+
+<!--cookie操作-->
+<!--<script>
+    /*使用 JavaScript 读取 Cookie
+    document.cookie 将以字符串的方式返回所有的 cookie，类型格式：
+    cookie1=value; cookie2=value; cookie3=value;*/
+    document.write(document.cookie + "<br>");
+
+    /*使用 JavaScript 修改 Cookie*/
+    document.cookie = "username = John Smith; expires=Thu, 20 Dec 2017 12:00:00 GMT; path=/";
+    /*旧的 cookie 将被覆盖。*/
+    document.write(document.cookie + "<br>");
+
+    /*使用 JavaScript 删除 Cookie;
+    删除 cookie 非常简单。您只需要设置 expires 参数为以前的时间即可*/
+    var date=new Date();
+    //将date设置为过去的时间
+    date.setTime(date.getTime()-10000);
+    document.cookie =
+        "username = John Smith;expires = " + date.toUTCString() + "; path=/";
+    document.write(document.cookie);
+</script>-->
+<!-- Cookie不仅仅有名字和值两个属性，还有域（domain），过期时间（expires），路径（path）等属性。 其中，不同的
+域、不同的路径下可以存在同样名字的cookie-->
+
+
+
+<!--实例-->
+<script>
+    /*设置cookie的值*/
+    function setCookie(cname,cvalue,exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + 7 * 24 * 3600 * 1000);
+        var expires = "expires=" + d.toUTCString();
+    }
+
+    /*获取cookie的值*/
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(',');
+        for(var i=0; i<ca.length; i++)
+        {
+            var c = ca[i].trim();
+            if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+
+    function checkCookie() {
+        var user = getCookie('username');
+        if (user!=""){
+            alert("Welcome again " + user);
+        }
+        else {
+            user = prompt("Please enter your name:","");
+            if (user!="" && user!=null){
+                setCookie("username",user,30);
+            }
+        }
+    }
+
+</script>
+
+
+</body>
+</html>
