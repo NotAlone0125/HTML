@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Bootstrap CSS代码</title>
+</head>
+<body>
+
+
+<!--Bootstrap 允许您以两种方式显示代码：
+第一种是 <code> 标签。如果您想要内联显示代码，那么您应该使用 <code> 标签。
+第二种是 <pre> 标签。如果代码需要被显示为一个独立的块元素或者代码有多行，那么您应该使用 <pre> 标签。-->
+
+
+<!--请确保使用 <pre> 和 <code> 标签时，开始和结束标签使用了 unicode 变体： &lt; 和 &gt;。-->
+<!--<p><code>&lt;header&gt;</code>作为内联元素被包围</p>
+<p>如果需要把代码显示为一个独立的块元素，需要使用&lt;pre&gt;标签</p>
+<pre>
+    &lt;article&gt;
+        &lt;h1&gt;Article Heading&lt;/h1&gt;
+    &lt;/article&gt;
+</pre>-->
+<!--以上是在不使用Bootstrap的情况下-->
+
+
+<!--变量赋值: x = ab + y-->
+<div class="container">
+    <h2>代码</h2>
+    <p>使用 var 元素表示变量：</p>
+    <p><var>x</var> = <var>a</var><var>b</var> + <var>y</var></p>
+</div><hr>
+
+
+<!--按键提示： CTRL + P-->
+<div class="container">
+    <h2>代码</h2>
+    <p>使用 kbd 元素表示按键输入:</p>
+    <p>使用<kbd>crl + p</kbd>来打开打印窗口</p>
+</div><hr>
+
+
+<!--使用 pre 元素输出多行-->
+<div class="container">
+    <h2>代码</h2>
+    <p>使用 pre 元素输出多行:</p>
+    <pre>在 pre 元素中的文本
+	宽度的显示与文本的宽度一样，
+	保留了  空  格 和
+
+	换行。</pre>
+    <p>如果你添加 .pre-scrollable 类,  pre 元素最大的高度 max-height 为 350px ，并生成一个 Y 轴的滚动条:</p>
+    <pre class="pre-scrollable">在 pre 元素中的文本
+	宽度的显示与文本的宽度一样，
+	保留了  空  格 和
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	换行。</pre>
+</div><hr>
+
+
+<!--电脑程序输出: Sample output-->
+<div class="container">
+    <h1>代码</h1>
+    <p>使用samp元素来包含电脑输出的内容</p>
+    <p><samp>This text is output from a computer program....</samp></p>
+</div><hr>
+
+
+<!--同一行代码片段: span, div-->
+<div class="container">
+    <h1>代码</h1>
+    <p>使用code元素来表示代码片段：</p>
+    <p>以下是 HTML 元素: <code>span</code>, <code>section</code>, 和 <code>div</code> 。</p>
+</div>
+
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
