@@ -20,8 +20,32 @@
       <file leaf-file-name="14.Bootstrap_LayoutModule_ButtonGroup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bootstrap/14.Bootstrap_LayoutModule_ButtonGroup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.Bootstrap_LayoutModule_Glyphicons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/12.Bootstrap_LayoutModule_Glyphicons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.Bootstrap_LayoutModule_Dropdowns.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/13.Bootstrap_LayoutModule_Dropdowns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -293,12 +317,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="28679000" />
+      <workItem from="1509930209297" duration="29390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435622000" />
+    <option name="totallyTimeSpent" value="436333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/13.Bootstrap_LayoutModule_Dropdowns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="423">
           <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding />
         </state>
@@ -765,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/14.Bootstrap_LayoutModule_ButtonGroup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
           <folding />
         </state>
       </provider>
