@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08.Bootstrap_CSS_Button.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08.Bootstrap_CSS_Button.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/08.Bootstrap_CSS_Button.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="367">
+              <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09.Bootstrap_CSS_Image.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/09.Bootstrap_CSS_Image.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/02.JavaScript_Input.html" />
         <option value="$PROJECT_DIR$/JavaScript/03.JavaScript_Grammar.html" />
         <option value="$PROJECT_DIR$/JavaScript/04.JavaScript_Statement.html" />
         <option value="$PROJECT_DIR$/JavaScript/05.JavaScript_Annotation.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/06.Bootstrap_CSS_Table.html" />
         <option value="$PROJECT_DIR$/Bootstrap/07.Bootstrap_CSS_Form.html" />
         <option value="$PROJECT_DIR$/Bootstrap/08.Bootstrap_CSS_Button.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/09.Bootstrap_CSS_Image.html" />
       </list>
     </option>
   </component>
@@ -293,12 +303,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="17705000" />
+      <workItem from="1509930209297" duration="18214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424648000" />
+    <option name="totallyTimeSpent" value="425157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,13 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/06.JavaScript_DataType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/07.JavaScript_ Object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -740,8 +743,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/08.Bootstrap_CSS_Button.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="367">
+          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/09.Bootstrap_CSS_Image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
