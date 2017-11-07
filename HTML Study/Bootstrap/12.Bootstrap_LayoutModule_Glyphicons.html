@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Bootstrap 布局组件_字体图标(Glyphicons)</title>
+</head>
+<body>
+
+<!--Bootstrap 捆绑了 200 多种字体格式的字形。
+字体图标是在 Web 项目中使用的图标字体。虽然，Glyphicons Halflings 需要商业许可，但是您可以通过基于项目的
+Bootstrap 来免费使用这些图标。
+为了表示对图标作者的感谢，希望您在使用时加上 GLYPHICONS 网站的链接。-->
+<a href="http://www.runoob.com/try/demo_source/bootstrap3-glyph-icons.htm">
+    点击这里，查看可用的字体图标列表。</a><hr>
+
+<!--.glyphicon class 声明一个从顶部偏移 1px 的相对位置，呈现为 inline-block，声明字体，规定 font-style 和
+ font-weight 为 normal，设置行高为 1-->
+<!--使用字体图标：-->
+<p>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-sort-by-attributes"></span>
+    </button>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+    </button>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-sort-by-order"></span>
+    </button>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-sort-by-order-alt"></span>
+    </button>
+</p>
+<button type="button" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-user"></span> User
+</button>
+<button type="button" class="btn btn-default btn-sm">
+    <span class="glyphicon glyphicon-user"></span> User
+</button>
+<button type="button" class="btn btn-default btn-xs">
+    <span class="glyphicon glyphicon-user"></span> User
+</button><hr>
+
+
+<!--带有字体图标的导航栏-->
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project Name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-home">Home</span></a>
+                </li>
+                <li>
+                    <a href="#shop">
+                        <span class="glyphicon glyphicon-shopping-cart">Shop</span></a>
+                </li>
+                <li>
+                    <a href="#support">
+                        <span class="glyphicon glyphicon-headphones">Support</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--定制字体图标
+我们已经看到如何使用字体图标，接下来我们看看如何定制字体图标。
+我们将以上面的实例开始，并通过改变字体尺寸、颜色和应用文本阴影来进行定制图标。-->
+<!--定制字体尺寸
+通过增加或减少图标的字体尺寸，您可以让图标看起来更大或更小。-->
+<button type="button" class="btn btn-primary btn-lg" style="font-size: 60px">
+    <span class="glyphicon glyphicon-user">User</span>
+</button>
+
+<!--定制字体颜色-->
+<button type="button" class="btn btn-primary btn-sm" style="color: rgb(212, 106, 64);">
+    <span class="glyphicon glyphicon-user">User</span>
+</button>
+
+<!--应用文本阴影-->
+<button type="button" class="btn btn-primary btn-md" style="text-shadow: black 5px 3px 3px;">
+    <span class="glyphicon glyphicon-user">User</span>
+</button>
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
