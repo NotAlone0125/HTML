@@ -33,16 +33,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.Bootstrap_LayoutModule_Glyphicons.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.Bootstrap_LayoutModule_Glyphicons.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/12.Bootstrap_LayoutModule_Glyphicons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="393">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.Bootstrap_LayoutModule_Dropdowns.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/13.Bootstrap_LayoutModule_Dropdowns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/05.JavaScript_Variable.html" />
         <option value="$PROJECT_DIR$/JavaScript/06.JavaScript_DataType.html" />
         <option value="$PROJECT_DIR$/JavaScript/07.JavaScript_ Object.html" />
         <option value="$PROJECT_DIR$/JavaScript/08.JavaScript_Function.html" />
@@ -124,6 +133,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/10.Bootstrap_CSS_HelperClass.html" />
         <option value="$PROJECT_DIR$/Bootstrap/11.Bootstrap_CSS_ResponsiveTool.html" />
         <option value="$PROJECT_DIR$/Bootstrap/12.Bootstrap_LayoutModule_Glyphicons.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/13.Bootstrap_LayoutModule_Dropdowns.html" />
       </list>
     </option>
   </component>
@@ -134,8 +144,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="301" />
-    <option name="y" value="166" />
+    <option name="x" value="293" />
+    <option name="y" value="194" />
     <option name="width" value="1111" />
     <option name="height" value="687" />
   </component>
@@ -320,12 +330,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="26206000" />
+      <workItem from="1509930209297" duration="27661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="433149000" />
+    <option name="totallyTimeSpent" value="434604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,7 +347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="166" width="1111" height="687" extended-state="0" />
+    <frame x="293" y="194" width="1111" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2091743" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
@@ -394,13 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/10.JavaScript_Event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/11.JavaScript_String.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -786,13 +789,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/12.Bootstrap_LayoutModule_Glyphicons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="393">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/13.Bootstrap_LayoutModule_Dropdowns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
