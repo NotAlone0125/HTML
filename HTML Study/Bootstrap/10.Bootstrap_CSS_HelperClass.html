@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Bootstrap 辅助类</title>
+</head>
+<body>
+
+
+<!--文本
+以下不同的类展示了不同的文本颜色。如果文本是个链接鼠标移动到文本上会变暗：-->
+<div class="container">
+    <p class="text-muted">"text-muted" 类的文本样式</p>
+    <a class="text-muted">"text-muted" 类的文本样式的链接</a><br><br>
+
+    <p class="text-primary">"text-primary" 类的文本样式</p>
+    <a class="text-primary">"text-primary" 类的文本样式的链接</a><br><br>
+
+    <p class="text-success">"text-success" 类的文本样式</p>
+    <a class="text-success">"text-success" 类的文本样式的链接</a><br><br>
+
+    <p class="text-info">"text-info" 类的文本样式</p>
+    <a class="text-info">"text-info" 类的文本样式的链接</a><br><br>
+
+    <p class="text-warning">"text-warning" 类的文本样式</p>
+    <a class="text-warning">"text-warning" 类的文本样式的链接</a><br><br>
+
+    <p class="text-danger">"text-danger" 类的文本样式</p>
+    <a class="text-text-danger">"text-danger" 类的文本样式的链接</a><br><br>
+</div><hr>
+
+
+<!--背景
+以下不同的类展示了不同的背景颜色。 如果文本是个链接鼠标移动到文本上会变暗：-->
+<div class="container">
+    <p class="bg-primary">使用了 "bg-primary" 类的文本</p>
+    <a class="bg-primary">使用了 "bg-primary" 类的链接</a><br><br>
+
+    <p class="bg-success">使用了 "bg-success" 类的文本</p>
+    <a class="bg-success">使用了 "bg-success" 类的链接</a><br><br>
+
+    <p class="bg-info">使用了 "bg-info" 类的文本</p>
+    <a class="bg-info">使用了 "bg-info" 类的链接</a><br><br>
+
+    <p class="bg-warning">使用了 "bg-warning" 类的文本</p>
+    <a class="bg-warning">使用了 "bg-warning" 类的链接</a><br><br>
+
+    <p class="bg-danger">使用了 "bg-danger" 类的文本</p>
+    <a class="bg-danger">使用了 "bg-danger" 类的链接</a><br><br>
+</div><hr>
+
+
+<!--其他-->
+<p class="pull-left">元素浮动到左边</p><br>
+<p class="pull-right">元素浮动到右边</p><br>
+<p class="center-block" style="width:150px;background-color:#ccc;">
+    设置元素为 display:block 并居中显示</p><br>
+<div class="row">
+    <div class="col-xs-6 col-sm-3" style="background-color:lavender;">
+        列 1<br>
+        重置窗口大小，查看效果。也尝试删除有 clearfix  的 div 查看效果。
+    </div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">列 2</div>
+    <!-- Add clearfix for only the required viewport -->
+    <div class="clearfix visible-xs"></div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">列 3</div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">列 4</div>
+</div><br>
+<p class="show">强制元素显示</p><br>
+<p class="hidden">强制元素隐藏</p><br>
+<p class="sr-only" style="background-color: #bbbbbb">
+    除了屏幕阅读器外，其他设备上隐藏元素</p><br>
+<p class="sr-only sr-only-focusable" style="background-color: #bbbbbb">
+    与 .sr-only 类结合使用，在元素获取焦点时显示(如：键盘操作的用户)</p><br>
+<p class="text-hide" style="background-color: #bbbbbb">
+    将页面元素所包含的文本内容替换为背景图</p><br>
+<div>
+    <p>显示一个关闭按钮</p>
+    <button type="button" class="close">
+        <span aria-hidden="true">X</span>
+        <span class="sr-only">关闭</span>
+    </button>
+</div>
+<div class="container">
+    <p>.caret 类显示了一个下拉的功能:<span class="caret"></span></p>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown">Menu<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">一个链接</a></li>
+            <li><a href="#">一个链接</a></li>
+            <li><a href="#">一个链接</a></li>
+        </ul>
+    </div>
+</div><hr>
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
