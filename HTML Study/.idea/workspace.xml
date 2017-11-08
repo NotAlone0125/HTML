@@ -17,22 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="17.Bootstrap_LayoutModule_NavBar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/17.Bootstrap_LayoutModule_NavBar.html">
+      <file leaf-file-name="19.Bootstrap_LayoutModule_Pagination.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="187" column="14" lean-forward="true" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18.Bootstrap_LayoutModule_CrumbsNav.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/18.Bootstrap_LayoutModule_CrumbsNav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="341">
+              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              <folding>
+                <element signature="e#696#703#1" expanded="true" />
+                <element signature="e#920#927#1" expanded="true" />
+                <element signature="e#1316#1322#0" expanded="true" />
+                <element signature="e#1377#1383#0" expanded="true" />
+                <element signature="e#1482#1488#0" expanded="true" />
+                <element signature="e#1543#1549#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/11.JavaScript_String.html" />
         <option value="$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html" />
         <option value="$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html" />
         <option value="$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html" />
@@ -107,6 +103,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/16.Bootstrap_LayoutModule_NavElement.html" />
         <option value="$PROJECT_DIR$/Bootstrap/17.Bootstrap_LayoutModule_NavBar.html" />
         <option value="$PROJECT_DIR$/Bootstrap/18.Bootstrap_LayoutModule_CrumbsNav.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html" />
       </list>
     </option>
   </component>
@@ -117,10 +114,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="202" />
-    <option name="width" value="1130" />
-    <option name="height" value="683" />
+    <option name="x" value="311" />
+    <option name="y" value="23" />
+    <option name="width" value="1118" />
+    <option name="height" value="749" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -303,12 +300,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="41527000" />
+      <workItem from="1509930209297" duration="43053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448470000" />
+    <option name="totallyTimeSpent" value="449996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,10 +317,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="202" width="1130" height="683" extended-state="0" />
+    <frame x="311" y="23" width="1118" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20559062" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20783956" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.4869059" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.51309407" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -788,9 +778,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/18.Bootstrap_LayoutModule_CrumbsNav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#696#703#1" expanded="true" />
+            <element signature="e#920#927#1" expanded="true" />
+            <element signature="e#1316#1322#0" expanded="true" />
+            <element signature="e#1377#1383#0" expanded="true" />
+            <element signature="e#1482#1488#0" expanded="true" />
+            <element signature="e#1543#1549#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Bootstrap 分页</title>
+</head>
+<body>
+
+
+<!--分页（Pagination），是一种无序列表，Bootstrap 像处理其他界面元素一样处理分页。
+
+.pagination：添加该 class 来在页面上显示分页。
+.disabled,.active：您可以自定义链接，通过使用 .disabled 来定义不可点击的链接，通过使用 .active 来指示当前的页面。
+.pagination-lg,.pagination-sm：使用这些 class 来获取不同大小的项。-->
+<ul class="pagination pagination-lg">
+    <li><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li class="disabled"><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul><hr>
+
+
+
+
+
+<!--翻页（Pager）
+如果您想要创建一个简单的分页链接为用户提供导航，可通过翻页来实现。与分页链接一样，翻页也是无序列表。默认情况下，
+链接是居中显示。
+
+.pager：添加该 class 来获得翻页链接。
+.previous,.next：使用 class .previous 把链接向左对齐，使用 .next 把链接向右对齐。
+.disabled：添加该 class 来获得一个颜色变淡的外观。-->
+<ul class="pager">
+    <li><a href="#">百度</a></li>
+    <li><a href="#">谷歌</a></li>
+</ul>
+
+<!--对齐的链接-->
+<ul class="pager">
+    <li class="previous"><a href="#">&larr; Older</a></li>
+    <li class="next"><a href="#">Newer &rarr;</a></li>
+</ul><hr>
+
+<!--翻页的状态-->
+<ul class="pager">
+    <li class="previous disabled"><a href="#">&larr; Older</a></li>
+    <li class="next"><a href="#">Newer &rarr;</a></li>
+</ul><hr>
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
