@@ -17,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19.Bootstrap_LayoutModule_Pagination.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="19.Bootstrap_LayoutModule_Pagination.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
@@ -30,6 +30,16 @@
                 <element signature="e#1482#1488#0" expanded="true" />
                 <element signature="e#1543#1549#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20.Bootstrap_LayoutModule_Label.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/20.Bootstrap_LayoutModule_Label.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/12.JavaScript_Operator.html" />
         <option value="$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html" />
         <option value="$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html" />
         <option value="$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html" />
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/17.Bootstrap_LayoutModule_NavBar.html" />
         <option value="$PROJECT_DIR$/Bootstrap/18.Bootstrap_LayoutModule_CrumbsNav.html" />
         <option value="$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/20.Bootstrap_LayoutModule_Label.html" />
       </list>
     </option>
   </component>
@@ -300,12 +310,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="43053000" />
+      <workItem from="1509930209297" duration="43294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="449996000" />
+    <option name="totallyTimeSpent" value="450237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,13 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/18.JavaScript_Error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -796,6 +799,14 @@
             <element signature="e#1482#1488#0" expanded="true" />
             <element signature="e#1543#1549#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/20.Bootstrap_LayoutModule_Label.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
