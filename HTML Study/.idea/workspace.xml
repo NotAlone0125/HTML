@@ -17,29 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19.Bootstrap_LayoutModule_Pagination.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html">
+      <file leaf-file-name="21.Bootstrap_LayoutModule_Badges.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/21.Bootstrap_LayoutModule_Badges.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="258">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
-                <element signature="e#696#703#1" expanded="true" />
-                <element signature="e#920#927#1" expanded="true" />
-                <element signature="e#1316#1322#0" expanded="true" />
-                <element signature="e#1377#1383#0" expanded="true" />
-                <element signature="e#1482#1488#0" expanded="true" />
-                <element signature="e#1543#1549#0" expanded="true" />
+                <element signature="n#style#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20.Bootstrap_LayoutModule_Label.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/20.Bootstrap_LayoutModule_Label.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/13.JavaScript_LogicOperator.html" />
         <option value="$PROJECT_DIR$/JavaScript/14.JavaScript_ConditionalStatement.html" />
         <option value="$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html" />
         <option value="$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html" />
@@ -114,6 +98,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/18.Bootstrap_LayoutModule_CrumbsNav.html" />
         <option value="$PROJECT_DIR$/Bootstrap/19.Bootstrap_LayoutModule_Pagination.html" />
         <option value="$PROJECT_DIR$/Bootstrap/20.Bootstrap_LayoutModule_Label.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/21.Bootstrap_LayoutModule_Badges.html" />
       </list>
     </option>
   </component>
@@ -124,7 +109,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
+    <option name="x" value="415" />
     <option name="y" value="23" />
     <option name="width" value="1118" />
     <option name="height" value="749" />
@@ -310,12 +295,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="43294000" />
+      <workItem from="1509930209297" duration="43981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450237000" />
+    <option name="totallyTimeSpent" value="450924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,7 +312,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="23" width="1118" height="749" extended-state="0" />
+    <frame x="415" y="23" width="1118" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20783956" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
@@ -384,13 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/18.JavaScript_Error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -807,6 +785,16 @@
         <state relative-caret-position="357">
           <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/21.Bootstrap_LayoutModule_Badges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
