@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Bootstrap 导航元素</title>
+</head>
+<body>
+
+
+<!--Bootstrap 提供的用于定义导航元素的一些选项。
+它们使用相同的标记和基类 .nav。Bootstrap 也提供了一个用于共享标记和状态的帮助器类。
+改变修饰的 class，可以在不同的样式间进行切换。-->
+
+
+<!--表格导航或标签
+创建一个标签式的导航菜单：
+1.以一个带有 class .nav 的无序列表开始。
+2.添加 class .nav-tabs。-->
+<div style="padding: 10px">
+    <p>标签式的导航菜单</p>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <li><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">PHP</a></li>
+    </ul><hr>
+</div>
+
+
+
+<!--胶囊式的导航菜单
+基本的胶囊式导航菜单
+如果需要把标签改成胶囊的样式，只需要使用 class .nav-pills 代替 .nav-tabs 即可-->
+<div style="padding: 10px">
+    <p>基本的胶囊式导航菜单</p>
+    <!--在使用 class .nav、.nav-pills 的同时使用 class .nav-stacked，让胶囊垂直堆叠-->
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <li><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">PHP</a></li>
+    </ul>
+</div><hr>
+
+
+<!--两端对齐的导航
+可以在屏幕宽度大于 768px 时，通过在分别使用 .nav、.nav-tabs 或 .nav、.nav-pills 的同时使用
+class .nav-justified，让标签式或胶囊式导航菜单与父元素等宽。在更小的nav-justified屏幕上，导航链接会堆叠。-->
+<div style="padding: 10px">
+    <p>两端对齐的导航</p>
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <!--对每个 .nav class，如果添加了 .disabled class，则会创建一个灰色的链接，
+        同时禁用了该链接的 :hover 状态-->
+        <li class="disabled"><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">PHP</a></li>
+    </ul>
+</div>
+
+
+<!--下拉菜单
+导航菜单与下拉菜单使用相似的语法。默认情况下，列表项的锚与一些数据属性协同合作来触发带有 .dropdown-menu class
+的无序列表。
+
+带有下拉菜单的标签
+向标签添加下拉菜单的步骤如下：
+1.以一个带有 class .nav 的无序列表开始。
+2/添加 class .nav-tabs。
+3.添加带有 .dropdown-menu class 的无序列表。-->
+<div style="padding: 10px;">
+    <p>带有下拉菜单的导航</p>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <li><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Java <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Swing</a></li>
+                <li><a href="#">jMeter</a></li>
+                <li><a href="#">EJB</a></li>
+                <li class="divider"></li>
+                <li><a href="#">分离的链接</a></li>
+            </ul>
+        </li>
+    </ul>
+</div><hr>
+
+
+
+<!--其他类名：
+.tab-content：与 .tab-pane 和 data-toggle="tab" (data-toggle="pill" ) 一同使用,
+设置标签页对应的内容随标签的切换而更改。
+.tab-pane：与 .tab-content 和 data-toggle="tab" (data-toggle="pill")一同使用,
+设置标签页对应的内容随标签的切换而更改-->
+<div style="padding: 10px">
+    <p>动态标签</p>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">首页</a></li>
+        <li><a data-toggle="tab" href="#menu1">菜单 1</a></li>
+        <li><a data-toggle="tab" href="#menu2">菜单 2</a></li>
+        <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <h3>首页</h3>
+            <p>菜鸟教程 —— 学的不仅是技术，更是梦想！！！</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+            <h3>菜单 1</h3>
+            <p>这是菜单 1 显示的内容。这是菜单 1 显示的内容。这是菜单 1 显示的内容。</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+            <h3>菜单 2</h3>
+            <p>这是菜单 2 显示的内容。这是菜单 2 显示的内容。这是菜单 2 显示的内容。</p>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+            <h3>菜单 3</h3>
+            <p>这是菜单 3 显示的内容。这是菜单 3 显示的内容。这是菜单 3 显示的内容。</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
