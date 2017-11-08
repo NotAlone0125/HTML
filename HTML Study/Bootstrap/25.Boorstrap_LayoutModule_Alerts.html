@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Bootstrap 警告（Alerts）</title>
+</head>
+<body>
+
+
+<!--警告（Alerts）向用户提供了一种定义消息样式的方式。它们为典型的用户操作提供了上下文信息反馈。
+您可以为警告框添加一个可选的关闭按钮。为了创建一个内联的可取消的警告框，请使用 警告（Alerts） jQuery 插件。
+您可以通过创建一个 <div>，并向其添加一个 .alert class 和四个上下文 class（即 .alert-success、
+.alert-info、.alert-warning、.alert-danger）之一，来添加一个基本的警告框。-->
+<div class="alert alert-success">成功！很好地完成了提交。</div>
+<div class="alert alert-info">信息！请注意这个信息。</div>
+<div class="alert alert-warning">警告！请不要提交。</div>
+<div class="alert alert-danger">错误！请进行一些更改。</div><hr>
+
+
+
+<!--可取消的警告（Dismissal Alerts）
+创建一个可取消的警告（Dismissal Alert）步骤如下：
+1.通过创建一个 <div>，并向其添加一个 .alert class 和四个上下文 class（即 .alert-success、
+.alert-info、.alert-warning、.alert-danger）之一，来添加一个基本的警告框。
+2.同时向上面的 <div> class 添加可选的 .alert-dismissable。
+3.添加一个关闭按钮。-->
+<div class="alert alert-success alert-dismissable">
+    <button type="button" class="close" data-sismiss="alert"
+            aria-hidden="true">&times;</button>
+    成功！很好地完成了提交。
+</div><hr>
+
+
+
+<!--警告（Alerts）中的链接
+在警告（Alerts）中创建链接的步骤如下：
+1.通过创建一个 <div>，并向其添加一个 .alert class 和四个上下文 class（即 .alert-success、
+.alert-info、.alert-warning、.alert-danger）之一，来添加一个基本的警告框。
+2.使用 .alert-link 实体类来快速提供带有匹配颜色的链接。-->
+<div class="alert alert-success">
+    <a href="#" class="alert-link">成功！很好地完成了提交。</a>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
