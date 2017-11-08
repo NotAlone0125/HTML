@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Bootstrap 缩略图</title>
+</head>
+<body>
+
+<!--大多数站点都需要在网格中布局图像、视频、文本等。Bootstrap 通过缩略图为此提供了一种简便的方式。使用
+Bootstrap 创建缩略图的步骤如下：
+1.在图像周围添加带有 class .thumbnail 的 <a> 标签。
+2.这会添加四个像素的内边距（padding）和一个灰色的边框。
+3.当鼠标悬停在图像上时，会动画显示出图像的轮廓。-->
+
+<!--默认的缩略图-->
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png" alt="通用的占位符缩略图">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png"
+                 alt="通用的占位符缩略图">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png"
+                 alt="通用的占位符缩略图">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png"
+                 alt="通用的占位符缩略图">
+        </a>
+    </div>
+</div><hr>
+
+
+<!--添加自定义的内容
+现在我们有了一个基本的缩略图，我们可以向缩略图添加各种 HTML 内容，比如标题、段落或按钮。具体步骤如下：
+1.把带有 class .thumbnail 的 <a> 标签改为 <div>。
+2.在该 <div> 内，您可以添加任何您想要添加的东西。由于这是一个 <div>，我们可以使用默认的基于 span 的命名规则来调
+整大小。
+3.如果您想要给多个图像进行分组，请把它们放置在一个无序列表中，且每个列表项向左浮动。-->
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png" alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png" alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png" alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="03.Bootstrap_CSS_Grid.png" alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                    <a href="#" class="btn btn-primary" role="button">按钮</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

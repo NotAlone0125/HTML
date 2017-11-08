@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="23.Bootstrap_LayoutModule_PageHeader.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="23.Bootstrap_LayoutModule_PageHeader.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/23.Bootstrap_LayoutModule_PageHeader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="362">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="24.Bootstrap_LayoutModule_Thumbnail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/24.Bootstrap_LayoutModule_Thumbnail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/16.JavaScript_TypeTransform.html" />
         <option value="$PROJECT_DIR$/JavaScript/17.JavaScript_RegularExpression.html" />
         <option value="$PROJECT_DIR$/JavaScript/18.JavaScript_Error.html" />
         <option value="$PROJECT_DIR$/JavaScript/19.JavaScript_Debug.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/21.Bootstrap_LayoutModule_Badges.html" />
         <option value="$PROJECT_DIR$/Bootstrap/22.Bootstrap_LayoutModule_Jumbotron.html" />
         <option value="$PROJECT_DIR$/Bootstrap/23.Bootstrap_LayoutModule_PageHeader.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/24.Bootstrap_LayoutModule_Thumbnail.html" />
       </list>
     </option>
   </component>
@@ -107,10 +117,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="23" />
-    <option name="width" value="1118" />
-    <option name="height" value="749" />
+    <option name="x" value="385" />
+    <option name="y" value="247" />
+    <option name="width" value="1055" />
+    <option name="height" value="653" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -293,12 +303,12 @@
       <workItem from="1509070996260" duration="30594000" />
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
-      <workItem from="1509930209297" duration="44989000" />
+      <workItem from="1509930209297" duration="45716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451932000" />
+    <option name="totallyTimeSpent" value="452659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,10 +320,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="23" width="1118" height="749" extended-state="0" />
+    <frame x="385" y="247" width="1055" height="653" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20783956" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2205029" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.4869059" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.51309407" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -367,13 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/21.JavaScript_UseStrict.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -792,8 +795,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/23.Bootstrap_LayoutModule_PageHeader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="362">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/24.Bootstrap_LayoutModule_Thumbnail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding />
         </state>
       </provider>
