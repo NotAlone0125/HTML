@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="28.Bootstrap_LayoutModule_LIstGroup.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="28.Bootstrap_LayoutModule_LIstGroup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/28.Bootstrap_LayoutModule_LIstGroup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
               <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="29.Bootstrap_LayoutModule_Panels.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/29.Bootstrap_LayoutModule_Panels.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="97" column="11" lean-forward="true" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/21.JavaScript_UseStrict.html" />
         <option value="$PROJECT_DIR$/JavaScript/22.JavaScript_UseError.html" />
         <option value="$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html" />
         <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_FormVerify.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/26.Bootstrap_LayoutModule_Progress.html" />
         <option value="$PROJECT_DIR$/Bootstrap/27.Bootstrap_LayoutModule_MediaObject.html" />
         <option value="$PROJECT_DIR$/Bootstrap/28.Bootstrap_LayoutModule_LIstGroup.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/29.Bootstrap_LayoutModule_Panels.html" />
       </list>
     </option>
   </component>
@@ -294,12 +304,12 @@
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
       <workItem from="1509930209297" duration="47572000" />
-      <workItem from="1510189490356" duration="2643000" />
+      <workItem from="1510189490356" duration="3745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457158000" />
+    <option name="totallyTimeSpent" value="458260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,13 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/03.HTML5_NewSemanticAndStructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3309">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/01.JavaScript_Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -717,6 +720,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/29.Bootstrap_LayoutModule_Panels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="97" column="11" lean-forward="true" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
           <folding />
         </state>
       </provider>
