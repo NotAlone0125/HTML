@@ -17,31 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="30.Bootstrap_LayoutModule_Well.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/30.Bootstrap_LayoutModule_Well.html">
+      <file leaf-file-name="33.Bootstrap_Plugin_Dropdown.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/33.Bootstrap_Plugin_Dropdown.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="31.Bootstrap_Plugin_Intruction.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bootstrap/31.Bootstrap_Plugin_Intruction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="77" column="65" lean-forward="false" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="32.Bootstrap_Plugin_Modal.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="32.Bootstrap_Plugin_Modal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/32.Bootstrap_Plugin_Modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="65">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="e#2044#2051#1" expanded="true" />
               </folding>
@@ -68,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_VerifyAPI.html" />
         <option value="$PROJECT_DIR$/JavaScript/25.JavaScript_VerifyAPI.html" />
         <option value="$PROJECT_DIR$/JavaScript/26.JavaScript_Key-Json-Void-Standard.html" />
         <option value="$PROJECT_DIR$/JavaScriptAdvance/01.JSAdvance_Function.html" />
@@ -119,6 +108,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/30.Bootstrap_LayoutModule_Well.html" />
         <option value="$PROJECT_DIR$/Bootstrap/31.Bootstrap_Plugin_Intruction.html" />
         <option value="$PROJECT_DIR$/Bootstrap/32.Bootstrap_Plugin_Modal.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/33.Bootstrap_Plugin_Dropdown.html" />
       </list>
     </option>
   </component>
@@ -316,12 +306,12 @@
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
       <workItem from="1509930209297" duration="47572000" />
-      <workItem from="1510189490356" duration="10314000" />
+      <workItem from="1510189490356" duration="11687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="464829000" />
+    <option name="totallyTimeSpent" value="466202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +326,7 @@
     <frame x="364" y="177" width="1055" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29400387" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29400387" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.4869059" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.51309407" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -390,13 +380,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/05.JSAdvance_NumberObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/06.JSAdvance_StringObject.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -741,11 +724,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/32.Bootstrap_Plugin_Modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="65">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#2044#2051#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/33.Bootstrap_Plugin_Dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
