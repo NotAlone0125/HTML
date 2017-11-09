@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="30.Bootstrap_LayoutModule_Well.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="30.Bootstrap_LayoutModule_Well.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/30.Bootstrap_LayoutModule_Well.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="31.Bootstrap_Plugin_Intruction.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/31.Bootstrap_Plugin_Intruction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/23.JavaScript_Form.html" />
         <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_FormVerify.html" />
         <option value="$PROJECT_DIR$/JavaScript/24.JavaScript_VerifyAPI.html" />
         <option value="$PROJECT_DIR$/JavaScript/25.JavaScript_VerifyAPI.html" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/Bootstrap/28.Bootstrap_LayoutModule_LIstGroup.html" />
         <option value="$PROJECT_DIR$/Bootstrap/29.Bootstrap_LayoutModule_Panels.html" />
         <option value="$PROJECT_DIR$/Bootstrap/30.Bootstrap_LayoutModule_Well.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/31.Bootstrap_Plugin_Intruction.html" />
       </list>
     </option>
   </component>
@@ -294,12 +304,12 @@
       <workItem from="1509411143300" duration="36749000" />
       <workItem from="1509585318790" duration="26336000" />
       <workItem from="1509930209297" duration="47572000" />
-      <workItem from="1510189490356" duration="3989000" />
+      <workItem from="1510189490356" duration="5110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458504000" />
+    <option name="totallyTimeSpent" value="459625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,8 +322,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="324" y="61" width="992" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29454172" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29454172" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.4869059" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.51309407" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -367,13 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScriptAdvance/03.JSAdvance_HTMLDOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="335" column="61" lean-forward="false" selection-start-line="335" selection-start-column="61" selection-end-line="335" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/15.JavaScript_Typeof.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -718,6 +722,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/31.Bootstrap_Plugin_Intruction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
