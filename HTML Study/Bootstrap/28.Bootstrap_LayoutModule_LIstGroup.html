@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Bootstrap 列表组</title>
+</head>
+<body>
+
+<!--列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
+1.向元素 <ul> 添加 class .list-group。
+2.向 <li> 添加 class .list-group-item。-->
+<ul class="list-group">
+    <li class="list-group-item">免费域名注册</li>
+    <li class="list-group-item">免费 Window 空间托管</li>
+    <li class="list-group-item">图像的数量</li>
+    <li class="list-group-item">24*7 支持</li>
+    <li class="list-group-item">每年更新成本</li>
+</ul><hr>
+
+
+<!--向列表组添加徽章
+可以向任意的列表项添加徽章组件，它会自动定位到右边。只需要在 <li> 元素中添加 <span class="badge"> 即可。-->
+<ul class="list-group">
+    <li class="list-group-item">免费域名注册</li>
+    <li class="list-group-item">免费 Window 空间托管</li>
+    <li class="list-group-item">图像的数量</li>
+    <li class="list-group-item">
+        <span class="badge">新</span>
+        24*7 支持
+    </li>
+    <li class="list-group-item">每年更新成本</li>
+    <li class="list-group-item">
+        <span class="badge">新</span>
+        折扣优惠
+    </li>
+</ul><hr>
+
+
+<!--向列表组添加链接
+通过使用锚标签代替列表项，可以向列表组添加链接。-->
+<a href="#" class="list-group-item">免费域名注册</a>
+<a href="#" class="list-group-item">免费 Window 空间托管</a>
+<a href="#" class="list-group-item">图像的数量</a>
+<a href="#" class="list-group-item">24*7 支持</a>
+<a href="#" class="list-group-item">每年更新成本</a>
+
+
+<!--向列表组添加自定义内容
+可以向上面已添加链接的列表组添加任意的 HTML 内容。-->
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">入门网站包</h4>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">免费域名注册</h4>
+        <p class="list-group-item-text">您将通过网页进行免费域名注册。</p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">入门网站包</h4>
+        <p class="list-group-item-text">我们提供 24*7 支持。</p>
+    </a>
+</div>
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
