@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Bootstrap 警告框（Alert）插件</title>
+</head>
+<body>
+
+<!--警告框（Alert）消息大多是用来向终端用户显示诸如警告或确认消息的信息。使用警告框（Alert）插件，
+可以向所有的警告框消息添加可取消（dismiss）功能。-->
+
+
+<!--用法
+可以有以下两种方式启用警告框的可取消（dismissal）功能：
+1.通过 data 属性：通过数据 API（Data API）添加可取消功能，只需要向关闭按钮添加 data-dismiss="alert"，
+  就会自动为警告框添加关闭功能。
+  <a class="close" data-dismiss="alert" href="#" aria-hidden="true">
+      &times;
+  </a>
+2.通过 JavaScript：通过 JavaScript 添加可取消功能：
+  $(".alert").alert()-->
+
+
+<!--通过 data 属性使用警告框（Alert）插件的用法。-->
+<div class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div><hr>
+
+
+<!--选项
+没有选项。-->
+
+
+<!--方法
+下面是一些警告框（Alert）插件中有用的方法：
+.alert():该方法让所有的警告框都带有关闭功能。$('#identifier').alert();
+Close Method .alert('close'):关闭所有的警告框。$('#identifier').alert('close');
+如需在关闭时启用动画效果，请确保添加了 .fade 和 .in class。-->
+
+<!-- .alert() 方法的用法-->
+<h3>警告框（Alert）插件 alert() 方法</h3>
+<div id="myAlert1" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+<div id="myAlert1" class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div><hr>
+<script>
+    $(function () {
+        $('.close').click(function () {
+            $('#myAlert1').alert();
+        });
+    });
+    $(function(){
+        $(".close").click(function(){
+            $("#myAlert1").alert('close');
+        });
+    });
+</script>
+
+
+
+<!--事件
+下表列出了警告框（Alert）插件中要用到的事件。这些事件可在函数中当钩子使用。
+1.close.bs.alert：当调用 close 实例方法时立即触发该事件。
+  $('#myalert').bind('close.bs.alert', function () {
+    // 执行一些动作...
+  })
+2.closed.bs.alert：当警告框被关闭时触发该事件（将等待 CSS 过渡效果完成）。
+  $('#myalert').bind('closed.bs.alert', function () {
+      // 执行一些动作...
+  })-->
+<div id="myAlert3" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+<script>
+    $(function(){
+        $("#myAlert3").bind('closed.bs.alert', function () {
+            alert("警告消息框被关闭。");
+        });
+    });
+</script>
+
+
+</body>
+</html>
