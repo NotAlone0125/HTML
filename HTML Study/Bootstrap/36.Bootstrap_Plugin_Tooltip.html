@@ -62,9 +62,9 @@
         data-placement="right" title="右侧的 Tooltip">
     右侧的 Tooltip
 </button><hr>
-<script>
+<!--<script>
     $(function () { $("[data-toggle='tooltip']").tooltip(); });
-</script>
+</script>-->
 
 
 <!--选项
@@ -107,10 +107,9 @@ Destroy: .tooltip('destroy'):隐藏并销毁元素的提示工具。$('#element'
     这是一个 <a href="#" class="tooltip-toggle" data-toggle="tooltip"
             data-placement="bottom" title="toggle">Tooltip 方法 toggle</a>.
     <br><br><br><br><br><br>
-    <p class="tooltop-options">
+    <p class="tooltip-options">
         这是一个 <a href="#" data-toggle="tooltip" title="<h2>'am Header2
-         </h2>">Tooltip 方法 options
-    </a>.
+         </h2>">Tooltip 方法 options</a>.
     </p>
 </div>
 <script>
@@ -120,7 +119,7 @@ Destroy: .tooltip('destroy'):隐藏并销毁元素的提示工具。$('#element'
     $(function () { $('.tooltip-hide').tooltip('hide');});
     $(function () { $('.tooltip-destroy').tooltip('destroy');});
     $(function () { $('.tooltip-toggle').tooltip('toggle');});
-    $(function () { $(".tooltip-options a").tooltip({html : true });
+    $(function () { $('.tooltip-options a').tooltip({html : true });
     });
 </script><hr>
 
