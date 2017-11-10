@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="37.Bootstrap_Plugin_Popover.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="37.Bootstrap_Plugin_Popover.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bootstrap/37.Bootstrap_Plugin_Popover.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="99" column="65" lean-forward="false" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
+            <state relative-caret-position="250">
+              <caret line="129" column="53" lean-forward="true" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="36.Bootstrap_Plugin_Tooltip.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="36.Bootstrap_Plugin_Tooltip.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bootstrap/36.Bootstrap_Plugin_Tooltip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="144" column="8" lean-forward="true" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+            <state relative-caret-position="61">
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="143" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/Bootstrap/33.Bootstrap_Plugin_Dropdown.html" />
         <option value="$PROJECT_DIR$/Bootstrap/34.Bootstrap_Plugin_Scrollspy.html" />
         <option value="$PROJECT_DIR$/Bootstrap/35.Bootstrap_Plugina_Tab.html" />
-        <option value="$PROJECT_DIR$/Bootstrap/37.Bootstrap_Plugin_Popover.html" />
         <option value="$PROJECT_DIR$/Bootstrap/36.Bootstrap_Plugin_Tooltip.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/37.Bootstrap_Plugin_Popover.html" />
       </list>
     </option>
   </component>
@@ -122,8 +122,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="201" />
+    <option name="x" value="498" />
+    <option name="y" value="203" />
     <option name="width" value="1055" />
     <option name="height" value="686" />
   </component>
@@ -310,12 +310,12 @@
       <workItem from="1509585318790" duration="26336000" />
       <workItem from="1509930209297" duration="47572000" />
       <workItem from="1510189490356" duration="12535000" />
-      <workItem from="1510276270211" duration="15202000" />
+      <workItem from="1510276270211" duration="15482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482252000" />
+    <option name="totallyTimeSpent" value="482532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,7 +327,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="201" width="1055" height="686" extended-state="0" />
+    <frame x="498" y="203" width="1055" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29206964" sideWeight="0.486" order="0" side_tool="false" content_ui="combo" />
@@ -720,23 +720,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/37.Bootstrap_Plugin_Popover.html">
+    <entry file="file://$PROJECT_DIR$/Bootstrap/36.Bootstrap_Plugin_Tooltip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="99" column="65" lean-forward="false" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
+        <state relative-caret-position="61">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="143" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/36.Bootstrap_Plugin_Tooltip.html">
+    <entry file="file://$PROJECT_DIR$/Bootstrap/37.Bootstrap_Plugin_Popover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="144" column="8" lean-forward="true" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+        <state relative-caret-position="250">
+          <caret line="129" column="53" lean-forward="true" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

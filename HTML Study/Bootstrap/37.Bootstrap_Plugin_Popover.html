@@ -39,11 +39,11 @@
             data-content="左侧的 Popover 中的一些内容">左侧的 Popover
     </button>
 </div><br>
-<script>
+<!--<script>
     $(function () {
         $('[data-toggle="popover"]').popover();
     })
-</script>
+</script>-->
 
 
 <!--选项
@@ -67,11 +67,11 @@ data-container(类型：string | false，默认值：false):向指定元素追�
 
 <!--方法
 下面是一些提示工具（Tooltip）插件中有用的方法：
-Options: .tooltip(options):向元素集合附加提示工具句柄。$().tooltip(options)
-Toggle: .tooltip('toggle'):切换显示/隐藏元素的提示工具。$('#element').tooltip('toggle')
-Show: .tooltip('show'):显示元素的提示工具。$('#element').tooltip('show')
-Hide: .tooltip('hide'):隐藏元素的提示工具。$('#element').tooltip('hide')
-Destroy: .tooltip('destroy'):隐藏并销毁元素的提示工具。$('#element').tooltip('destroy')-->
+Options: .popover(options):向元素集合附加提示工具句柄。$().popover(options)
+Toggle: .popover('toggle'):切换显示/隐藏元素的提示工具。$('#element').popover('toggle')
+Show: .popover('show'):显示元素的提示工具。$('#element').popover('show')
+Hide: .popover('hide'):隐藏元素的提示工具。$('#element').popover('hide')
+Destroy: .popover('destroy'):隐藏并销毁元素的提示工具。$('#element').popover('destroy')-->
 <div class="container" style="padding: 10px;">
     <button type="button" class="btn btn-default popover-show" title="Popover title"
             data-container="body" data-toggle="popover" data-placement="left"
@@ -110,6 +110,36 @@ Destroy: .tooltip('destroy'):隐藏并销毁元素的提示工具。$('#element'
     $(function () { $('.popover-destroy').popover('destroy');});
     $(function () { $('.popover-toggle').popover('toggle');});
     $(function () { $(".popover-options a").popover({html : true });});
+</script>
+
+
+<!--事件
+下面列出了提示工具（Tooltip）插件中要用到的事件。这些事件可在函数中当钩子使用。
+1.show.bs.popover	当调用 show 实例方法时立即触发该事件。
+  $('#myPopover').on('show.bs.popover', function () {
+    // 执行一些动作...
+  })
+2.shown.bs.popover	当提示工具对用户可见时触发该事件（将等待 CSS 过渡效果完成）。
+  $('#myPopover').on('shown.bs.popover', function () {
+    // 执行一些动作...
+  })
+3.hide.bs.popover	当调用 hide 实例方法时立即触发该事件。
+  $('#myPopover').on('hide.bs.popover', function () {
+    // 执行一些动作...
+  })
+4.hidden.bs.popover	当提示工具对用户隐藏时触发该事件（将等待 CSS 过渡效果完成）。
+  $('#myPopover').on('hidden.bs.popover', function () {
+    // 执行一些动作...
+  })-->
+<script>
+    $(function () {
+        $('.popover-show').popover('show');
+    });
+    $(function () {
+        $('.popover-show',function () {
+            alert("当显示时警告消息");
+        })
+    });
 </script>
 
 
