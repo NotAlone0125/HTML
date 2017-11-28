@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset='UTF-8'">
+    <title>JQuery基础入门</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<!--第一个JQuery程序-->
+<script>
+    $(function () {
+        $('input').click(function () {
+            alert('第一个JQuery程序');
+        });
+    });
+</script>
+<input type="button" value="button">
+
+<hr>
+<!--代码模式：-->
+<!--JQuery以$符号为起始-->
+<div id="box">基础核心</div>
+<script>
+    /*匿名函数*/
+    $(function () {
+        $('#box').css('color','red');/*根据ID获取标签并更改CSS*/
+    })
+
+    /*
+    $符号就是JQuery的缩写
+    jQuery(function () {
+
+    })*/
+
+    /*
+    $返回JQuery对象的内部
+    $(),$('#box'),$('#box').css('color','red')都返回JQuery对象，因此可以使用连缀
+    */
+    $(function () {
+        $('#box').css('color','red').css('font-size','50px');
+    })
+</script>
+
+
+
+<!--加载模式-->
+<!--代码使用 $(function () {}) 包裹，是因为JQuery库文件一般在body元素之前加载，因此必须
+在所有的DOM元素加载后，延迟支持DOM操作，否则就无法获取到元素。
+ window.onload = function(){};//Javascript等待加载-->
+<script>
+    /*JQuery中等待加载:Javascript等待加载方式需要资源完全加载，而JQuery只会在DOM元素
+    加载完成后就执行;JQuery可执行多次，Javascript等待加载会被覆盖*/
+/*    window.onload = function () {
+        alert('1');
+    };
+    window.onload = function () {
+        alert('2');
+    };*/
+    $(function () {
+        alert('1');
+    });
+    $(function () {
+        alert('2');
+    });
+</script>
+
+
+
+<!--对象互换-->
+<script>
+    $('#box') /*返回JQuery对象*/
+    $('#box').get(0)/*返回JQuery对象中包含的DOM对象，0是索引*/
+</script>
+
+
+
+<!--多个库的冲突，例如多个库都使用$符号作为基准起始符-->
+<script>
+    /*一种方法可以使用其他名称，例如JQuery中可以使用JQuery表示$*/
+    jQuery(function () {
+
+    });
+
+    /*另一种方法,适用于JQuery库在其他库之前引用*/
+    var $$ = jQuery;
+
+    /*第三种，把自己的$所有权剔除，适用于JQuery库在其他库之后引用*/
+    jQuery.noConflict();
+    var $$ = jQuery;
+</script>
+
+
+</body>
+</html>
