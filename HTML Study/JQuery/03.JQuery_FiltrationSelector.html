@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset='UTF-8'">
+    <title>JQuery 过滤选择器</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+</head>
+<body>
+
+
+<!--模仿CSS3中的伪类-->
+
+
+<!--基本过滤器-->
+<ul id="box1">
+    <li>列表1</li>
+    <li>列表2</li>
+    <li class="red">列表3</li>
+    <li>列表4</li>
+    <li>列表5</li>
+    <li>列表6</li>
+</ul><br>
+<ul id="box2">
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+    <li>列表4</li>
+    <li>列表5</li>
+    <li>列表6</li>
+</ul>
+<div>
+    <h3>标题</h3>
+</div>
+<input type="text">
+<script>
+    /*:first和:last，第一个和最后一个*/
+    $('#box1 li:first').css('background-color','red');
+    $('#box1 li').first().css('background-color','red');/*同样作用的JQuery方法*/
+    $('ul:first li:last').css('background-color','red');
+    $('ul:first li').last().css('background-color','red');/*同样作用的JQuery方法*/
+
+    /*:not(selector),不是该类的元素*/
+    $('#box1 li:not(.red)').css('background-color','#ccc');
+    $('#box1 li').not('.red').css('background-color','#ccc');/*同样作用的JQuery方法*/
+
+    /*:even从0开始偶数；:odd从0开始奇数；:eq(index)从0开始索引等于index的元素，负数时倒序*/
+    $('li:even').css('background-color','red');
+    $('li:odd').css('background-color','yellow');
+    $('li:eq(2)').css('background-color','blue');
+    $('li').eq(2).css('background-color','blue');/*同样作用的JQuery方法*/
+
+    /*:gt(index)从0开始索引大于index的元素，:lt(index)从0开始索引小于index的元素*/
+    $('li:gt(2)').css('background-color','green');
+    $('li:lt(2)').css('background-color','purple');
+
+    /*:header,标题元素,后代元素加空格*/
+    $('div :header').css('background-color','purple');
+
+    /*:foucs,焦点元素*/
+    $('input').get(0).focus();
+    $('input:focus').css('background-color','yellow');
+</script><hr>
+
+
+
+<!--内容过滤器：主要用于包含的子元素或者文本内容上-->
+<div>shdh ash dhasdas</div>
+<div>shdh sdasd dhasdas</div>
+<div class="two">1</div><br>
+<div class="two"></div>
+<ul>
+    <li class="one">1</li>
+    <li>2</li>
+    <li>3</li>
+</ul><br>
+<div>
+    <h4>段落</h4>
+</div>
+<script>
+    /*包含某文本的元素*/
+    $('div:contains("ash")').css('background-color','red');
+
+    /*不包含任何东西的元素*/
+    $('div:empty').css('background-color','green').css('height','20px');
+
+    /*选择子元素的类为该值的*/
+    $('ul:has(.one)').css('background-color','yellow');
+    $('ul').has('.one').css('background-color','yellow');
+
+    /*选择包含子元素的元素*/
+    $('.two:parent').css('background-color','purple');
+
+    /*JQuery提供了一个名称和 .parent 相似的方法，但这个方法并不是选取含有子元素或文本的元素，
+    而是获取当前元素的父元素，返回的是元素集合*/
+    $('h4').parent().css('background-color','purple');/*父元素*/
+    $('h4').parents().css('background-color','purple');/*所有父元素*/
+    $('h4').parentsUntil('body').css('background-color','purple');/*所有父元素,遇到body节点停止*/
+</script><hr>
+
+
+
+<!--可见性过滤器-->
+<div class="three" style="display: none">隐藏的DIV</div>
+<div class="three">显示的DIV</div>
+<script>
+    /*不论是哪种方式设置的元素显示*/
+    $('.three:visible').css('background-color','red');
+
+    /*不论是哪种方式设置的元素隐藏*/
+    $('div:hidden').css('background-color','#ccc').show(3000);/*三秒后显示*/
+</script><hr>
+
+
+
+<!--子元素过滤器-->
+<ul>
+    <li class="four">1</li>
+    <li class="four">2</li>
+    <li class="four">3</li>
+    <li class="four">4</li>
+    <li class="four">5</li>
+</ul>
+<ul>
+    <li class="four">1</li>
+    <li class="four">2</li>
+    <li class="four">3</li>
+    <li class="four">4</li>
+    <li class="four">5</li>
+</ul>
+<ul>
+    <li class="four">1</li>
+</ul>
+<script>
+
+    /*第一个元素为 li class="four" 元素，然后返回其父元素的第一个元素*/
+    $('.four:first-child').css('background-color','#ccc');
+
+    /*最后一个元素为 li class="four" 元素，然后返回其父元素的最后一个元素*/
+    $('.four:last-child').css('background-color','red');
+
+    /*有且仅有一个元素为 li class="four" 元素*/
+    $('.four:only-child').css('background-color','yellow');
+
+    /*索引从1开始:
+     参数为odd,获取元素父元素的奇数元素；
+     参数为even,获取元素父元素的奇数元素；
+     参数为index,获取元素父元素第index个元素；*/
+    $('.four:nth-child(odd)').css('background-color','yellow');
+    $('.four:nth-child(even)').css('background-color','green');
+    $('.four:nth-child(2)').css('background-color','blue');
+
+    $('.four:nth-child(3n)').css('background-color','#ccc');/*每隔三个显示*/
+    $('.four:nth-child(3n + 1)').css('background-color','#ccc');/*每隔三个加一个显示*/
+
+</script><hr>
+
+
+
+<!--其他方法-->
+<div id="six">
+    <h5>1</h5>
+    <h5 class="five">2</h5>
+    <h5 class="five" title="段落">3</h5>
+    <h5 class="end">4</h5>
+    <h5>5</h5>
+</div>
+<div id="seven">
+    hhhhh
+    <h4>kkkkk</h4>
+    llllll
+</div>
+<script>
+    /*会从所有包含 h5子元素的元素中检测 ，如果有其他的，以下结果可能为false*/
+
+    /*选择器，检测class是否为 five*/
+    /*alert($('.five').is('h5'));*/
+
+    /*JQuery对象集合，检测class是否为 five*/
+    /*alert($('.five').is($('h5')));*/
+    /*JQuery对象单个，检测class是否为 five*/
+    /*alert($('.five').is($('h5').eq(1)));*/
+
+    /*DOM对象，检测class是否为 five*/
+    /*alert($('.five').is($('h5').get(1)));*/
+
+    /*class为 five,且title为 "段落"*/
+    /*alert($('.five').is(function () {
+        /!*必须this指代 .five 元素*!/
+        return $(this).attr('title') == '段落';
+    }));*/
+
+    /*第三个 h5 是不是 five 类*/
+    $('h5').eq(2).hasClass('five');
+
+    /*取范围 前开后闭区间*/
+    $('h5').slice(0,2).css('background-color','#ccc');
+    $('h5').slice(2).css('background-color','red');/*从第三个位置开始全部选定*/
+    $('h5').slice(0,-2).css('background-color','#ccc');/*从0开始选，最后两个不选*/
+
+
+    /*end(),返回当前元素的前一个状态。0 的话就是父节点，大于0 就是前一个同级节点*/
+    $('#six').find('h5').end().get(0);
+    $('.end').next('h5').end().css('background-color','yellow');
+
+    /*contents,获取包含的文本和标签元素的总个数*/
+    /*alert($('#seven').contents().length);*/
+
+    /*filter,选择class 为 five的 li*/
+    $('h5').filter('.five').css('background-color','#ccc')
+    /*增加了首尾选择器*/
+    $('h5').filter('.five,:first,:last').css('background-color','#ccc')
+    /*特殊要求函数返回*/
+    $('h5').filter(function () {
+        return $(this).attr('class') == 'five' && $(this).attr('title') == '段落';
+    }).css('background-color','red');
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
