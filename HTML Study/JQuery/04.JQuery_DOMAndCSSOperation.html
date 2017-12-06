@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset='UTF-8'">
+    <title>JQuery 基础DOM和CSS操作</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+    <style>
+        .blue{color: blue;}
+        .green{color: green;}
+    </style>
+</head>
+<body>
+
+<!--DOM:D表示document，O表示对象（一组含有独立特性的数据集合），
+    M表示模型（元素和文本节点）
+    三种形式：标准DOM，HTML DOM，CSS DOM-->
+
+
+
+<!--设置元素及内容-->
+<div id="box">
+    <strong>www.baidu.com</strong>
+</div>
+<input id="box1" type="text" value="百度">
+
+<input class="box3" type="radio" value="男">男
+<input class="box3" type="radio" value="女">女
+<input class="box3" type="checkbox" value="编程">编程
+<script>
+    /*获取元素的html内容*/
+    /*alert($('#box').html());*/
+
+    /*获取元素中的文本内容,有html会自动清理*/
+    /*alert($('#box').text());*/
+
+    /*设置元素的html内容，有html会自动解析*/
+    /*$('#box').html('<em>www.163.com</em>');*/
+
+    /*设置元素的文本内容，有html会自动转义*/
+    $('#box').text('<em>www.163.com</em>')
+
+    /*获取表单中的value*/
+    /*alert($('input').val());*/
+
+    /*设置表单中的value*/
+    $('#box1').val('优酷');
+
+    /*设置多个选项的选定状态，比如下拉列表、单选复选框等，可以通过数组传递操作*/
+    $('.box3').val(['男','女','编程']);
+</script><hr>
+
+
+
+
+<!--元素的属性操作-->
+<script>
+    /*获取元素key属性的属性值*/
+    /*alert($('#box').attr('id'));*/
+
+    /*设置元素key属性的属性值*/
+    /*$('#box').attr('id','otherbox');*/
+
+    /*设置多个元素key属性的属性值,传入对象*/
+    $('#box').attr({'id':'otherbox','title':'key'});/*不建议使用这样方法，后面有更强大的来代替*/
+
+    /*设置元素key属性的属性值，通过函数*/
+    $('#otherbox').attr('title',function (index,value) {
+        return  '我是' + index + "号域名" + ',原来是' + value;/*该属性没有值的时候value为undefined*/
+    })
+    /*大部分的方法都适合传入函数，但是removeAttr不可以*/
+    $('#otherbox').removeAttr('title');
+
+    /*嵌套使用*/
+    $('#otherbox').html($('#otherbox').html() + "追加的html")
+
+</script><hr>
+
+
+
+<!--元素样式的操作-->
+<div id="box2" style="color: yellow;height: 20px;width: 200px">
+    CSS样式
+</div><br>
+<div id="box3">切换样式</div>
+<div id="box4" class="blue">指定切换样式</div>
+<script>
+    /*获取元素样式*/
+    /*alert($('#box2').css('color'));*/
+    /*设置元素样式*/
+    $('#box2').css('color','red');
+
+    /*获取多个元素样式*/
+    var box = $('#box2').css(['color','height','width']);
+    /*for (var i in box){
+        alert(i + ":" + box[i]);
+    }*/
+    /*JQuery中的遍历*/
+    /*$.each(box,function (attr,value) {
+        alert(attr + ":" + value);
+    })*/
+
+    /*遍历所有的div*/
+    $('div').each(function (index,element) {
+        
+    })
+
+    /*设置多个元素样式*/
+    $('#box2').css({'color':'purple','font-size':'20px'});
+
+
+    /*匿名函数，避免全局变量*/
+    $('#box2').css('width',function (index,value) {
+        return parseInt(value) - 20 + 'px';
+    });
+
+
+    /*添加CSS类*/
+    $('#box2').addClass('red');
+    $('#box2').addClass('red bg size one');
+    /*移除CSS类*/
+    $('#box2').removeClass('bg');
+    $('#box2').removeClass('size one');
+
+
+    /*toggleClass：切换类，是默认和指定样式间的切换。第一次点击class会增加值，再次点击就会删除；*/
+    var count = 0;
+    $('#box3').click(function () {
+        /*$(this).toggleClass('green');/!*用空格分隔传递多个参数*!/*/
+
+        /*不能使用true或者false，使用计数器来代替*/
+        /*$(this).toggleClass('green',true);/!*只能点击一次*!/
+        $(this).toggleClass('green',false);/!*不能点击，只能是默认状态*!/*/
+        $(this).toggleClass('green',count++ % 2 == 0);
+    });
+
+
+    /*两个指定样式之间的切换*/
+    /*$('#box4').click(function () {
+        $(this).toggleClass('green');
+        if ($(this).hasClass('green')){
+            $(this).removeClass('blue');
+        }else {
+            $(this).toggleClass('blue');
+        }
+    });*/
+    /*简便的写法,利用三目运算符*/
+    /*$('#box4').click(function () {
+        $(this).toggleClass(function () {
+            return $(this).hasClass('blue') ? 'green' : 'blue';
+        })
+    });/!*缺陷是没有删除原有的类*!/*/
+    /*完善的办法*/
+    $('#box4').click(function () {
+        $(this).toggleClass(function () {
+            if ($(this).hasClass('blue')){
+                $(this).removeClass('blue');
+                return 'green';
+            }else {
+                $(this).removeClass('green');
+                return 'blue';
+            }
+        })
+    });
+
+
+    /*toggleClass()传入的匿名函数可以有三个参数：className,index,switchBool*/
+    var number = 0;
+    $('#box4').click(function () {
+       $(this).toggleClass(function (index,className,switchBool) {
+           alert(index + ':' + className + ':' + switchBool);
+       },count++ % 2 == 0)
+    });
+</script><hr>
+
+
+
+<!--CSS方法-->
+<div id="box5" style="color: yellow;height: 20px;width: 200px;padding: 10px;border: 10px solid #ccc;">
+    CSS样式
+</div><br>
+<div id="box6" style="color: yellow;height: 20px;width: 200px;position: relative;top: 10px;">
+    <h6 style="position: absolute;top: 10px;">偏移和位置</h6>
+</div><br>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
+<script>
+    /*width*/
+    $('#box5').width();/*和获取元素样式的方法相比，转换了类型，没有单位*/
+
+    /*设置宽度*/
+    $('#box5').width(500);/*只传number数字，会自动追加单位px;*/
+    $('#box5').width('500pt');/*这种方式可以指定单位*/
+
+    /*匿名函数*/
+    $('#box5').width(function (index,width) {
+       return width - 20;/*可以不加单位，会智能添加*/
+    });
+    /*height方法与width方法的使用相同*/
+
+    /*包含内边距的宽和高*/
+    $('#box5').innerWidth();
+    $('#box5').innerHeight();
+
+    /*包含边框和内边距的宽和高*/
+    $('#box5').outerWidth();
+    $('#box5').outerHeight();
+
+    /*加上参数true，包含边框和内边距还有外边距的宽和高*/
+    $('#box5').outerWidth(true);
+    $('#box5').outerHeight(true);
+
+
+    /*获取元素相对于视口（window）的偏移位置,上下左右*/
+    /*alert($('#box6').offset().top);*/
+
+    /*父标签为相对定位，元素为绝对定位时，元素的位置*/
+    /*alert($('h6').position().top);*/
+
+    /*获取和设置垂直滚动条的值,向下滑动再刷新会显示值*/
+    alert($(window).scrollTop());
+
+    /*获取和设置水平滚动条的值,向下滑动再刷新会显示值*/
+    alert($(window).scrollLeft());
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
